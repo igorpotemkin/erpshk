@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="175b3680-3fef-4dd5-be29-6a49f18917c3" extendedConfigurationObject="d7313562-300e-4093-821a-f20cca99e409">
+  <producedTypes>
+    <objectType typeId="ca603725-5e60-418e-9d6d-38751d948936" valueTypeId="c8572888-d129-45a4-a813-3067b3e64b26"/>
+    <refType typeId="dc4d4600-e23f-48d7-9983-17c3b00edb90" valueTypeId="735e97ed-73ed-4883-8685-362090fd59bf"/>
+    <selectionType typeId="d0749397-8cb4-43c9-b18a-df8a54e4268a" valueTypeId="d0436379-a399-49be-a14d-da00cf655f4f"/>
+    <listType typeId="0cc6fbc2-7ef6-48f6-b8ba-f747ca10ce00" valueTypeId="535e54a8-d5f7-4e59-a55b-7251e23bd45c"/>
+    <managerType typeId="a90ce06c-68df-4409-bd11-5057d23204d3" valueTypeId="40603384-8b7f-41f4-bc46-b70f6cd5b926"/>
+  </producedTypes>
+  <name>МаршрутныеКарты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

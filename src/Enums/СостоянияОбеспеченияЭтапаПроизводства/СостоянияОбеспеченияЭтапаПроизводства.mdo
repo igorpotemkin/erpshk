@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb165cea-cca5-49bf-a694-14f40db46d88" extendedConfigurationObject="2579a408-7967-4ff4-afc8-55157da30d50">
+  <producedTypes>
+    <refType typeId="bde530ab-e2f0-4e09-a043-f40dee04b98d" valueTypeId="c858c3f8-104a-4e5a-bff7-0ce5fdd3e786"/>
+    <listType typeId="c4bd8f6f-766e-4359-b75f-f48a6a65f885" valueTypeId="720abeef-6f2a-4a23-a1a7-f5784be203fb"/>
+    <managerType typeId="8e555e67-9474-48e1-92e0-d3b58cf1ef92" valueTypeId="37dab499-ab09-4b4a-ba40-f3121579cb2d"/>
+  </producedTypes>
+  <name>СостоянияОбеспеченияЭтапаПроизводства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="18da0ef6-cdb1-4880-bce8-1a614421d9dc" extendedConfigurationObject="be7200ee-a992-4240-b4dd-1cdb0df5404b">
+    <name>ОбеспеченПолностью</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="30e69bcb-42f9-4abf-9485-726288166b73" extendedConfigurationObject="b6cba36b-d611-4697-86dc-e07c5a58a90d">
+    <name>ОжидаетсяОбеспечение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

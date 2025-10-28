@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df22c0fb-47a0-4688-974f-6bafd999d0ff">
+  <producedTypes>
+    <objectType typeId="2fa1209a-204f-46a3-a41e-d528000f613a" valueTypeId="f1999722-66be-4946-bc30-8f1124e53701"/>
+    <managerType typeId="32c8b078-da0a-4cfe-b372-f91d15adcdc2" valueTypeId="1b3f5781-0a24-4b00-968a-4e1d595afb93"/>
+  </producedTypes>
+  <name>ОтгрузкаСоСкладаЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузка со склада за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтгрузкаСоСкладаЗаПериод.Form.ФормаОтчета</defaultForm>
+  <forms uuid="19cf57bc-c2e8-469b-8401-3db0be909247">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e5dd6186-47f8-4780-a49c-15541dc3458c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

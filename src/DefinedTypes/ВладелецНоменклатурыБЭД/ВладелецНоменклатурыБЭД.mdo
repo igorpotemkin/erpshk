@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4653ef19-7c98-4f75-9e20-b930885895c7" extendedConfigurationObject="b0d054cd-68af-4d28-a299-47996faa7f2c">
+  <producedTypes>
+    <containerType typeId="ad9c14ae-50ef-463c-96d6-408f573f8305" valueTypeId="96265359-03e1-4a18-b33a-d9aff47d7258"/>
+  </producedTypes>
+  <name>ВладелецНоменклатурыБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

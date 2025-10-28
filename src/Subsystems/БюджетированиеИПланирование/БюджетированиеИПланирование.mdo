@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e8abd663-56b3-43ee-bb08-3364bb646ef4" extendedConfigurationObject="a1d07c10-b0a8-403d-aac2-05e3f0e1cabf">
+  <name>БюджетированиеИПланирование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Document.Расш1_ФормированиеБюджетаДДС</content>
+  <content>Catalog.Расш1_ПДЗ</content>
+  <content>DataProcessor.Расш1_ЗаполнениеПланЕком</content>
+  <content>Report.Расш1_ОтчетИПДляЛевиной</content>
+</mdclass:Subsystem>

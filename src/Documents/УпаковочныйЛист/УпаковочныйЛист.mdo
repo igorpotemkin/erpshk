@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0f3dfba8-1efa-45c1-b07b-abe427d852c8" extendedConfigurationObject="0b5dd848-f150-4ea5-a88e-a87ad708a9b9">
+  <producedTypes>
+    <objectType typeId="8387429a-e162-45d8-95d8-acf7d6de93df" valueTypeId="fc9c0176-d1c3-43c7-bc16-cd09e669fb5c"/>
+    <refType typeId="a052c1e0-d4dd-4468-8fdd-f95cf2090147" valueTypeId="a865653a-f8e6-4c4d-8147-7c20dee74c95"/>
+    <selectionType typeId="39ee97aa-bf8f-49c3-8feb-d003e46cc901" valueTypeId="7cb8f773-7a42-435c-a439-9bbeb185af72"/>
+    <listType typeId="ff1f14ed-4b9d-4ad6-83c0-94cae5d6fba3" valueTypeId="a627d61c-4e94-4a11-b13a-69e18e022762"/>
+    <managerType typeId="a0daa678-3883-4334-8724-16650bf97307" valueTypeId="24764e1c-eae6-418d-a307-2b7c0959d3c7"/>
+  </producedTypes>
+  <name>УпаковочныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f110a6a9-90e6-4ac6-8b86-0ebe5ec5fb1f" extendedConfigurationObject="aa53f854-8cb7-49e5-8edc-67da7e8c25f6">
+    <name>Код</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="61f37f00-9dd2-4ebb-8d04-f53b52b8d12d" extendedConfigurationObject="137118f7-2a9a-4617-98b9-d1d8ca93edf4">
+    <producedTypes>
+      <objectType typeId="700da47a-22a9-4f3e-8eb9-66a300a9bd3d" valueTypeId="c73914e3-e813-441e-97a8-3100c32005af"/>
+      <rowType typeId="f156cad6-5ca0-4ac2-8fb2-a9579837f215" valueTypeId="ace9136e-2618-4a04-9967-6dc6ae3817aa"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="fffe6c8e-5dc2-44c0-80d6-0026698d62f7" extendedConfigurationObject="76dd8d0a-4e56-4118-a887-e0b4b7521748">
+      <name>УпаковочныйЛистРодитель</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.УпаковочныйЛист</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

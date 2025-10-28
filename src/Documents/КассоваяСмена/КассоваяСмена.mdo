@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5fc14edd-7f3f-4833-b40a-77d0789d22fa" extendedConfigurationObject="953a5c06-150b-4d33-a1b3-e1b5b7d767c2">
+  <producedTypes>
+    <objectType typeId="de89558d-a5d1-46c8-88b9-986fc0de3338" valueTypeId="d08dbd2b-7556-4471-9a15-3eae4d137700"/>
+    <refType typeId="9e976e3a-549a-40a0-b165-e8d2d272e3f7" valueTypeId="f5f9ce02-6185-4435-9f97-449fd819e179"/>
+    <selectionType typeId="9750abce-775a-4ef9-a0f5-6b6b93d6a71e" valueTypeId="16b0e36b-db3c-4c5e-a65d-7cf4beb561ce"/>
+    <listType typeId="9794372e-c506-476a-bf72-1c81a822794d" valueTypeId="062296a6-2389-4785-afeb-504910204c6a"/>
+    <managerType typeId="fb402c49-3331-4050-941b-0c335ec40411" valueTypeId="8b1d4644-19c8-439e-b2fa-e19e64347fce"/>
+  </producedTypes>
+  <name>КассоваяСмена</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bfd44f27-7b00-4848-bf1a-eaba30e0ac49" extendedConfigurationObject="3f588314-9421-46c9-b093-606a989af32e">
+  <producedTypes>
+    <objectType typeId="778baff0-6ef8-49c2-a139-2fa72720b3a0" valueTypeId="093f7768-ffdf-4168-8887-80c5bbf4239c"/>
+    <refType typeId="ae91415e-c68e-4811-8c4f-3a91f15ba00e" valueTypeId="f094c1f7-c321-495d-a0cb-63229ff7f802"/>
+    <selectionType typeId="a6a083f0-1ac1-4f8a-a72e-89b085babd8a" valueTypeId="f4266237-5f65-4722-8348-1e01bd005a88"/>
+    <listType typeId="1b2f6ba8-a83d-4337-a91d-46550d1b8a84" valueTypeId="aabc4714-3317-4efe-a376-3b2b68a154a1"/>
+    <managerType typeId="10adabd5-3032-4ef4-bb8e-a15b956df72b" valueTypeId="a689e1d7-cc32-411b-b693-b19daaa1abff"/>
+  </producedTypes>
+  <name>ИнвентаризацияРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <attributes uuid="d23bd43e-9cfe-48f1-9baa-3839d38a42d2" extendedConfigurationObject="6d4685f0-4778-4a49-91c9-184dc5756499">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3ac32816-2e82-4975-b0bc-ce6542015f44" extendedConfigurationObject="34fde5de-19f8-485a-85bd-5a08a03df738">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="9c263670-511e-45e5-8bf3-265325f320ad" extendedConfigurationObject="a1fff6a2-8e6c-49bf-b603-132e30cde9ba">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="1100ca99-554f-4d07-8606-7a3dfa81782e" extendedConfigurationObject="1be59bbc-79a4-499f-8950-01cef72410b9">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

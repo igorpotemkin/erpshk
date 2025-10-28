@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cd758ab6-da7f-423c-936a-d83cf5f47052" extendedConfigurationObject="3af4c44b-ede1-426e-a9e9-ab54b705bbcd">
+  <producedTypes>
+    <objectType typeId="b626ce07-ebad-47ee-95a1-29ccc259b923" valueTypeId="acce3f47-5e77-492d-9a5d-b48990dca00b"/>
+    <refType typeId="601b9157-784f-4155-bf27-d5ebcbb29ba5" valueTypeId="0c29e2ff-74e1-42de-9bcc-71b0e0d2f4f6"/>
+    <selectionType typeId="34cdfa74-ff2a-49e7-8866-d4a964b031d1" valueTypeId="5fa9fde4-82a9-4f49-b798-caf27dbbc8bd"/>
+    <listType typeId="7432a89c-40af-4238-ad7c-f9a01b68d9cc" valueTypeId="b463146c-d805-47a0-9a60-3a3449020135"/>
+    <managerType typeId="1ff5d085-2db4-4beb-835e-33f282cd9502" valueTypeId="af1db5e2-46f9-4984-aa52-d4cb0cd0a6db"/>
+  </producedTypes>
+  <name>ПоручениеЭкспедитору</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="fc3b7c1a-a6a0-46f9-a459-bc0d5d90227d" extendedConfigurationObject="9e65cd78-31f2-44bc-b88a-74a52193d44d">
+    <producedTypes>
+      <objectType typeId="326dbb6c-7c9a-4eab-8331-bb67de2b9fdc" valueTypeId="46948a3f-78a4-4382-9539-c19de845d138"/>
+      <rowType typeId="07973732-23a8-4732-bfb4-6f1d7199399c" valueTypeId="cd4005d2-1b4a-4661-8ffd-79cd1893304a"/>
+    </producedTypes>
+    <name>Основания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="83ea0c14-ca5e-47c3-95b1-2faa8adc4e7f" extendedConfigurationObject="264d0c6f-525e-4696-bde0-e913c4179a18">
+      <name>Основание</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9618d9e8-6565-4bf2-a528-ef8736532edb" extendedConfigurationObject="20c2053c-8ebd-4c07-8d95-956b424d047c">
+  <producedTypes>
+    <containerType typeId="1c385d63-12e5-4925-9b23-937031ce834d" valueTypeId="840b4d0b-eb83-4ffc-963c-71fe2e2a1cfa"/>
+  </producedTypes>
+  <name>ПредметНапоминания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

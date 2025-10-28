@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b6ee16a-193d-46bc-9494-d103b1cc6a92">
+  <producedTypes>
+    <objectType typeId="d94b0786-1f9f-404e-a4eb-12452a52deff" valueTypeId="ccabe57e-67ad-42f2-8299-80edefc0982d"/>
+    <refType typeId="f7792edf-df6c-46a8-bfba-5cfa42f69720" valueTypeId="ae054bf5-1832-44c4-b389-cfbf061f50f2"/>
+    <selectionType typeId="c1683798-08c3-4c62-a223-f7645bd19e4f" valueTypeId="83309aa3-6271-4254-aeb5-b6a02aef0e30"/>
+    <listType typeId="f74e209b-c997-4437-9524-818b555a306c" valueTypeId="697fa2de-e508-405e-a2f4-118274fa3eec"/>
+    <managerType typeId="8bd9d88f-518c-49d0-af26-5f5d3ee7d1c8" valueTypeId="c537c413-cbf0-4b70-9b55-a8a181d685c7"/>
+  </producedTypes>
+  <name>Расш1_ФормированиеБюджетаДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование бюджета ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Расш1_ФормированиеБюджетаДДС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Расш1_ФормированиеБюджетаДДС.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.Расш1_БюджетДС</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="dfcf4c2e-557f-4e01-8a9e-5e9968724b46">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cf5bd72-0c23-4ce7-badd-c0f63ddee26a">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Расш1_ТипыДокументовБюджетаДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.Расш1_ТипыДокументовБюджетаДДС.EnumValue.Суммирующий</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c50c7058-593f-45f8-bbf0-a5854ec59255">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="6f6d5745-9939-40a5-9740-e7e8dbf2f290">
+    <producedTypes>
+      <objectType typeId="d91002df-80bb-4727-9092-dae90b59ca74" valueTypeId="01e535ac-9895-4fb9-8ff2-35da81187170"/>
+      <rowType typeId="764e0d3b-5c30-4a2e-b680-9f1f0299fcfd" valueTypeId="50b6867a-0e1b-4fe7-8654-a887437ab623"/>
+    </producedTypes>
+    <name>СтатьиДвиженияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи движения ДС</value>
+    </synonym>
+    <attributes uuid="ee0ad1a5-7567-45e3-b7c4-73c7c71d8def">
+      <name>СтатьяДДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья ДДС</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f2419a60-a9e5-4ca9-8f87-e2769311bac1">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="124966ad-1452-4cc2-8390-13b77a7055c1">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="17871164-5ec6-4075-a68d-11bc333445a5">
+      <name>ЭтоГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это группа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

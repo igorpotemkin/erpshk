@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb601c8b-7c9a-4ef1-8633-c8e1d3820fdd">
+  <producedTypes>
+    <objectType typeId="4097adf9-f2a7-49b1-9e80-a3f65f5b2a7a" valueTypeId="d476b594-5e82-45e6-ade3-4b784fc59dcf"/>
+    <managerType typeId="fbcef7dc-345a-4438-a503-e52ee74dbe4c" valueTypeId="289660b1-f27f-4021-87ee-b96d8275c7a6"/>
+  </producedTypes>
+  <name>СХК_ОтправкаОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК отправка отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_ОтправкаОтчетов.Form.Форма</defaultForm>
+  <forms uuid="cba6f3ad-fa73-418f-b806-8e72ad32009d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

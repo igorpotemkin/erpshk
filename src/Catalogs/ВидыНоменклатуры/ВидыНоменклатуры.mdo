@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cdcb2ab6-3c26-4eea-81c9-79e99ebfe098">
+  <producedTypes>
+    <objectType typeId="cdf86db4-0fc2-4f5c-8c68-07bc58e5340c" valueTypeId="bcdbb1c0-6eed-4fd9-9c92-c68a52dbbeb2"/>
+    <refType typeId="d5ea9c3a-2f38-4b02-80e4-f70a7542b349" valueTypeId="21aee6c4-d64e-4b3e-8206-705349ace877"/>
+    <selectionType typeId="21930385-74b0-45d1-8324-46ebe616478c" valueTypeId="94297466-22ee-45d8-b60a-761ffdbe6985"/>
+    <listType typeId="43b52f21-e2e0-4468-9e16-d140c3f86a62" valueTypeId="8aa3b698-bc7d-46aa-b681-9f741a3a6133"/>
+    <managerType typeId="98791b0c-037a-43f5-9af9-cacfd8da8202" valueTypeId="e925f6f5-9042-4b20-8c77-83a802610374"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="185c1f7c-7a47-4c62-9f71-78efac58fce6" extendedConfigurationObject="aef15f0f-9fa4-4bc5-a195-0c0fe7bcec89">
+    <name>ШаблонЭтикетки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ШаблоныЭтикетокИЦенников</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="55ef12e2-51b3-4035-a475-ff185cc3197f" extendedConfigurationObject="256af2db-4492-4f45-89a9-36f035e9d95a">
+    <name>ШаблонЦенника</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ШаблоныЭтикетокИЦенников</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

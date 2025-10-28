@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5779c407-6450-4558-bf9b-d577b0d0045a" extendedConfigurationObject="f255cfb8-2307-43bc-9ecd-f2692c6f4f99">
+  <producedTypes>
+    <containerType typeId="8ad4c709-5241-4ce6-929f-ab88977d2e42" valueTypeId="c456c99c-070d-4416-bfc5-ec20f9b9eb25"/>
+  </producedTypes>
+  <name>ОснованиеЗаказНаЭмиссиюКодовМаркировкиИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

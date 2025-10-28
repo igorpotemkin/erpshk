@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f67f8e79-8283-48d4-9799-e423c4641d5f">
+  <producedTypes>
+    <refType typeId="297e932f-ca4c-43ca-98b7-6a0f4282fad0" valueTypeId="d95d8d96-4cf5-42ad-a3df-9103f5d4eae8"/>
+    <listType typeId="d5fd5655-6da5-4b76-bc0e-a598536042fc" valueTypeId="f25bfadc-bb7d-496a-9b4b-40e975f52709"/>
+    <managerType typeId="d27bc6b7-ec9d-42b0-8799-6649a7b77055" valueTypeId="2e5c335e-22c0-42ba-ab37-eb0d450b3902"/>
+  </producedTypes>
+  <name>ВариантыОформленияПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="ed5d4660-1fef-4105-a29d-4508c345bca7">
+    <name>РеализацияТоваровУслуг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="757e0b55-e92e-430f-a2cb-02e19fcd3fec">
+    <name>АктНаПередачуПрав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

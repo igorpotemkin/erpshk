@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7afe982d-04d7-4c28-99e6-939eb17e7ae9" extendedConfigurationObject="09df1983-6b98-4c03-92c9-79f8c54278d4">
+  <producedTypes>
+    <objectType typeId="a4d163bf-da74-468c-89be-672630af9f2d" valueTypeId="d5d0c6df-6076-4b47-a9eb-7394b8fa42c7"/>
+    <refType typeId="ce21b5b5-cf85-457e-a192-ea3f964ef7ef" valueTypeId="3b6316f8-55fb-47a2-8d2f-c9aeb0476aa3"/>
+    <selectionType typeId="925e0655-e906-4e71-9c83-0ae98a3a82a4" valueTypeId="3a93a8cd-59f5-493c-89e4-166c0d801490"/>
+    <listType typeId="efbe69c8-b8f9-4faa-bca4-b181c370b165" valueTypeId="aae90f55-2433-41cc-a376-a8dd02fee8f6"/>
+    <managerType typeId="8aad7396-886b-4e93-bd63-03b0f6230d01" valueTypeId="33110370-c0a3-4f24-9caf-fb0bf932b834"/>
+  </producedTypes>
+  <name>ВыводИзОборотаИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="7e657eb4-3089-499f-939c-acbd9e1439ca" extendedConfigurationObject="3e0cc035-3286-42a6-877e-692da8c8d7e6">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеВыводаИзОборотаИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,7 +1,7 @@
 Функция ПолучитьМассивЗУП(СтрокаДляОтвета) Экспорт
 
 	Соединение = Новый HTTPСоединение(
-	     "192.168.88.151/zup/hs/exchange_erp/", 
+	    "192.168.88.151/zup/hs/exchange_erp/", 
 	    //"192.168.0.10/zup_copy/hs/exchange_erp/", 
 		,"smartbar","fqdl76zcP9",,60,);
 		
@@ -54,8 +54,10 @@
 
 Функция ПростоеЧтениеJSON(Данные)
 	
+	//@skip-check bsl-legacy-check-type-environments
 	ЧтениеJSON = Новый ЧтениеJSON;
 	ЧтениеJSON.УстановитьСтроку(Данные);  		
+	//@skip-check undefined-function
 	Возврат ПрочитатьJSON(ЧтениеJSON);
 	
 КонецФункции

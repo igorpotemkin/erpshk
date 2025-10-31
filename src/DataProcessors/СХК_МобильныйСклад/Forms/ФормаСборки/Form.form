@@ -304,7 +304,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>СтрокаДокумента</segments>
+          <segments>ШКУпаковки</segments>
         </dataPath>
         <extendedTooltip>
           <name>СтрокаДокументаРасширеннаяПодсказка</name>
@@ -1316,17 +1316,17 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СтрокаДокумента</name>
+    <name>ШКУпаковки</name>
     <title>
       <key>ru</key>
-      <value>Строка документа</value>
+      <value>ШКУпаковки</value>
     </title>
     <id>12</id>
     <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -1344,6 +1344,24 @@
     <id>13</id>
     <valueType>
       <types>DocumentRef.СХК_СписаниеЯчейки</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СтрокаДокумента</name>
+    <title>
+      <key>ru</key>
+      <value>Строка документа</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

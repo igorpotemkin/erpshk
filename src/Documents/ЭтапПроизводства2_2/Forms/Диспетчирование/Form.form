@@ -1615,6 +1615,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Items.Список.CurrentData.Ссылка</segments>
+            </dataPath>
             <extendedTooltip>
               <name>СписокСостояниеОбеспеченияСпискаЗаказовРасширеннаяПодсказка</name>
               <id>1566</id>

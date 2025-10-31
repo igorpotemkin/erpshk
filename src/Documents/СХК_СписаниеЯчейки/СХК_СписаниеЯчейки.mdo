@@ -263,6 +263,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="21fcaaa9-c9f4-4450-bf56-a3f1541503bd">
+      <name>ШКУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ШКУпаковки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="6a2f55ad-d2d3-4634-b776-102f263c60ac">
     <producedTypes>
@@ -375,6 +392,23 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1c16020b-9b82-4b4e-ac0d-83cb0bc5310b">
+      <name>ШКУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ШКУпаковки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2537ea90-4c23-48ee-be3d-649da7f0abff">
       <name>НомерСтрокиТовара</name>
       <synonym>
         <key>ru</key>
@@ -384,6 +418,7 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

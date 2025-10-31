@@ -139,6 +139,7 @@
   <commonPictures>CommonPicture.МРМКладовщикаПеремещение</commonPictures>
   <commonPictures>CommonPicture.МРМКладовщикаОтгрузкаАктивная</commonPictures>
   <commonPictures>CommonPicture.МРМКладовщикаОтчеты</commonPictures>
+  <commonPictures>CommonPicture.СтрелкаВниз</commonPictures>
   <roles>Role.ДобавлениеИзменениеРеализацийТоваровУслуг</roles>
   <roles>Role.ДобавлениеИзменениеПриобретенийТоваровУслугВозвратовПоставщикам</roles>
   <roles>Role.ЧтениеРеализацийТоваровУслуг</roles>
@@ -174,6 +175,7 @@
   <commonModules>CommonModule.УчетНДСПереопределяемый</commonModules>
   <commonModules>CommonModule.СХК_СКУДСервер</commonModules>
   <commonModules>CommonModule.СХК_СКУДКлиент</commonModules>
+  <commonModules>CommonModule.ПроизводствоСервер</commonModules>
   <httpServices>HTTPService.СХК_ОбменЗУП</httpServices>
   <functionalOptions>FunctionalOption.ИспользоватьУпаковкиНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНесколькоСкладов</functionalOptions>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d0a79bd-47dc-472e-8fb0-b6a166301d31">
+  <producedTypes>
+    <refType typeId="722e1762-e008-4736-a810-7451a564005a" valueTypeId="03458b10-7c3e-469d-a0df-f02a716b7547"/>
+    <listType typeId="2507b1a8-a5e3-435b-add2-688d574c6e4c" valueTypeId="3309ef43-d90d-4a33-a042-bf6f401f01e1"/>
+    <managerType typeId="f977584c-3ad6-434f-9bc4-2c8b2591183d" valueTypeId="53ef2592-2f1f-4227-8095-d38a763c90b1"/>
+  </producedTypes>
+  <name>СХК_KPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК KPI</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a7b0c601-4db8-4279-9aea-b930e3864931">
+    <name>Окупаемость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окупаемость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="626b790d-6ce0-4a71-a9b9-502b0e4d3f18">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20810dea-d780-422d-857e-730ceb052699">
+    <name>Эластичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эластичность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

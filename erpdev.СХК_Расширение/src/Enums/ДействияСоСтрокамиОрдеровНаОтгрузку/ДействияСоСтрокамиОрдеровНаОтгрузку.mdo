@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6a042027-0747-4dcc-8a7a-cd2c177aa990" extendedConfigurationObject="a1c815f5-af5f-4729-a1a9-9c854a0d0447">
+  <producedTypes>
+    <refType typeId="27d9d0b2-0cda-4417-b118-5b3a0b1744cd" valueTypeId="cbaf0c50-5e46-49ab-896f-d35a52708418"/>
+    <listType typeId="8af02afe-8273-4f98-b027-7679548ff73d" valueTypeId="04e65b3c-601d-4c88-b7bc-a34dd460087f"/>
+    <managerType typeId="9424f75b-2719-42f3-abc4-3b758addc76e" valueTypeId="94cfbfaf-362f-4682-960f-081bea468ef8"/>
+  </producedTypes>
+  <name>ДействияСоСтрокамиОрдеровНаОтгрузку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="5a7aba50-4ca8-4505-b072-611f29cbca38" extendedConfigurationObject="f0062336-947c-46b4-9bff-386217e0e33d">
+    <name>Отгрузить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

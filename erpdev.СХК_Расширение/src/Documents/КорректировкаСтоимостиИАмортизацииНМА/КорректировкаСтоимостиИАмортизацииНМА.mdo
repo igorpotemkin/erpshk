@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89fb7053-a349-4638-a204-92a95dd8048e" extendedConfigurationObject="9a10cf19-e56f-44c2-ad62-6b7524bd28e8">
+  <producedTypes>
+    <objectType typeId="c96802a1-f063-437c-9722-36a0ce11f6bb" valueTypeId="6b4859d5-a48d-44cc-903b-540048c83446"/>
+    <refType typeId="2820e517-3538-4ba9-b021-036b9bcf7986" valueTypeId="3db28cb6-d96e-4378-8552-2f9ecdb85468"/>
+    <selectionType typeId="e272e88d-34fb-47ad-b129-0d953affae43" valueTypeId="23c5afc6-398e-4565-a792-c7d646700be3"/>
+    <listType typeId="7bae1f5d-cae6-495a-bb2e-e44befd8fcde" valueTypeId="354340c5-613e-46e9-99e4-38da5cf565e8"/>
+    <managerType typeId="3ebe8881-de52-4e2e-ae85-865013ab8ae1" valueTypeId="64f27d7c-da48-4fe7-8329-30b3d74164a0"/>
+  </producedTypes>
+  <name>КорректировкаСтоимостиИАмортизацииНМА</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="bd685313-1c6a-4f41-99b2-1d20e598d368" extendedConfigurationObject="8043115a-07e4-4a9c-9988-ef49a0e38ea1">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

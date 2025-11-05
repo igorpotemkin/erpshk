@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0b124e43-e9ee-4cfa-8330-f4fa10f2ca21" extendedConfigurationObject="0cc942d0-7925-437e-88d3-ab7c24b32ede">
+  <producedTypes>
+    <objectType typeId="7e072d07-8763-4fc4-89e3-5a3f0cd88a27" valueTypeId="3b681c30-1c8b-4df2-bd2b-a3a9dfbfd067"/>
+    <refType typeId="c39bf7a8-eac3-48ca-bd53-7be4bf1a2eb7" valueTypeId="d987383d-4569-48e3-b90b-9b15236e4475"/>
+    <selectionType typeId="b42a8ab6-9644-4756-9a88-2775dd064c86" valueTypeId="ffc6f4bb-3df2-44d4-b528-8c3a0effb5dc"/>
+    <listType typeId="44f42358-d12e-4d40-9ae0-ab5fd44f0863" valueTypeId="db03885b-f40f-4911-9531-cabe2001492d"/>
+    <managerType typeId="5b5c33e2-7881-447e-8ed7-b1c22edda924" valueTypeId="812b0e5e-e0f4-4399-a0b3-b74ec9980433"/>
+  </producedTypes>
+  <name>БольничныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="f72a0f65-396a-4841-a591-6c00f7269f8c" extendedConfigurationObject="df4378d6-7b71-4247-80d3-1567c6e491c0">
+    <producedTypes>
+      <objectType typeId="2b321fa5-64b9-4fd8-8176-719a5d32ec37" valueTypeId="520f5c13-2f37-4d23-b53c-d598f8b66e6f"/>
+      <rowType typeId="f5aab013-e37d-4395-b0f5-85a7e943f8e6" valueTypeId="2a1d1e55-24cb-488d-8994-903af6928830"/>
+    </producedTypes>
+    <name>НачисленияПерерасчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="99fc8e8d-2d33-4876-b215-6cca50db5232" extendedConfigurationObject="6d74801c-7b53-4aea-9105-f1cbac29bde9">
+      <name>СторнируемыйДокумент</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.СторнируемыйДокумент</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

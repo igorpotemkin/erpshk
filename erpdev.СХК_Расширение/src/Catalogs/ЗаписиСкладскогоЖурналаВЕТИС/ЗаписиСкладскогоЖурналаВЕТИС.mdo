@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a21b1ca8-ce89-4008-917c-12f500e1dc30" extendedConfigurationObject="a00a1f0e-68f1-4126-9017-aad4c957a834">
+  <producedTypes>
+    <objectType typeId="8f32fb02-5430-4ba3-9d76-6041725ca91a" valueTypeId="d66ac879-708d-4c7f-bb32-a57f8bd01e68"/>
+    <refType typeId="140a32db-3149-48de-81a7-f8f814351ed1" valueTypeId="a5e2867a-f90a-4107-bba8-36d550a1517a"/>
+    <selectionType typeId="4e221342-900c-4c44-b76f-e221c7c33d03" valueTypeId="3bcc45fa-2acb-44a5-8b4d-3fc4f0d2879f"/>
+    <listType typeId="3cd6dfae-e79d-4a7d-8272-3c42b6597983" valueTypeId="62f98865-3fe4-4abf-88e7-efafaf386b20"/>
+    <managerType typeId="351fed16-a77e-4605-bf7f-f63e110a9813" valueTypeId="1930ae1b-aa34-4872-9ac9-ffada961983b"/>
+  </producedTypes>
+  <name>ЗаписиСкладскогоЖурналаВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

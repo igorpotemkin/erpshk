@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59fbc589-6e10-49f8-b88f-873c6fcf5ab1">
+  <name>СХК_Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.СХК_Логистика</content>
+  <content>Document.Расш1_ОтгрузкаФакт</content>
+  <content>Report.СХК_ЛогистикаДетализация</content>
+</mdclass:Subsystem>

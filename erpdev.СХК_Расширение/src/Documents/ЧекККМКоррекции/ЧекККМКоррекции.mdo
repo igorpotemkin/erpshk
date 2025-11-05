@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a76d5e56-9254-4d4d-9eb1-632c5d34a741" extendedConfigurationObject="cab8e6cd-62a2-492b-b82a-0ecf62cbd56d">
+  <producedTypes>
+    <objectType typeId="e331cd2e-4738-4174-957d-e4e2b52607c7" valueTypeId="b919f775-25bd-40fe-b823-7b10bb377c06"/>
+    <refType typeId="e30e1835-61d9-4496-af9b-389b85a8967d" valueTypeId="4e5a5975-0e00-40e0-978b-5d3ae974aa5d"/>
+    <selectionType typeId="7ce6b88c-7f0f-49a8-ae3d-f3eb77ce8823" valueTypeId="a4877206-44f6-47f7-960e-3f1078c15342"/>
+    <listType typeId="c1d1c65a-4a43-4cd5-8ace-c0638aa1db39" valueTypeId="8e097479-87f5-49ab-b43b-a0517c95d1f7"/>
+    <managerType typeId="706488e8-0650-49bc-b0cb-dea057f0f3cd" valueTypeId="d296502a-5ea0-4399-a93a-58153a1af0c6"/>
+  </producedTypes>
+  <name>ЧекККМКоррекции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="43c24ecd-c55e-4b09-af89-c1f1774d149b" extendedConfigurationObject="5612da5a-1f2f-47f7-a15e-ab6b7a31b8ea">
+    <name>КассоваяСмена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.КассоваяСмена</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="75217576-6dde-470c-a9c2-b83154870e24" extendedConfigurationObject="712145a0-9546-4f91-b8be-37b7009ee934">
+    <name>ЧекККМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЧекККМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9da67587-3405-42f6-a3ff-d87a39e00edf" extendedConfigurationObject="d10d354f-dfff-4625-b954-3a4e27390d37">
+  <producedTypes>
+    <objectType typeId="1682aa7e-a588-4f72-bb2a-81a34e11c77f" valueTypeId="f812cd22-db0d-4ab0-a96c-de62075455ba"/>
+    <refType typeId="d81d3490-271d-4b41-8e51-f2080d96abf8" valueTypeId="53f79dc5-fc05-44de-850c-c0103595f122"/>
+    <selectionType typeId="67d91154-85ee-4c02-9826-cf1eea389337" valueTypeId="5e7afa6f-2920-46c6-b3f5-aee32172a8e6"/>
+    <listType typeId="4f59a405-8eed-4c55-a3a7-5c4ba67f6ff0" valueTypeId="e1c2f025-3235-448b-8c02-fd89a16b5bc6"/>
+    <managerType typeId="a4ac8759-1f07-4540-887b-b458810160f3" valueTypeId="65a007bd-8220-45a7-9936-9f42c8d80c53"/>
+  </producedTypes>
+  <name>АктОРасхожденияхПослеОтгрузки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="9811f371-fa6e-4da3-bb19-07da8fba2b5d" extendedConfigurationObject="3cf6b45a-9d1f-473f-8b69-65a9c021fc4e">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="c13393a6-0504-4042-a7d0-ac64fa25ea6f" extendedConfigurationObject="6b38f23b-e11e-4d5b-9f27-17201326c871">
+    <producedTypes>
+      <objectType typeId="078f422c-7965-49be-b8a8-334a1ac7e4fd" valueTypeId="6c0eb9f7-0c7b-4040-a48d-09b48a110e92"/>
+      <rowType typeId="6e18e756-fbf6-452f-b214-66fd354c3b19" valueTypeId="96a2a8de-4e19-41b2-ae54-6dcfe35dc2ef"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="8ab9c6fb-5291-4ce8-90fb-39b5b3fe16f8" extendedConfigurationObject="69642751-7ffa-4557-ba0f-22edcb457996">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="642b3d17-10a3-45b6-b4fc-0f9f97b77fe7" extendedConfigurationObject="a508d989-cffc-48d2-a196-3a7db7eb37c0">
+      <name>Реализация</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

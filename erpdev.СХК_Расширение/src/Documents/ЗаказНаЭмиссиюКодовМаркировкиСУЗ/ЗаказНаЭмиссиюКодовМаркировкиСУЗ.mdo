@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d275b96-b5af-4c3a-998f-be6ddbc78a1b" extendedConfigurationObject="44c937c8-266d-4ead-ba9b-7edb337e173e">
+  <producedTypes>
+    <objectType typeId="0460eaef-26ee-442a-a0fc-38efe462dabd" valueTypeId="6825fe2b-be17-4228-a981-8eff741bad18"/>
+    <refType typeId="336a9be2-2115-4d92-9711-ae0b9b85edbe" valueTypeId="9d801c92-f3a1-4198-a8f6-63c4eadc3648"/>
+    <selectionType typeId="7aed61b9-b96e-448d-965b-302ec7e8cf0d" valueTypeId="8d821cd1-d122-4499-a496-623b33e4cd4b"/>
+    <listType typeId="63e14562-2bc2-4e59-ab3d-f3c8d357fd02" valueTypeId="58646b7e-a6dc-4a77-9f4f-900fd84901ef"/>
+    <managerType typeId="f99a25e6-e9c5-44e0-b0d2-6c13f4c57564" valueTypeId="d7d51e15-b95f-4adf-a5f7-4d3590b4366e"/>
+  </producedTypes>
+  <name>ЗаказНаЭмиссиюКодовМаркировкиСУЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8797c9de-804b-426a-9a4d-eb7718846982" extendedConfigurationObject="6315aeae-ebcd-41bc-a2d8-8dfbd6f10faf">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеЗаказНаЭмиссиюКодовМаркировкиИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

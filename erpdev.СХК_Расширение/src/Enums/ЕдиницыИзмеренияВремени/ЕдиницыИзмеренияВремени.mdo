@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2902a5b-64d5-4bd7-a186-3378cde06b16">
+  <producedTypes>
+    <refType typeId="17c915b3-e406-474f-9e10-36c25e94a415" valueTypeId="7dbe8f3d-1984-460a-829e-87cca088459c"/>
+    <listType typeId="efc03498-0827-4eaa-beac-09a7351e3c93" valueTypeId="29b3e316-0fbf-40f9-8ae8-254328dc424d"/>
+    <managerType typeId="00b5740f-85a1-434d-bd3b-24be01bba520" valueTypeId="d0ad1819-1bf6-4f86-a352-da190149d48b"/>
+  </producedTypes>
+  <name>ЕдиницыИзмеренияВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="1c86d35a-0f71-4d31-947e-c4d03288608e">
+    <name>Сутки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ec5329e4-d5d2-4286-8821-771b6b4455c6">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d59b8008-add9-4869-b616-f43f081c2796">
+    <name>Год</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8bea5872-738f-4e35-b5f4-e7e32c5526cd" extendedConfigurationObject="4c7d001f-8b9f-401f-a7ce-7dbada4983bf">
+    <name>День</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d6cf7d07-9319-400d-8ab8-aeaae177bd97" extendedConfigurationObject="cbac971a-3f11-4ad9-b6a5-c277a81a09a5">
+    <name>Минута</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="22ba1d44-fbe2-4f17-bb57-5ca6d1298295" extendedConfigurationObject="796e1ded-b7bf-4be7-95cc-7c10ac2d3477">
+    <name>Час</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2e03e884-0d58-49a4-936a-a2ca9e9f1097" extendedConfigurationObject="c11d4773-bff4-4f05-aae7-8a5621a6f2c7">
+    <name>Секунда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

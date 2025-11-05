@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2ac7106-586d-414a-a854-6cb14badea26">
+  <producedTypes>
+    <objectType typeId="3ada57ef-adf0-493e-b002-465ee0ac14bd" valueTypeId="bf989a6b-605f-431c-96d6-40ab26a7df7f"/>
+    <managerType typeId="a09c1f59-a1bd-4980-9003-56deff3d2ac0" valueTypeId="179ce1ac-8299-4dff-bec8-9324a7884195"/>
+  </producedTypes>
+  <name>Склад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Склад.Form.Форма</defaultForm>
+  <forms uuid="caf80081-ae29-4aa4-9372-c42358f79432">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d305ba39-0e8b-4cc1-9160-aacdb9d0e5c4">
+    <name>МакетСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет склад</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

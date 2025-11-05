@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="21322b2d-ee0a-44b1-a96d-1a0af758b2c7" extendedConfigurationObject="38704ecc-0815-4eee-87ba-389be2a9dd47">
+  <producedTypes>
+    <objectType typeId="384ae8e1-b4c3-4019-8a24-9a50c20e14af" valueTypeId="584ea241-3b85-4230-babc-3298822bdfbd"/>
+    <refType typeId="50b89b00-7ac7-480f-ac7b-0b79010a1da5" valueTypeId="7a964d4b-9aa6-4a97-bba8-68b7accb4ed8"/>
+    <selectionType typeId="9060410e-e1ca-4dcc-b700-e36e1e7c72a2" valueTypeId="eef640d4-4f74-40e1-9966-b5eccfaf509c"/>
+    <listType typeId="507c3d52-c5d4-4d48-9b09-e72c78d56682" valueTypeId="9192f6a9-5c46-4ce0-9331-6336dea97de5"/>
+    <managerType typeId="990ae4d0-1d56-43fe-91b4-8eefe81bbe2c" valueTypeId="73ee5f2c-9bb7-4289-9777-c4ddda6959c5"/>
+  </producedTypes>
+  <name>ИзменениеУсловийДоговораАренды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="3676ec39-01f0-47ba-938c-83cbbc69683b" extendedConfigurationObject="0485020d-dbb4-4ee4-b7ab-c51ba367db4f">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="14fe947f-bfed-42f8-97a8-7e8bc086311f" extendedConfigurationObject="18c62b2a-18c4-4b71-bc6d-66cb7e0752fa">
+  <producedTypes>
+    <objectType typeId="a216a502-5142-4b4c-8f00-7b0a6e6fd137" valueTypeId="f771fa69-99b4-48a1-93c7-6876b6e87120"/>
+    <refType typeId="69108319-f406-4a2c-abff-1e161ee42d10" valueTypeId="bfc62711-40dd-45a7-9de8-ead468c73203"/>
+    <selectionType typeId="f9ed446d-11e3-4a00-b738-a7ed7f46e440" valueTypeId="ea482dda-577e-4baa-a9ad-112d06053215"/>
+    <listType typeId="7f2b2094-519b-4c22-b550-c0109ec2553e" valueTypeId="10f753e7-ebb7-4baa-9a8d-7f8e8b5400a8"/>
+    <managerType typeId="7949209c-b1cb-48df-9050-fbdd15556c0c" valueTypeId="b7c201b0-03c7-4a55-b649-e935b6a1c257"/>
+  </producedTypes>
+  <name>КорректировкаЗаказаМатериаловВПроизводство</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="741c6954-43ec-4c2d-8472-5433e208e6dc" extendedConfigurationObject="cee2606b-ed96-4d70-8925-79d3d267819c">
+    <name>Распоряжение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаПроизводство</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="e638b6da-95b5-4919-a86f-dd3db20fdc6d" extendedConfigurationObject="d06d8bda-c21b-4d4b-a0ff-d95965b36627">
+    <producedTypes>
+      <objectType typeId="c5aa4b06-7084-4849-a3fa-eca287ba1358" valueTypeId="e6e5a383-83ff-479a-b1de-fdd1c897e839"/>
+      <rowType typeId="d165ece6-411f-4dd6-ba8f-ad454d0660e3" valueTypeId="190f1de4-7ab3-4586-a633-d967e2cb36f9"/>
+    </producedTypes>
+    <name>МатериалыИУслуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="ae860bce-9df0-40c6-84de-01f85c5effd0" extendedConfigurationObject="261378de-3206-4a35-b525-ebe6411a175a">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="89173b25-a566-475f-99f7-5e023fd0523c" extendedConfigurationObject="7f4c23db-580d-4d03-8e8c-ae5bc42889c9">
+      <name>НазначениеИсходный</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

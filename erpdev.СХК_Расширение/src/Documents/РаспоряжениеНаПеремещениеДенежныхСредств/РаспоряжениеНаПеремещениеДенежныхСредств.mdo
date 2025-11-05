@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88c83652-443d-4ad2-a976-410c439480b1" extendedConfigurationObject="6466a254-9f5d-4d4e-a9f4-b1b4f2860b5e">
+  <producedTypes>
+    <objectType typeId="34fc4cf4-b522-43e6-82f0-76c614a5d332" valueTypeId="996796d3-7c44-4ff8-8af3-6c15bf977449"/>
+    <refType typeId="cf6205c2-0b80-4ab0-912e-30602480966e" valueTypeId="6f8bf19b-6a70-4078-a4e1-71e751da253f"/>
+    <selectionType typeId="f02d2fa0-c1ce-494b-9a53-bc333746ef69" valueTypeId="86f81b74-ffb9-450c-bf80-5036d2e25161"/>
+    <listType typeId="18b9e6b3-649e-45ac-bd48-f0254c9602bf" valueTypeId="912ac71b-83f7-4a7e-970b-d9a126102a9b"/>
+    <managerType typeId="d30b11a0-0b2d-4357-a08d-1cf47bc09351" valueTypeId="833ee082-269c-422c-95d3-d531372727bd"/>
+  </producedTypes>
+  <name>РаспоряжениеНаПеремещениеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

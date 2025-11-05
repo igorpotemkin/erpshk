@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="596d5d69-ea68-4bcc-986d-7448f3cedd39" extendedConfigurationObject="57813633-ea44-4a29-ae64-92480e006e0d">
+  <producedTypes>
+    <objectType typeId="03c296a8-3d9a-411a-861b-24babb9e33f1" valueTypeId="d4e8db2c-9345-4c2b-814f-e20ffc99cfbd"/>
+    <refType typeId="0f0c6889-77a1-4f45-b5ff-8b0cf8640c45" valueTypeId="2d527a0e-764f-4e7b-96c4-4f6a03eef2de"/>
+    <selectionType typeId="a5f8a6fc-5266-4456-9f38-021852143b5e" valueTypeId="3672ee6c-cb81-4d9b-93c1-f79b8d3fb73c"/>
+    <listType typeId="1b042b2f-6f37-498c-bf3b-557779011002" valueTypeId="d48a469e-46ed-4de8-909c-7d8c0193d7dc"/>
+    <managerType typeId="05f3e3c5-41bc-4a4c-94ec-0b297b65c943" valueTypeId="d5fd4150-bbc3-4001-9253-bb608e2f11ec"/>
+  </producedTypes>
+  <name>Марки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

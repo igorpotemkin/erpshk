@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de67132-cde2-4b50-8343-eacfe1c6bd00">
+  <name>СХК_Помощь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощь</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>СХК_Задачи</subsystems>
+  <subsystems>СХК_Помощник</subsystems>
+</mdclass:Subsystem>

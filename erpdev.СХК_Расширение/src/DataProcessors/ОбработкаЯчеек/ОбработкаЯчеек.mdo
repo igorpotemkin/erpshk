@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a901f128-1b89-4431-9bd2-382b587be7b1">
+  <producedTypes>
+    <objectType typeId="564cb6d0-3559-429e-bc35-e94fcf9c1d8c" valueTypeId="fc763b99-e9d0-42ca-8a39-a5ca510aede3"/>
+    <managerType typeId="1380a341-2808-4d31-919c-b45ca36810fb" valueTypeId="35a03018-f162-4858-8111-30771e3c203f"/>
+  </producedTypes>
+  <name>ОбработкаЯчеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка ячеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаЯчеек.Form.Форма</defaultForm>
+  <forms uuid="2e2032d2-0d1b-4da2-a295-76a08c6361b7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b3b594f7-7d55-4310-aa68-114563f5f201">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

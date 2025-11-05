@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8857e06e-303e-4d3f-9f51-8b1ef8e5e929" extendedConfigurationObject="1beaafd4-9e83-4fef-a24b-2ed1ba072beb">
+  <producedTypes>
+    <selectionType typeId="df93016f-abe5-474b-973c-3a4ae21f99f1" valueTypeId="14756b81-e12f-4efc-96fd-fa460acc8fb4"/>
+    <listType typeId="712ac4fa-aeff-4066-9494-1ede380cd2b1" valueTypeId="79d4e703-1677-4b19-b14c-f36bfae44213"/>
+    <managerType typeId="d7961655-2378-4658-b131-6c6de9f6575b" valueTypeId="0838d8f6-c36f-447e-802b-e82db9a06f29"/>
+    <recordSetType typeId="2d16f9e3-c91f-49bb-8fcb-49c64db813e4" valueTypeId="dc8d087f-0f5c-4291-9592-360ccadd4840"/>
+    <recordKeyType typeId="97598015-98ad-40ac-bed8-b65c34a2dff6" valueTypeId="fe9d8d84-52e2-4076-975b-61675a399cf5"/>
+    <recordType typeId="7cc1c613-c441-4320-b92c-9c89a39c01e9" valueTypeId="354a7764-cb81-4c3d-b97e-0e6bb9af230b"/>
+  </producedTypes>
+  <name>ДвиженияСерийТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <dimensions uuid="99b06080-ac91-4571-929b-355d73a9ca11" extendedConfigurationObject="c0d120e9-7ff3-481b-9744-9fcd3fefabfc">
+    <name>Серия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СерииНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="b1904d3e-c1cb-4fa7-bbd9-f1ba4ddddf30" extendedConfigurationObject="dbc39670-ee82-4e26-844b-f35d4c1c5544">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd2abed8-5ecb-4bc8-a382-d708a06186f5">
+  <producedTypes>
+    <selectionType typeId="15781be4-0b26-4b4c-a90c-3e93b0932677" valueTypeId="1d1d887f-3720-4889-98fb-387613a906e9"/>
+    <listType typeId="dd3c5ef5-f79f-47e9-b581-f4310edfe3b8" valueTypeId="7c8e9c4e-60ed-43c7-88dc-80c533e762f5"/>
+    <managerType typeId="f2e85aa1-4e49-4ea2-af8b-afe194ce9d10" valueTypeId="a4a2a992-deaf-45b4-b966-72acb26ed9c1"/>
+    <recordSetType typeId="6ef01ee7-70d5-456f-b1bb-7fd4ac5da4e3" valueTypeId="ce626ee6-bb11-45ee-a074-6324458bbe70"/>
+    <recordKeyType typeId="18145144-ba81-414e-939f-1161df50acc4" valueTypeId="84cd8798-d7ac-432d-bb75-52f3ab962062"/>
+    <recordType typeId="6a737ff4-6d59-4135-95da-003cac57bc83" valueTypeId="b0e94609-a705-43fb-9047-acdc38c3e8c8"/>
+    <recordManagerType typeId="cd342077-4acb-4f9c-8a8c-8a990ec66b28" valueTypeId="72f1cc15-07e6-4ca0-a2cd-ce4a556e97ac"/>
+  </producedTypes>
+  <name>СХК_ЗаказыПоЭтапу</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК заказы по этапу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2f77a912-9070-4dec-bd31-6e8460289cdc">
+    <name>ЗаказНаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на перемещение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПеремещение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a0fc9bfa-b66c-433f-a5df-2075340a14de">
+    <name>ЭтапПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап производства</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭтапПроизводства2_2</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1591fb48-0a0d-4504-92d6-3e19031ebacd">
+  <producedTypes>
+    <objectType typeId="5e3e9c95-0f4a-4bf8-bda3-627756141e29" valueTypeId="16737798-1f98-4eb1-bbc2-dc1a6d6af100"/>
+    <refType typeId="aff60092-2a9b-4e50-81de-750ee160b1e5" valueTypeId="9528b80c-3588-4d9e-b438-b404f2f7ecd6"/>
+    <selectionType typeId="f069b315-49b6-49ab-a081-dc4c9791649f" valueTypeId="d5cb9c08-eb31-448f-bac8-215b33eb5ef8"/>
+    <listType typeId="019c2adc-d39b-42b6-8483-0f3042c06c5d" valueTypeId="391a5c5d-9304-4a25-8cf5-1a3c806f270e"/>
+    <managerType typeId="d36a568d-486d-4ee3-b5a2-be56aea7d89c" valueTypeId="99d4679a-9007-4bf3-8d84-64e4f80aeced"/>
+  </producedTypes>
+  <name>СценарииТоварногоПланирования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

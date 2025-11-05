@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cce1a001-461b-42e2-b34f-62b6c0d5a84c" extendedConfigurationObject="07f6396e-85dd-4872-b63a-5a338145a279">
+  <producedTypes>
+    <selectionType typeId="6e70097c-ddcf-4d36-8212-156d45b8c678" valueTypeId="8414f965-c349-4177-984e-c1874474c3c1"/>
+    <listType typeId="53e46c9e-705d-4391-ba6a-84853f78fed4" valueTypeId="7f935384-0a66-4f06-823e-c454169db5a7"/>
+    <managerType typeId="153c8af2-95c6-4e6c-b779-e99f3db1a37c" valueTypeId="611fd9a1-cb6f-4282-8af7-99c9afef7730"/>
+    <recordSetType typeId="93bdd258-4ed6-4fc1-83bd-ac143f8f3dfb" valueTypeId="efa4aada-ad31-483e-a985-59fb17316cff"/>
+    <recordKeyType typeId="1b737ef1-5802-4ac0-8592-90263f020d27" valueTypeId="d88b7907-ee9c-4bc5-add5-a03b5e3252cf"/>
+    <recordType typeId="0c22a04e-c5bb-4c0f-84c5-e1279a7e5a02" valueTypeId="7f870007-97bd-48ce-b5b8-4d92387cf90b"/>
+    <recordManagerType typeId="298f687c-6a42-4c04-8f09-199c9c57feb6" valueTypeId="a750807a-67c2-4e6c-b66c-b910c66cbb12"/>
+  </producedTypes>
+  <name>АналитикаУчетаПоПартнерам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="94a74542-cb34-4ac2-b08f-827d06fbb663" extendedConfigurationObject="ce4afc20-8505-46d5-a85c-838839d5e4af">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="5a3dbde8-42f7-4568-9598-2d8d47945011" extendedConfigurationObject="8405d6a4-a845-4ac6-ae27-40af6f5e486b">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="f54a4cdd-560a-413d-a78d-2bf5047ab2aa" extendedConfigurationObject="d4223e5c-d882-4a81-a66a-a517f5b369e6">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

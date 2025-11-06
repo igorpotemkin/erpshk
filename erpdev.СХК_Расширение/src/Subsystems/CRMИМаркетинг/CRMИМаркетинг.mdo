@@ -18,4 +18,5 @@
   <content>Catalog.СХК_ЛогистикаОзон</content>
   <content>Catalog.СХК_ЛогистикаВБ</content>
   <content>Catalog.СХК_ЛогистикаЯндекс</content>
+  <content>DataProcessor.СХК_СМФОтчет</content>
 </mdclass:Subsystem>

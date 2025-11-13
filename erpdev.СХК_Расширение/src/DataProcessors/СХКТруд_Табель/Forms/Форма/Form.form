@@ -265,7 +265,6 @@
         <items xsi:type="form:FormField">
           <name>ТЧТабельСкуд</name>
           <id>141</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>

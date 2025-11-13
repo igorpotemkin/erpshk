@@ -211,39 +211,49 @@
 			<v8:Type>xs:boolean</v8:Type>
 		</valueType>
 	</calculatedField>
+	<calculatedField>
+		<dataPath>СерияН</dataPath>
+		<expression>СХК_СКД.ЯчейкиСерии(СерииНоменклатуры,&amp;ДатаОтчета)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Серия Н</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
 	<totalField>
 		<dataPath>Приход</dataPath>
 		<expression>Сумма(Приход)</expression>
 		<group>Номенклатура</group>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>РасходКлиенту</dataPath>
 		<expression>Сумма(РасходКлиенту)</expression>
 		<group>Номенклатура</group>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>РасходСписание</dataPath>
 		<expression>Сумма(РасходСписание)</expression>
 		<group>Номенклатура</group>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>РасходЦК</dataPath>
 		<expression>Сумма(РасходЦК)</expression>
 		<group>Номенклатура</group>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>Остаток</dataPath>
 		<expression>Остаток</expression>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>ОстатокБуфер</dataPath>
 		<expression>ОстатокБуфер</expression>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<totalField>
 		<dataPath>Приход</dataPath>
@@ -273,7 +283,7 @@
 	<totalField>
 		<dataPath>ВНаличииОстаток</dataPath>
 		<expression>ВНаличииОстаток</expression>
-		<group>СерииНоменклатуры</group>
+		<group>СерияН</group>
 	</totalField>
 	<parameter>
 		<name>ДатаОтчета</name>
@@ -382,9 +392,10 @@
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:name>Серия номенклатуры</dcsset:name>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>СерииНоменклатуры</dcsset:field>
+							<dcsset:field>СерияН</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -399,7 +410,11 @@
 							<dcsset:use>false</dcsset:use>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:use>false</dcsset:use>
 							<dcsset:field>СерииНоменклатуры</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СерияН</dcsset:field>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВНаличииОстаток</dcsset:field>

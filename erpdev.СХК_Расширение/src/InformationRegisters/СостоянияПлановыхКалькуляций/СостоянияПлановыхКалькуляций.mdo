@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce6bc80e-4322-4525-890c-29a9513c99da">
+  <producedTypes>
+    <selectionType typeId="8362dcaf-8899-44c7-a73c-d4fb094dfa28" valueTypeId="caafe50d-40a5-4a0a-8874-1c7c7cbd617b"/>
+    <listType typeId="2710e236-f31d-4deb-8d02-e4888d3f1dc0" valueTypeId="7c8f5bfb-a939-44eb-af05-4f62facb39f0"/>
+    <managerType typeId="e2c4bf2d-121b-4906-a280-a3320b91d26a" valueTypeId="2be691be-c479-4727-9f55-6fe45e9af077"/>
+    <recordSetType typeId="1646b776-2dfa-42b3-8829-320e1787db21" valueTypeId="ffc1a340-b23a-4c9a-9d13-b09f84ef0e16"/>
+    <recordKeyType typeId="868b072b-c9ef-4234-b89b-bc79848eddc3" valueTypeId="36d18635-8ce8-426d-a506-67b834750fb9"/>
+    <recordType typeId="5ccc9d76-a374-47e5-bdbe-4c2fc3823892" valueTypeId="320c15e0-5c64-4d04-9fb6-d840f5ceb34a"/>
+    <recordManagerType typeId="5b424bcf-41ef-402b-adb2-18389bf394d8" valueTypeId="6584843d-a59b-416f-b1a9-15c5bc462747"/>
+  </producedTypes>
+  <name>СостоянияПлановыхКалькуляций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="15bf8252-7197-4732-85d1-a9bed1bcec55" extendedConfigurationObject="5ffd95c9-5cc3-4547-b0d2-7ca45c41533f">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияРасчетаПлановойКалькуляции</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="5eb04a95-d66a-4f3b-9639-25d752295aee">
+    <name>Калькуляция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПлановаяКалькуляция2_2</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

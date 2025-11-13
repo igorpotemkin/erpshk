@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5b060d1-07a8-4660-85a4-0585730be871" extendedConfigurationObject="ea8c9475-156a-4793-8dfe-10617b50f0de">
+  <producedTypes>
+    <refType typeId="33e806b9-3edb-46bc-922d-88213ee2fe1d" valueTypeId="a0985412-d3a4-4883-83cd-a2c4d9147e31"/>
+    <listType typeId="d45ee87a-1300-421c-b639-93e536205b72" valueTypeId="cbf6d443-8149-4f9a-9859-ddb8f20512a6"/>
+    <managerType typeId="5e9e8400-bbc9-4cb1-a24f-67e03a27af24" valueTypeId="43752e8e-02cd-4695-b1dd-50f69923c7a5"/>
+  </producedTypes>
+  <name>СостоянияЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="146e5283-e75c-4a12-8f2c-235c6c027404" extendedConfigurationObject="99d7c9c4-55a0-41ff-9ae0-bc17f9225371">
+    <name>Закрыт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

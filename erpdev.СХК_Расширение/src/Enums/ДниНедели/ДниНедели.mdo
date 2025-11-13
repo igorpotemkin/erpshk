@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71823a60-fa70-4b80-b9f3-73944034dc97" extendedConfigurationObject="0239e138-50fe-4297-85fd-9c4c31d623ca">
+  <producedTypes>
+    <refType typeId="20765159-2fa6-4d35-8936-43ebad1606ff" valueTypeId="bc2e43f2-b422-4a99-9dd3-b2278cde5180"/>
+    <listType typeId="4f473795-fddc-4fb2-9dd9-25f6fadb631d" valueTypeId="2cf11c8f-bade-4392-be57-d13fe2cd6598"/>
+    <managerType typeId="e3206649-ce0d-4289-88ea-de2a9d682ba0" valueTypeId="883c9044-1fd4-4d81-b438-b86bb0693208"/>
+  </producedTypes>
+  <name>ДниНедели</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="1292c7c9-6e81-46c1-b414-abd58e1b5569" extendedConfigurationObject="4fab0911-9876-4ed0-8a86-4126b5fb84de">
+    <name>Вторник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="55ed2db2-39d7-449a-8dd4-88d4cd9dcf58" extendedConfigurationObject="2eb88c92-394c-4ec3-a8dc-6b82092de3f0">
+    <name>Понедельник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="fdaba71b-6617-4f85-86c8-67e6d1828a95" extendedConfigurationObject="e595132e-9766-4802-97a2-e886a7621fbe">
+    <name>Среда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="7d439764-a496-4244-a3ce-3a4b992e6771" extendedConfigurationObject="41a88de3-21f7-4e17-bc9e-d395b2153b90">
+    <name>Четверг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="7313f34d-85a8-4572-821c-1e99a65ec818" extendedConfigurationObject="fd06affc-71a3-4698-8baa-3a07080af7fb">
+    <name>Пятница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="dcbe2c90-04e9-4ce9-8459-7b197d7c9793" extendedConfigurationObject="ebec9bda-a1c9-40b7-b30f-24eb3e513913">
+    <name>Суббота</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d5858b25-fbec-4511-98f1-707e2baa7628" extendedConfigurationObject="aff8e037-dd79-426e-8d9b-b149710992d0">
+    <name>Воскресенье</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

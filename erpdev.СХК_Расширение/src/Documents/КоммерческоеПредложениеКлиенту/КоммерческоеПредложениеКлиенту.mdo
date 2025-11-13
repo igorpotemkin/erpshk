@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b43c2785-5b08-4fd9-8baa-87ca2f07f534" extendedConfigurationObject="1b8b67c9-d102-4098-9ab2-841322b60f6e">
+  <producedTypes>
+    <objectType typeId="142cb570-0c24-4dec-b2de-e95074dde937" valueTypeId="80930648-3f16-4ba7-bf13-4b061d4f9688"/>
+    <refType typeId="ccbf35a2-e9f1-4606-a262-1fc5c266bb59" valueTypeId="35d65083-74fa-428a-864b-3a26c0d4a64c"/>
+    <selectionType typeId="93c732ee-fe55-4808-ad57-bfa7e0b45795" valueTypeId="ee5c6bf5-773d-431d-ab1a-c662527e5f91"/>
+    <listType typeId="55d2c4f2-386b-4802-a240-80afe192895b" valueTypeId="a69e43d1-9426-47e4-8cc6-06d5c2e47133"/>
+    <managerType typeId="6383ad81-dbff-4982-ba46-82eca83bdb48" valueTypeId="1c23caec-44b7-4e2f-8123-36418a84e8f0"/>
+  </producedTypes>
+  <name>КоммерческоеПредложениеКлиенту</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e22ce0e9-a1cb-4373-9ff1-6bdcb7b94fec" extendedConfigurationObject="b596749b-e018-470f-817f-d9f00c5a20cc">
+    <name>УдалитьДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.КоммерческоеПредложениеКлиенту</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="848f6d6f-bf6c-45c8-889e-c1627c350854" extendedConfigurationObject="a33d75a9-4c3d-41b2-a687-37eb78c263ac">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованияКоммерческогоПредложенияКлиенту</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

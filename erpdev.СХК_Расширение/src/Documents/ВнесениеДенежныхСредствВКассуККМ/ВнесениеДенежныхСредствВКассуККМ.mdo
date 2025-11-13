@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="91b71a3f-41e5-4236-b418-08c1c1238bd2" extendedConfigurationObject="07045492-603c-499e-9a36-f835b1e3f9f5">
+  <producedTypes>
+    <objectType typeId="3b3be16b-0156-441e-a07d-d742a294c6c8" valueTypeId="e0af243f-8a98-45c9-ae16-f3187eaeb940"/>
+    <refType typeId="188f4b7a-9dd5-46c0-8316-cea92403581c" valueTypeId="a8636f69-b926-4239-800a-de7f6c0b4c37"/>
+    <selectionType typeId="314964e4-5966-4cc5-b80b-73bfa2b1586d" valueTypeId="b7c08f2b-93c8-477a-8721-c4cbfb630741"/>
+    <listType typeId="976df7f6-6dc0-43aa-a480-85211e798f8c" valueTypeId="8aa40085-4044-4dbb-b1dc-da1a26a2eea7"/>
+    <managerType typeId="45323475-ec99-4249-b0c5-84a8d74fd175" valueTypeId="2d025c34-44e2-45e3-b57b-a1c3c112723a"/>
+  </producedTypes>
+  <name>ВнесениеДенежныхСредствВКассуККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="fe79e805-3011-4795-a03c-cb44c87a2c34" extendedConfigurationObject="3a7a68b9-0e1b-4e3e-875a-995467d640d7">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.РасходныйКассовыйОрдер</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

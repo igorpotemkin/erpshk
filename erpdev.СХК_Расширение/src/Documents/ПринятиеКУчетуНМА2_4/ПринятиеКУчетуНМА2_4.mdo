@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6e3823b-4104-4280-b60b-ef847c554382" extendedConfigurationObject="9eeabc68-93c2-4370-9dd4-da93e6ecafdd">
+  <producedTypes>
+    <objectType typeId="eef442bd-b245-499b-9a0c-4cb1f6025c14" valueTypeId="d0f665af-c0a4-41a1-bbf0-6f4297ac3768"/>
+    <refType typeId="1f13c06e-4311-444a-a645-5aa9a147e26b" valueTypeId="5974ec16-4a60-411c-97ee-6eb862483e8b"/>
+    <selectionType typeId="8ba1ff85-3787-4fc3-87bf-708dde5207ef" valueTypeId="dfca37a0-f7f2-475d-808d-7d9977e3bb2d"/>
+    <listType typeId="3f903a53-1c6a-49cc-bc98-0741e9f7bf3a" valueTypeId="baabf8dd-0749-4743-8d3c-0cd6432ec1e1"/>
+    <managerType typeId="49178b14-3879-4c98-bfc3-1159d1af653e" valueTypeId="585145c7-db0c-41cc-be94-c4c6f8cd3798"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуНМА2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="3af92db1-8796-4e05-82c4-48179cc3895a" extendedConfigurationObject="ab462971-d259-4611-af40-77be45a4b8eb">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ИнвентаризацияНМА</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5f80d4bf-b819-48c0-b614-f9a04e8746dc" extendedConfigurationObject="fe337e19-1324-4739-863b-b56d225a877c">
+    <name>ДокументВДругомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

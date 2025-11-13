@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48633a9a-4295-4dc4-879d-fc6799f39574" extendedConfigurationObject="e7b0ae70-0192-456c-9dc5-e66049fa9df2">
+  <producedTypes>
+    <objectType typeId="c24833b9-6015-4d5f-8d21-b7e3d8596b98" valueTypeId="15ac00ba-4187-4536-8476-f2931a6c97e4"/>
+    <refType typeId="108e104f-627b-4cc3-81af-3bbe94dd1c10" valueTypeId="38599f67-e25e-442b-940c-ed2e513b73ec"/>
+    <selectionType typeId="adb57eae-69e3-42b3-b420-87ef7d7b4824" valueTypeId="46e9b665-63be-4fca-a065-b679f800428b"/>
+    <listType typeId="d4ab360c-cbb8-42db-bda8-c7b37e5a5609" valueTypeId="f607c81f-06d8-47cb-8057-b15d94dc9880"/>
+    <managerType typeId="28244c30-6a4c-45d5-a174-cca63805d24b" valueTypeId="d83f75bb-578e-46bb-82ad-9cda35f31218"/>
+  </producedTypes>
+  <name>Файлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f78ebdb2-1614-4447-be96-84edb1d9cc4f" extendedConfigurationObject="a4754a7b-971f-4517-963e-b7cb9d57f86d">
+    <name>ФайлХранилище</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="d8607404-5ed1-422a-ba51-37f9cdc3d48f" extendedConfigurationObject="e8ae4a26-3127-43ae-af7a-c2e278d2611d">
+    <name>ПутьКФайлу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

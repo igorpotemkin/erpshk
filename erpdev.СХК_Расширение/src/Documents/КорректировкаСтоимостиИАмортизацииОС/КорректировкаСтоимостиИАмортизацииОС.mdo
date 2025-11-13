@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0b2be574-c81a-4758-ad1b-ade7e140c71f" extendedConfigurationObject="de4be57e-14d1-4ffd-9a6d-0db8c2e190fb">
+  <producedTypes>
+    <objectType typeId="825947aa-1d6a-4ea0-85c7-c953e062176c" valueTypeId="5cd9f881-a575-49e5-b55f-48b3ebb8fe30"/>
+    <refType typeId="600cbf1b-23b8-4852-ae1c-cccce894bee8" valueTypeId="3605e461-5bf5-4868-a981-f2b2d4d82c0a"/>
+    <selectionType typeId="54829aaf-1b22-4cb5-ae81-7bde19b6320c" valueTypeId="56045971-e1bf-41a8-b3a5-677bdfec75dd"/>
+    <listType typeId="d87134a9-9c43-419b-8eb0-f430d90336a0" valueTypeId="aa283cbc-4dfa-423f-b1ab-39a3c9b3e828"/>
+    <managerType typeId="c9e4dea0-48c7-4140-b82b-387ce02d34ea" valueTypeId="a22c4783-74fb-4ffb-8861-21d1ba5b1aef"/>
+  </producedTypes>
+  <name>КорректировкаСтоимостиИАмортизацииОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="1b092870-7a98-4a55-8269-43d04a3bae14" extendedConfigurationObject="0510c092-78c6-426b-b16e-2cbfb1d07695">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

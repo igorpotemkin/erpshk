@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dd912f5-5bdb-404f-815c-4692207fc6b7">
+  <name>СХК_ТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК ТСД</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.СХК_ТСДСырье</content>
+  <content>InformationRegister.СХК_ПланПродажБюджет</content>
+  <content>DataProcessor.СХК_АРМПроизводство</content>
+  <content>InformationRegister.СХК_ВыпускПоЭтапу</content>
+  <content>AccumulationRegister.СХК_ТоварыНаСкладе</content>
+  <content>Document.СХК_Перемещение</content>
+  <content>Document.Расш1_ПоступлениеСклад</content>
+  <content>InformationRegister.СХК_ЗаказыПоЭтапу</content>
+  <content>DataProcessor.СХК_МобильныйСклад</content>
+  <content>Document.СХК_СписаниеЯчейки</content>
+  <content>InformationRegister.СХК_РазмещениеОрдер</content>
+  <content>Report.СХК_АнализБуфер</content>
+  <content>DataProcessor.Склад</content>
+  <content>Report.СХК_ОстаткиПоЯчейкам</content>
+</mdclass:Subsystem>

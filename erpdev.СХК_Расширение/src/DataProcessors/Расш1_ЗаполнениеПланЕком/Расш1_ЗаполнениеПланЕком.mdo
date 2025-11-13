@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d228f93-7456-49e3-b355-79cf9b7e4de1">
+  <producedTypes>
+    <objectType typeId="fab4c42b-c7b4-45a0-b6c6-71f417cc5544" valueTypeId="3423407d-8042-42f4-9b18-31d6c5896100"/>
+    <managerType typeId="42a78037-0648-47e1-b8e7-63ecf463f92f" valueTypeId="49033942-a3ab-44ab-9b47-cfd8c0f67c6f"/>
+  </producedTypes>
+  <name>Расш1_ЗаполнениеПланЕком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение план еком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Расш1_ЗаполнениеПланЕком.Form.Форма</defaultForm>
+  <attributes uuid="cab4ef01-ef6e-4ee3-bcb7-a687be469170">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="224e4187-96fd-470e-a698-76fa87a932fb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

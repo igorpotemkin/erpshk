@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c879bb2d-c92c-4f9b-95be-f828c2f36cf5" extendedConfigurationObject="2f173263-ef09-43f0-86d2-3eb136428505">
+  <producedTypes>
+    <objectType typeId="6a7a77bc-1188-456e-bd64-02a22323c7dd" valueTypeId="6d6b9c25-b472-40a8-952e-d6c27a8dcd38"/>
+    <refType typeId="145c5e30-42a7-42a2-b10c-f69b474993ab" valueTypeId="bde4b3f5-f767-430e-926f-5d786e8dd3e6"/>
+    <selectionType typeId="5db0c805-8b8f-41b9-80e3-ff6b996fa7d0" valueTypeId="71fd6e39-0eba-4a58-a623-0d0745586223"/>
+    <listType typeId="ace5acda-8481-4ff9-92a2-70a899a07089" valueTypeId="55ae94fd-9133-4933-ade0-45e2e99fb2e6"/>
+    <managerType typeId="2ea4dce5-c559-4efe-9603-69eae71c06c8" valueTypeId="3e755cf3-3164-4c5f-bd69-5356e2ea61ee"/>
+  </producedTypes>
+  <name>СостоянияПроцессов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

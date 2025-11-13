@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f378e09b-743a-41c1-9c49-21de8b5f4a71" extendedConfigurationObject="3ac0baca-ee55-4231-9623-c55da1bfd52f">
+  <name>СозданиеНаОснованииУТКлиент</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonModuleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <module>Extended</module>
+    <global>Checked</global>
+    <clientManagedApplication>Checked</clientManagedApplication>
+    <server>Checked</server>
+    <externalConnection>Checked</externalConnection>
+    <serverCall>Checked</serverCall>
+    <clientOrdinaryApplication>Checked</clientOrdinaryApplication>
+  </extension>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

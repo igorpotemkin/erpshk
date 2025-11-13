@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c584d1ac-fa83-4f65-9b94-a16b3d3c6b66">
+  <producedTypes>
+    <selectionType typeId="7dc89a7e-36b2-4ac2-a114-3060e84c392b" valueTypeId="54bc0ba7-1a5e-4249-a5f4-c384ea494765"/>
+    <listType typeId="cf998180-5e97-4dcc-92f3-03ae23077679" valueTypeId="f64b8c77-31bb-47af-b469-9ccad31f870b"/>
+    <managerType typeId="6a178112-250a-45df-8997-f987d9c73806" valueTypeId="689b94d3-eabd-4c9f-8c92-775ea42333f3"/>
+    <recordSetType typeId="f3a3357c-d57f-4d7e-a114-a2f627e73c3b" valueTypeId="9908d8cf-3c20-4982-b4ee-0e77db97c8ae"/>
+    <recordKeyType typeId="fa9260da-5c5b-4992-b980-e5f6bbfe8534" valueTypeId="3454e086-a63f-4767-9349-8a5745b334a7"/>
+    <recordType typeId="93e514a4-d18f-4387-b952-ee1aad8bd93e" valueTypeId="aabb94c1-2fd5-44cd-bacf-9ac9d405664e"/>
+    <recordManagerType typeId="79b02a5d-f5b5-4e35-8035-4e553fc828a7" valueTypeId="438d9704-3b7a-4a5b-ae00-f5ce772cb6a2"/>
+  </producedTypes>
+  <name>Расш1_БюджетДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 бюджет ДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5f6e0768-0ec4-4436-baa4-d62e2f7ca9f1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="89d5896f-1f1b-4792-b48a-a43404cf33d2">
+    <name>СтатьяДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья ДДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8d4ba7b-0a1c-41c8-8962-ba20428b62d7">
+    <name>ПериодБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период бюджета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ccecbd0-f035-483e-b801-1d86455070e8" extendedConfigurationObject="cc6d899d-4bb0-41f0-89f7-c79ab22d4e8f">
+  <producedTypes>
+    <objectType typeId="8289497b-bd49-49bb-9f43-01a69101c8ac" valueTypeId="3acc2317-b6e1-4939-b67e-a5c2baeef268"/>
+    <managerType typeId="1dc80d4b-9212-4b48-9817-b29dbc9273c6" valueTypeId="952199c9-6a14-40d6-9509-00143730cc6e"/>
+  </producedTypes>
+  <name>ПлатежныйКалендарь</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="9e3306b2-dfa0-45e7-83f0-7936132b96b6" extendedConfigurationObject="d9a05cd5-38c0-4222-8462-32590dbff583">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

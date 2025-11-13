@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04dc9c77-42c6-4d94-9454-ed171932bf1c" extendedConfigurationObject="f8cfe6b7-a92d-45f1-bd06-9154e8657466">
+  <producedTypes>
+    <refType typeId="dffe26c6-4b5e-4e33-bbe7-aeac82e86e66" valueTypeId="cc3d4f5f-697d-4ce1-8fe1-22a846e42792"/>
+    <listType typeId="68890f8c-399d-45bd-833a-555e383bdf45" valueTypeId="d457e006-18a1-4bdf-963f-c85f637760ec"/>
+    <managerType typeId="1a8d3c8b-3807-4d01-9eaa-ac1edfb43391" valueTypeId="986f336f-a4bc-4b17-8f6d-e02a49aa9c41"/>
+  </producedTypes>
+  <name>СтатусыЭтаповПроизводства2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="34353809-aea3-4e95-a9d4-201ff119cbe5" extendedConfigurationObject="624549dd-c62a-4621-8d54-8985090c24f8">
+    <name>Завершен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

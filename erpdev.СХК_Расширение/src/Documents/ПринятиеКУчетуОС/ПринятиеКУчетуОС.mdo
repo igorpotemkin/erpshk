@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="289aa290-f2b6-49c9-91a1-6726b2068460" extendedConfigurationObject="22d39da4-403d-480e-a9cb-4e595f7eb5dd">
+  <producedTypes>
+    <objectType typeId="865a5bd2-38ef-4fbd-b54f-4a6b1e9a7fb7" valueTypeId="c7a2db9b-c5fd-4c6f-9d04-b73ec5f4c9c0"/>
+    <refType typeId="c2ebdfcd-f795-4d46-9952-6978dc82e8b1" valueTypeId="a30f4aa9-0a38-420f-b28f-dd87e87d258e"/>
+    <selectionType typeId="0f4dc310-d997-400a-994f-05576e66515f" valueTypeId="ca528010-8f06-4909-8c1b-5e40fd746286"/>
+    <listType typeId="736d8700-9c1d-4a15-9906-1838137a92e2" valueTypeId="71bc47c9-2f5f-48a5-90aa-2f6dab499f02"/>
+    <managerType typeId="81fd5e4c-9e2b-45a2-9b48-77410790aa70" valueTypeId="19bb3309-be42-4262-93de-493c5fd418be"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2f2c2d3c-bba9-4e5c-8e55-ffe0506e6cf2" extendedConfigurationObject="1d396f31-8927-4889-bfe0-1df0d2296c02">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

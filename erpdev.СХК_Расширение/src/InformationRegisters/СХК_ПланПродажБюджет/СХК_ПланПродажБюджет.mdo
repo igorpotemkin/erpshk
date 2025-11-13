@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7701e7a9-df68-4a77-8eba-33e0f9f9abf5">
+  <producedTypes>
+    <selectionType typeId="19dde760-d072-4c8f-aa5a-f2c4a0312f50" valueTypeId="c2b9a740-34b3-411e-8a42-3663111ce678"/>
+    <listType typeId="f6f66770-8295-4a02-bba0-17062dfddbea" valueTypeId="9a6673a0-79b8-491a-81b3-97f48befb8e5"/>
+    <managerType typeId="21daa586-cd37-454d-8236-8c3a8e6a2582" valueTypeId="78e47ecc-4648-4d87-a48e-dad125b0c0cf"/>
+    <recordSetType typeId="49deb460-1319-4447-a848-f41b1805f6ce" valueTypeId="0ffdd8e5-f2c0-441c-9c43-e01dfa01ab62"/>
+    <recordKeyType typeId="50e3f82a-f248-4504-acb7-3a59d7a15460" valueTypeId="3de5c6c8-21c0-43f8-991e-f410f7bdb470"/>
+    <recordType typeId="a48c3561-88ea-415f-99f2-36f36593f560" valueTypeId="7ef9d3c2-7a10-4e8b-8961-81ed5c32ce23"/>
+    <recordManagerType typeId="a1edc98a-272b-41f8-8701-ba847f2da55b" valueTypeId="7dd9ee87-402c-4eab-a7f2-88b6163ddfd1"/>
+  </producedTypes>
+  <name>СХК_ПланПродажБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК план продаж бюджет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="01b7ae64-a65a-4633-8dba-d444f314316c">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="79d71ca9-aa33-4682-9f1c-7a76f47952fc">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f49ba561-6972-4b5d-b2cd-f67c4d0361c3">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="885ed84c-50da-4ca1-b47a-2a7f4edcd505">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e82b737b-c59e-4266-a640-3111f7fbd396">
+  <producedTypes>
+    <objectType typeId="5cade522-b257-4632-bddc-ded350607ce3" valueTypeId="114dd9f7-8842-420a-998c-323f5421d886"/>
+    <managerType typeId="32d0961c-6c5d-4442-83c0-e54fa9fa72b2" valueTypeId="b46c20ca-993d-4814-a611-7072e7e2fd91"/>
+  </producedTypes>
+  <name>СХКТруд_Табель</name>
+  <synonym>
+    <key>ru</key>
+    <value>КТУ Сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХКТруд_Табель.Form.Форма</defaultForm>
+  <tabularSections uuid="f1f9d0db-8c6a-4c4b-bc0d-c9b9af9719b4">
+    <producedTypes>
+      <objectType typeId="f267440a-2e87-4270-9442-a56a2fea6506" valueTypeId="90f371ef-68b0-4bde-8d66-1d4c710ae8c2"/>
+      <rowType typeId="698a6863-6db7-43ee-85fa-db20b4ca9fe6" valueTypeId="f5634576-aa45-4650-92e4-1cb1803a5ddf"/>
+    </producedTypes>
+    <name>ТЧТабель</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧТабель</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="22675ae7-ab6a-484c-8ed3-a1e256720f54">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="dd97b54e-9eff-478e-9677-5e0700add305">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f81bf263-25b2-4994-be5f-5e2eef9fe29a">
+      <name>ТабНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таб номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1c25c2a8-c181-4fd5-acf9-c0839121f86b">
+      <name>НормаЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Норма часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1512e503-72a1-4612-8342-8017529f2397">
+      <name>ЧасыСКУД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часы СКУД</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="79481822-8d12-40bc-b1cf-ed2e6840c131">
+      <name>ЧасыФакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Часы факт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="05c724a7-93c3-4cfc-82df-e03cbbbe2568">
+      <name>Ошибка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ошибка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d33bb7e2-22a8-4b0d-9edf-27b2ce38e236">
+      <name>КолДней</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол дней</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0a485743-00e9-47b0-a538-d4996e625fc6">
+      <name>Скуд</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скуд</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e59d0ad0-6772-43f3-96d7-b96eac7e971b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

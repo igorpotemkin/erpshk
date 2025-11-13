@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c27a81f5-2fea-4286-bd9a-4e248715ff0a">
+  <producedTypes>
+    <objectType typeId="492f8e0e-1d6f-4526-9849-6460b02329d5" valueTypeId="d64ed2bd-e769-4a5d-bba2-1871a3f83453"/>
+    <refType typeId="efa42a90-06bb-4721-8462-8740a58101c7" valueTypeId="3dec7b6b-85f4-488d-9a7e-33b971704a26"/>
+    <selectionType typeId="0edd6feb-1ebb-478e-b2a5-a356f09b2592" valueTypeId="031aaa00-4d12-4b90-96e6-131d85ebbd74"/>
+    <listType typeId="d6fd0f22-f233-475d-a989-2c3ea8b1a518" valueTypeId="48bc23b6-b9f0-465e-b2c3-654a8d4e4461"/>
+    <managerType typeId="a9cfd95b-f8b3-4d4d-83f2-1573515938d9" valueTypeId="a6e1dac7-e017-4da4-a650-221011855bd0"/>
+  </producedTypes>
+  <name>ВидыПланов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

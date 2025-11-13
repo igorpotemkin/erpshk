@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad772f7d-004a-48a1-b5bc-39d63bb50dfb">
+  <producedTypes>
+    <objectType typeId="9551b9c8-7c00-4720-a89d-ade8cf3fcb3b" valueTypeId="2103efaa-54ad-46ce-aaf3-5681cdfe4e90"/>
+    <managerType typeId="3a5f09df-610d-4fba-ac92-a2f848e5a29e" valueTypeId="5d27b65a-4edc-4852-a7b9-3bd92984ee98"/>
+  </producedTypes>
+  <name>СХК_СоздатьСерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК создать серии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_СоздатьСерии.Form.ФормаСписка</defaultForm>
+  <forms uuid="ed384d5f-e9fd-4f9b-8c43-636804cf30b1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e5cc224-c3d3-4eb7-b564-80b6ac8ff209">
+    <name>ФормаСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма серии</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

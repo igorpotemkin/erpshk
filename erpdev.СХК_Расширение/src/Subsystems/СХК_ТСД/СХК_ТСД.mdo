@@ -20,5 +20,4 @@
   <content>InformationRegister.СХК_РазмещениеОрдер</content>
   <content>Report.СХК_АнализБуфер</content>
   <content>DataProcessor.Склад</content>
-  <content>Report.СХК_ОстаткиПоЯчейкам</content>
 </mdclass:Subsystem>

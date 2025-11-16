@@ -90,6 +90,19 @@
       </typeExtension>
     </extension>
   </attributes>
+  <attributes uuid="ca0efc2f-8820-4841-b796-5c8e59027097" extendedConfigurationObject="c9caf7b1-1b75-4af0-9762-76bbf3220b0d">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтатусыОрганизацийПодразделений</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
   <tabularSections uuid="fe1879d6-f55a-440b-b415-32d5a081cf76" extendedConfigurationObject="da9b4a5a-6f75-4f53-b14e-43369876cefa">
     <producedTypes>
       <objectType typeId="f68e50a6-ea8e-4739-8d1d-c2fd794c9cd5" valueTypeId="cde51a9e-6dfc-46ec-97d4-1a1d1cd100ca"/>

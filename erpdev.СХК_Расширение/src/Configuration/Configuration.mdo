@@ -261,11 +261,14 @@
   <commonForms>CommonForm.ПодборПоРасчетамСПартнерами</commonForms>
   <commonForms>CommonForm.ЭтапыОплатыКлиентом</commonForms>
   <commonForms>CommonForm.РеквизитыПечатиРеализации</commonForms>
+  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
   <catalogs>Catalog.БизнесРегионы</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыКомплектацииНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыАлкогольнойПродукции</catalogs>
   <catalogs>Catalog.ВидыЗапасов</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыПланов</catalogs>
   <catalogs>Catalog.ВидыРаботСотрудников</catalogs>
@@ -274,6 +277,7 @@
   <catalogs>Catalog.ГруппыАналитическогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыДоступаПартнеров</catalogs>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаНоменклатуры</catalogs>
   <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -307,6 +311,7 @@
   <catalogs>Catalog.ОбщероссийскийКлассификаторПродукции</catalogs>
   <catalogs>Catalog.ОбъектыРасчетов</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
   <catalogs>Catalog.ПартииПроизводства</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
@@ -319,8 +324,10 @@
   <catalogs>Catalog.ПричиныОтменыПроизводства</catalogs>
   <catalogs>Catalog.Производители</catalogs>
   <catalogs>Catalog.Промо_КалендарьАктиваций</catalogs>
+  <catalogs>Catalog.Расш1_Должность</catalogs>
   <catalogs>Catalog.Расш1_Паллеты</catalogs>
   <catalogs>Catalog.Расш1_ПДЗ</catalogs>
+  <catalogs>Catalog.Расш1_ПодразделенияСотрудниковИП</catalogs>
   <catalogs>Catalog.Расш1_РЦ</catalogs>
   <catalogs>Catalog.Расш1_ТипыУпаковки</catalogs>
   <catalogs>Catalog.РейтингиПродажНоменклатуры</catalogs>
@@ -332,6 +339,8 @@
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СкладскиеГруппыНоменклатуры</catalogs>
   <catalogs>Catalog.СкладскиеГруппыУпаковок</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.СкладскиеЯчейки</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.СоглашенияСПоставщиками</catalogs>
@@ -342,10 +351,15 @@
   <catalogs>Catalog.СтатьиБюджетов</catalogs>
   <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.СтатьиКалькуляции</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.СхемыОбеспечения</catalogs>
+  <catalogs>Catalog.СХК_ЛогистикаВБ</catalogs>
+  <catalogs>Catalog.СХК_ЛогистикаОзон</catalogs>
+  <catalogs>Catalog.СХК_ЛогистикаЯндекс</catalogs>
   <catalogs>Catalog.СХК_МетодыПромо</catalogs>
   <catalogs>Catalog.СХК_НастройкаПромо</catalogs>
+  <catalogs>Catalog.СХК_Помощник</catalogs>
   <catalogs>Catalog.СХК_СкладЯчейки</catalogs>
   <catalogs>Catalog.Сценарии</catalogs>
   <catalogs>Catalog.СценарииТоварногоПланирования</catalogs>
@@ -360,20 +374,6 @@
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ЦеновыеГруппы</catalogs>
   <catalogs>Catalog.ШаблоныЭтикетокИЦенников</catalogs>
-  <catalogs>Catalog.СХК_ЛогистикаОзон</catalogs>
-  <catalogs>Catalog.СХК_ЛогистикаВБ</catalogs>
-  <catalogs>Catalog.СХК_ЛогистикаЯндекс</catalogs>
-  <catalogs>Catalog.СХК_Помощник</catalogs>
-  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
-  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
-  <catalogs>Catalog.ГруппыПользователей</catalogs>
-  <catalogs>Catalog.СтраныМира</catalogs>
-  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
-  <catalogs>Catalog.СкладскиеЯчейки</catalogs>
-  <catalogs>Catalog.СкладскиеПомещения</catalogs>
-  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
-  <catalogs>Catalog.Расш1_ПодразделенияСотрудниковИП</catalogs>
-  <catalogs>Catalog.Расш1_Должность</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.АктВыполненныхВнутреннихРабот</documents>
   <documents>Document.АктВыполненныхРабот</documents>
@@ -447,6 +447,7 @@
   <documents>Document.ИнвентаризацияНМА</documents>
   <documents>Document.ИнвентаризацияОС</documents>
   <documents>Document.ИнвентаризацияПродукцииВЕТИС</documents>
+  <documents>Document.ИнвентаризацияРасчетов</documents>
   <documents>Document.ИнойДокументПодтвержденияНДС</documents>
   <documents>Document.ИсходящаяТранспортнаяОперацияВЕТИС</documents>
   <documents>Document.КассоваяСмена</documents>
@@ -499,6 +500,7 @@
   <documents>Document.ОтчетКомитентуОСписании</documents>
   <documents>Document.ОтчетОператораСистемыПлатон</documents>
   <documents>Document.ОтчетОРозничныхПродажах</documents>
+  <documents>Document.ОтчетОСписанииТоваровСХранения</documents>
   <documents>Document.ОтчетПереработчика</documents>
   <documents>Document.ОтчетПоКомиссииМеждуОрганизациями</documents>
   <documents>Document.ОтчетПоКомиссииМеждуОрганизациямиОСписании</documents>
@@ -569,6 +571,7 @@
   <documents>Document.РеализацияПодарочныхСертификатов</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>
+  <documents>Document.РегистраторРасчетаСебестоимости</documents>
   <documents>Document.РегистрацияДефекта</documents>
   <documents>Document.РегистрацияПрочихКонтролируемыхСделок</documents>
   <documents>Document.РегистрацияЦенНоменклатурыПоставщика</documents>
@@ -585,9 +588,11 @@
   <documents>Document.СписаниеОС</documents>
   <documents>Document.СписаниеОС2_4</documents>
   <documents>Document.СписаниеОСМеждународныйУчет</documents>
-  <documents>Document.ОтчетОСписанииТоваровСХранения</documents>
   <documents>Document.Сторно</documents>
+  <documents>Document.СХК_Перемещение</documents>
   <documents>Document.СХК_Промо</documents>
+  <documents>Document.СХК_ПромоЕком</documents>
+  <documents>Document.СХК_СписаниеЯчейки</documents>
   <documents>Document.СчетНаОплатуКлиенту</documents>
   <documents>Document.СчетФактураВыданный</documents>
   <documents>Document.СчетФактураВыданныйАванс</documents>
@@ -622,100 +627,96 @@
   <documents>Document.ЧекККМВозврат</documents>
   <documents>Document.ЧекККМКоррекции</documents>
   <documents>Document.ЭтапПроизводства2_2</documents>
-  <documents>Document.СХК_Перемещение</documents>
-  <documents>Document.СХК_СписаниеЯчейки</documents>
-  <documents>Document.РегистраторРасчетаСебестоимости</documents>
-  <documents>Document.СХК_ПромоЕком</documents>
-  <documents>Document.ИнвентаризацияРасчетов</documents>
-  <enums>Enum.ТипыНоменклатуры</enums>
-  <enums>Enum.ВариантыОбеспечения</enums>
-  <enums>Enum.СтатусыПлановыхКалькуляций</enums>
-  <enums>Enum.ОбъектыКалькуляции</enums>
-  <enums>Enum.СтатусыЗаявокНаРасходованиеДенежныхСредств</enums>
-  <enums>Enum.ХозяйственныеОперации</enums>
-  <enums>Enum.ВариантыКонтроляОплатыПоставщику</enums>
-  <enums>Enum.СтавкиНДС</enums>
-  <enums>Enum.ТипыНалогообложенияНДС</enums>
-  <enums>Enum.СпособыДоставки</enums>
-  <enums>Enum.СтатусыДействияВидовЦен</enums>
-  <enums>Enum.ВариантыОформленияПродажи</enums>
-  <enums>Enum.ЕдиницыИзмеренияВремени</enums>
-  <enums>Enum.Расш1_Перечисление1</enums>
-  <enums>Enum.СтатусыДокументовПоступления</enums>
-  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
-  <enums>Enum.ТипыПлатежейПоАренде</enums>
-  <enums>Enum.ФормыОплаты</enums>
-  <enums>Enum.СтатусыПланов</enums>
-  <enums>Enum.Периодичность</enums>
-  <enums>Enum.Расш1_ТипыДокументовБюджетаДДС</enums>
-  <enums>Enum.СтатусыНаправленияДеятельности</enums>
-  <enums>Enum.СостоянияРасчетаПлановойКалькуляции</enums>
-  <enums>Enum.СостоянияСуществованияКонтрагента</enums>
-  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
+  <enums>Enum.ВариантыВажностиЗадачи</enums>
+  <enums>Enum.ВариантыВерсионированияОбъектов</enums>
+  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыИспользованияХарактеристикНоменклатуры</enums>
-  <enums>Enum.РазмерыКиЗГИСМ</enums>
-  <enums>Enum.ГрадацииКачества</enums>
-  <enums>Enum.ВидыКиЗГИСМ</enums>
-  <enums>Enum.СпособыВыпускаВОборотГИСМ</enums>
-  <enums>Enum.РасположениеДрагоценныхКамней</enums>
-  <enums>Enum.СтатусыЗаказовКлиентов</enums>
-  <enums>Enum.СостоянияЗаказовКлиентов</enums>
-  <enums>Enum.ПорядокРасчетов</enums>
-  <enums>Enum.Расш1_СтатусыФактОтгрузка</enums>
-  <enums>Enum.СпособыПривязкиОперацийПроизводства</enums>
-  <enums>Enum.ТипыПроизводственныхПроцессов</enums>
-  <enums>Enum.ВариантыОбособленияМатериаловВПроизводстве</enums>
-  <enums>Enum.СтатусыЗаказовНаПроизводство2_2</enums>
-  <enums>Enum.СпособыРаспределенияЗатратНаВыходныеИзделия</enums>
-  <enums>Enum.Расш1_СтатусОтгрузкаФакт</enums>
   <enums>Enum.ВариантыКонтроляОплатыКлиентом</enums>
-  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
-  <enums>Enum.СостоянияДокументовЭДО</enums>
+  <enums>Enum.ВариантыКонтроляОплатыПоставщику</enums>
+  <enums>Enum.ВариантыОбеспечения</enums>
+  <enums>Enum.ВариантыОбособленияМатериаловВПроизводстве</enums>
+  <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ВариантыПриемкиТоваров</enums>
-  <enums>Enum.СтатусыЭтаповПроизводства2_2</enums>
-  <enums>Enum.СтатусыСоглашенийСКлиентами</enums>
+  <enums>Enum.ВидыАгентскихДоговоров</enums>
+  <enums>Enum.ВидыКиЗГИСМ</enums>
+  <enums>Enum.ГрадацииКачества</enums>
+  <enums>Enum.ДействияСоСтрокамиОрдеровНаОтгрузку</enums>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.ЕдиницыИзмеренияВремени</enums>
+  <enums>Enum.КомпанияЧастноеЛицо</enums>
+  <enums>Enum.ОбъектыКалькуляции</enums>
+  <enums>Enum.ОтветственныеЛицаОрганизаций</enums>
+  <enums>Enum.Периодичность</enums>
+  <enums>Enum.ПериодичностьОформленияВыработкиСотрудников</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
   <enums>Enum.ПорядокРаботыВидовРабочихЦентров</enums>
+  <enums>Enum.ПорядокРасчетов</enums>
   <enums>Enum.Промо_СтатусПромо</enums>
   <enums>Enum.Промо_ТипПромо</enums>
-  <enums>Enum.ТипыНоменклатурыФНС</enums>
-  <enums>Enum.СХК_ТипыТТ</enums>
-  <enums>Enum.ВариантыВерсионированияОбъектов</enums>
-  <enums>Enum.СрокиХраненияВерсий</enums>
-  <enums>Enum.СХК_ВМестимость</enums>
-  <enums>Enum.ТипыУпаковокНоменклатуры</enums>
-  <enums>Enum.СХК_KPI</enums>
-  <enums>Enum.ТипыЗапасов</enums>
   <enums>Enum.РазделыУчетаСебестоимостиТоваров</enums>
+  <enums>Enum.РазмерыКиЗГИСМ</enums>
+  <enums>Enum.РасположениеДрагоценныхКамней</enums>
+  <enums>Enum.Расш1_Перечисление1</enums>
+  <enums>Enum.Расш1_СтатусОтгрузкаФакт</enums>
+  <enums>Enum.Расш1_СтатусыФактОтгрузка</enums>
+  <enums>Enum.Расш1_ТипыДокументовБюджетаДДС</enums>
   <enums>Enum.РежимыЗакрытияМесяца</enums>
-  <enums>Enum.ВариантыВажностиЗадачи</enums>
-  <enums>Enum.ПолФизическогоЛица</enums>
-  <enums>Enum.КомпанияЧастноеЛицо</enums>
-  <enums>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю</enums>
-  <enums>Enum.ПорядокОформленияСписанияТоваровПринятыхНаХранение</enums>
-  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
-  <enums>Enum.ТипыДоговоров</enums>
-  <enums>Enum.ВидыАгентскихДоговоров</enums>
-  <enums>Enum.СтатусыВнутреннихЗаказов</enums>
-  <enums>Enum.СпособыУстановкиВремениНапоминания</enums>
-  <enums>Enum.СостоянияПоступленияТоваров</enums>
-  <enums>Enum.СтатусыДоверенностей</enums>
-  <enums>Enum.ТипыВыданныхДоверенностей</enums>
-  <enums>Enum.СтатусыПриходныхОрдеров</enums>
   <enums>Enum.СкладскиеОперации</enums>
-  <enums>Enum.СтатусыРасходныхОрдеров</enums>
-  <enums>Enum.ДействияСоСтрокамиОрдеровНаОтгрузку</enums>
-  <enums>Enum.СтатусыСверокВзаиморасчетов</enums>
-  <enums>Enum.СпособыФормированияСегментов</enums>
-  <enums>Enum.УправлениеМаршрутнымиЛистами</enums>
-  <enums>Enum.СпособыУправленияОперациями</enums>
-  <enums>Enum.ДниНедели</enums>
-  <enums>Enum.СпособыНастройкиГрафикаРаботыПодразделений</enums>
-  <enums>Enum.ТочностьГрафикаПроизводства</enums>
-  <enums>Enum.ПериодичностьОформленияВыработкиСотрудников</enums>
+  <enums>Enum.СостоянияДокументовЭДО</enums>
+  <enums>Enum.СостоянияЗаказовКлиентов</enums>
   <enums>Enum.СостоянияОбеспеченияЭтапаПроизводства</enums>
+  <enums>Enum.СостоянияПоступленияТоваров</enums>
+  <enums>Enum.СостоянияРасчетаПлановойКалькуляции</enums>
+  <enums>Enum.СостоянияСуществованияКонтрагента</enums>
+  <enums>Enum.СпособыВыпускаВОборотГИСМ</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СпособыНастройкиГрафикаРаботыПодразделений</enums>
+  <enums>Enum.СпособыПривязкиОперацийПроизводства</enums>
+  <enums>Enum.СпособыРаспределенияЗатратНаВыходныеИзделия</enums>
+  <enums>Enum.СпособыУправленияОперациями</enums>
+  <enums>Enum.СпособыУстановкиВремениНапоминания</enums>
+  <enums>Enum.СпособыФормированияСегментов</enums>
+  <enums>Enum.СрокиХраненияВерсий</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусыВнутреннихЗаказов</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.СтатусыДоверенностей</enums>
+  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.СтатусыДокументовПоступления</enums>
+  <enums>Enum.СтатусыЗаказовКлиентов</enums>
+  <enums>Enum.СтатусыЗаказовНаПроизводство2_2</enums>
+  <enums>Enum.СтатусыЗаявокНаРасходованиеДенежныхСредств</enums>
+  <enums>Enum.СтатусыНаправленияДеятельности</enums>
+  <enums>Enum.СтатусыОрганизацийПодразделений</enums>
+  <enums>Enum.СтатусыПланов</enums>
+  <enums>Enum.СтатусыПлановыхКалькуляций</enums>
+  <enums>Enum.СтатусыПриходныхОрдеров</enums>
+  <enums>Enum.СтатусыРасходныхОрдеров</enums>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
+  <enums>Enum.СтатусыСверокВзаиморасчетов</enums>
+  <enums>Enum.СтатусыСоглашенийСКлиентами</enums>
+  <enums>Enum.СтатусыЭтаповПроизводства2_2</enums>
+  <enums>Enum.СХК_KPI</enums>
+  <enums>Enum.СХК_ВМестимость</enums>
   <enums>Enum.СХК_СтатусВыпуска</enums>
-  <enums>Enum.ОтветственныеЛицаОрганизаций</enums>
+  <enums>Enum.СХК_ТипыТТ</enums>
   <enums>Enum.СХКТруд_Линии</enums>
+  <enums>Enum.ТипыВыданныхДоверенностей</enums>
+  <enums>Enum.ТипыДоговоров</enums>
+  <enums>Enum.ТипыЗапасов</enums>
+  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыНоменклатурыФНС</enums>
+  <enums>Enum.ТипыПлатежейПоАренде</enums>
+  <enums>Enum.ТипыПроизводственныхПроцессов</enums>
+  <enums>Enum.ТипыУпаковокНоменклатуры</enums>
+  <enums>Enum.ТочностьГрафикаПроизводства</enums>
+  <enums>Enum.УправлениеМаршрутнымиЛистами</enums>
+  <enums>Enum.ФормыОплаты</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
   <reports>Report.ОстаткиПоСкладам20221004</reports>
   <reports>Report.ОтгрузкаСоСкладаЗаПериод</reports>
   <reports>Report.СХК_ОтчетПромо</reports>
@@ -744,6 +745,7 @@
   <dataProcessors>DataProcessor.ПомощникЗачетаОплат</dataProcessors>
   <dataProcessors>DataProcessor.Расш1_ЗаполнениеПланЕком</dataProcessors>
   <dataProcessors>DataProcessor.Склад</dataProcessors>
+  <dataProcessors>DataProcessor.СкладТВ</dataProcessors>
   <dataProcessors>DataProcessor.СХК_АРМПроизводство</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ЖурналПром</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ЗаполнитьСписание</dataProcessors>
@@ -751,48 +753,47 @@
   <dataProcessors>DataProcessor.СХК_МобильныйСклад</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ОтправкаОтчетов</dataProcessors>
   <dataProcessors>DataProcessor.СХК_Помощник</dataProcessors>
+  <dataProcessors>DataProcessor.СХК_СМФОтчет</dataProcessors>
   <dataProcessors>DataProcessor.СХК_СоздатьСерии</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ТСДСырье</dataProcessors>
   <dataProcessors>DataProcessor.СХКТруд_Табель</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеОтгрузкой</dataProcessors>
-  <dataProcessors>DataProcessor.СХК_СМФОтчет</dataProcessors>
-  <dataProcessors>DataProcessor.СкладТВ</dataProcessors>
-  <informationRegisters>InformationRegister.СостоянияПлановыхКалькуляций</informationRegisters>
-  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
-  <informationRegisters>InformationRegister.РеестрДокументов</informationRegisters>
-  <informationRegisters>InformationRegister.ДокументыСОшибкамиПроверкиКонтрагентов</informationRegisters>
-  <informationRegisters>InformationRegister.СтатусыДокументов</informationRegisters>
-  <informationRegisters>InformationRegister.Расш1_БюджетДС</informationRegisters>
-  <informationRegisters>InformationRegister.Расш1_НастройкаЗагрузкиОтчетовКомиссионеров</informationRegisters>
-  <informationRegisters>InformationRegister.Расш1_РегистрШтрихЭтикетка</informationRegisters>
-  <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
-  <informationRegisters>InformationRegister.СостоянияЗаказовКлиентов</informationRegisters>
-  <informationRegisters>InformationRegister.Расш1_ПланОстатокЕком</informationRegisters>
-  <informationRegisters>InformationRegister.СостоянияПоОбъектамУчетаЭДО</informationRegisters>
-  <informationRegisters>InformationRegister.Промо_Акции</informationRegisters>
-  <informationRegisters>InformationRegister.ПартнерыСегмента</informationRegisters>
-  <informationRegisters>InformationRegister.СХК_ПромоСтатусы</informationRegisters>
   <informationRegisters>InformationRegister.АналитикаУчетаПоПартнерам</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
-  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
-  <informationRegisters>InformationRegister.НоменклатураКонтрагентовБЭД</informationRegisters>
-  <informationRegisters>InformationRegister.СХК_ПланПродажБюджет</informationRegisters>
-  <informationRegisters>InformationRegister.СХК_ЗаданиеНаПечатьЭтикеток</informationRegisters>
+  <informationRegisters>InformationRegister.ДокументыСОшибкамиПроверкиКонтрагентов</informationRegisters>
+  <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
   <informationRegisters>InformationRegister.НапоминанияПользователя</informationRegisters>
-  <informationRegisters>InformationRegister.СХК_Спайки</informationRegisters>
+  <informationRegisters>InformationRegister.НоменклатураКонтрагентовБЭД</informationRegisters>
+  <informationRegisters>InformationRegister.ПартнерыСегмента</informationRegisters>
+  <informationRegisters>InformationRegister.Промо_Акции</informationRegisters>
+  <informationRegisters>InformationRegister.Расш1_БюджетДС</informationRegisters>
+  <informationRegisters>InformationRegister.Расш1_НастройкаЗагрузкиОтчетовКомиссионеров</informationRegisters>
+  <informationRegisters>InformationRegister.Расш1_ПланОстатокЕком</informationRegisters>
+  <informationRegisters>InformationRegister.Расш1_РегистрШтрихЭтикетка</informationRegisters>
+  <informationRegisters>InformationRegister.РеестрДокументов</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияЗаказовКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияПлановыхКалькуляций</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияПоОбъектамУчетаЭДО</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыДокументов</informationRegisters>
   <informationRegisters>InformationRegister.СХК_ВыпускПоЭтапу</informationRegisters>
+  <informationRegisters>InformationRegister.СХК_ЗаданиеНаПечатьЭтикеток</informationRegisters>
   <informationRegisters>InformationRegister.СХК_ЗаказыПоЭтапу</informationRegisters>
-  <informationRegisters>InformationRegister.СХК_ПользователиСклад</informationRegisters>
+  <informationRegisters>InformationRegister.СХК_ПланПродажБюджет</informationRegisters>
   <informationRegisters>InformationRegister.СХК_ПланПроизводства</informationRegisters>
-  <informationRegisters>InformationRegister.СХКТруд_КТУ</informationRegisters>
+  <informationRegisters>InformationRegister.СХК_ПользователиСклад</informationRegisters>
+  <informationRegisters>InformationRegister.СХК_ПромоСтатусы</informationRegisters>
   <informationRegisters>InformationRegister.СХК_РазмещениеОрдер</informationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ОборотыБюджетов</accumulationRegisters>
+  <informationRegisters>InformationRegister.СХК_Спайки</informationRegisters>
+  <informationRegisters>InformationRegister.СХКТруд_КТУ</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВыручкаИСебестоимостьПродаж</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СХК_ТоварыНаСкладе</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ТоварыКПоступлению</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияСерийТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗаказыНаПеремещение</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотыБюджетов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СХК_ТоварыНаСкладе</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыКПоступлению</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>

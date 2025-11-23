@@ -1863,7 +1863,11 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <groupVerticalAlign>Center</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.Внимание16</picture>
+                </picture>
+              </extInfo>
             </items>
             <items xsi:type="form:FormField">
               <name>ТекстКомментарийКонвертации</name>
@@ -1935,6 +1939,9 @@
               <groupHorizontalAlign>Right</groupHorizontalAlign>
               <groupVerticalAlign>Center</groupVerticalAlign>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>StdPicture.InputFieldClear</picture>
+                </picture>
                 <hyperlink>true</hyperlink>
               </extInfo>
             </items>
@@ -2658,7 +2665,11 @@
             <autoMaxWidth>true</autoMaxWidth>
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+            <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.Предупреждение</picture>
+              </picture>
+            </extInfo>
           </items>
           <items xsi:type="form:Decoration">
             <name>ИнформацияЕстьБракНадпись</name>
@@ -2824,9 +2835,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ОбеспечениеМатериаламиИРаботами.LineNumber</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ОбеспечениеМатериаламиИРаботамиНомерСтрокиРасширеннаяПодсказка</name>
             <id>174</id>
@@ -5180,7 +5188,11 @@
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
           <maxHeight>1</maxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.Внимание16</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>НадписьТребуетсяСформироватьЭтапы</name>
@@ -6356,6 +6368,9 @@
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.СтрелкаВниз</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <border xsi:type="core:BorderDef">
                 <style>Single</style>
@@ -6454,9 +6469,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.РасходМатериаловИРабот.LineNumber</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>РасходМатериаловИРаботНомерСтрокиРасширеннаяПодсказка</name>
                 <id>146</id>
@@ -7615,6 +7627,9 @@
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.СтрелкаВниз</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <border xsi:type="core:BorderDef">
                 <style>Single</style>
@@ -7710,9 +7725,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ЭкономияМатериалов.LineNumber</segments>
-            </dataPath>
             <extendedTooltip>
               <name>ЭкономияМатериаловНомерСтрокиРасширеннаяПодсказка</name>
               <id>1186</id>
@@ -9308,6 +9320,9 @@
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.СтрелкаВниз</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <border xsi:type="core:BorderDef">
                 <style>Single</style>
@@ -9407,9 +9422,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.ВыходныеИзделия.LineNumber</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>ВыходныеИзделияНомерСтрокиРасширеннаяПодсказка</name>
                 <id>143</id>
@@ -11666,6 +11678,9 @@
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.СтрелкаВниз</picture>
+              </picture>
               <hyperlink>true</hyperlink>
               <border xsi:type="core:BorderDef">
                 <style>Single</style>
@@ -11764,9 +11779,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.ПобочныеИзделия.LineNumber</segments>
-              </dataPath>
               <extendedTooltip>
                 <name>ПобочныеИзделияНомерСтрокиРасширеннаяПодсказка</name>
                 <id>1632</id>
@@ -12947,7 +12959,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ПобочныеИзделияВладелецИзделияКонтекстноеМеню</name>
-                <id>2581</id>
+                <id>2595</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -14331,9 +14343,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Трудозатраты.LineNumber</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТрудозатратыНомерСтрокиРасширеннаяПодсказка</name>
             <id>131</id>
@@ -15651,6 +15660,12 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceParameterLinks>
+              <name>Отбор.Владелец</name>
+              <datapath xsi:type="form:DataPath">
+                <segments>Items.ВидыРабочихЦентров.CurrentData.ВидРабочегоЦентра</segments>
+              </datapath>
+            </choiceParameterLinks>
             <dropListWidth>3</dropListWidth>
           </extInfo>
         </items>
@@ -15717,7 +15732,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЕдиницаИзмеренияКонтекстноеМеню</name>
-                <id>660</id>
+                <id>2615</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15815,7 +15830,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЗагрузкаКонтекстноеМеню</name>
-                <id>2658</id>
+                <id>2607</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15948,7 +15963,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровВремяРаботыНормативКонтекстноеМеню</name>
-                <id>2661</id>
+                <id>2601</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -15984,7 +15999,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЕдиницаИзмерения2КонтекстноеМеню</name>
-                <id>2663</id>
+                <id>660</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -16074,7 +16089,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>ВидыРабочихЦентровЗагрузкаНормативКонтекстноеМеню</name>
-                <id>2665</id>
+                <id>2604</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -16211,7 +16226,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>ВидыРабочихЦентровМаксимальнаяЗагрузкаКонтекстноеМеню</name>
-              <id>2667</id>
+              <id>2610</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>LabelField</type>
@@ -18005,7 +18020,7 @@ to products</value>
       <id>2594</id>
       <items xsi:type="form:Table">
         <name>СписокЭтапов</name>
-        <id>2596</id>
+        <id>2671</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -18211,7 +18226,7 @@ to products</value>
         </extendedTooltip>
         <contextMenu>
           <name>СписокЭтаповКонтекстноеМеню</name>
-          <id>2597</id>
+          <id>2672</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>

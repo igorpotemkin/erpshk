@@ -1255,9 +1255,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СуммаДокумента</segments>
-        </dataPath>
         <extendedTooltip>
           <name>СуммаДокументаExtendedTooltip</name>
           <id>212</id>

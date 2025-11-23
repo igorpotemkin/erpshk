@@ -11,9 +11,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Организация</segments>
-      </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
         <name>ОрганизацияОтборРасширеннаяПодсказка</name>
@@ -59,9 +56,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПодразделениеДиспетчер</segments>
-      </dataPath>
       <titleLocation>Top</titleLocation>
       <toolTip>
         <key>ru</key>
@@ -153,9 +147,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Список</segments>
-    </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
@@ -166,9 +157,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Number</segments>
-      </dataPath>
       <extendedTooltip>
         <name>НомерРасширеннаяПодсказка</name>
         <id>21</id>
@@ -203,9 +191,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Date</segments>
-      </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
@@ -241,9 +226,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Организация</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ОрганизацияРасширеннаяПодсказка</name>
         <id>24</id>
@@ -277,9 +259,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ПодразделениеДиспетчер</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ПодразделениеДиспетчерРасширеннаяПодсказка</name>
         <id>33</id>
@@ -313,9 +292,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ОбъектКалькуляции</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ОбъектКалькуляцииРасширеннаяПодсказка</name>
         <id>27</id>
@@ -383,9 +359,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ref</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
         <id>30</id>
@@ -743,9 +716,6 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
-    <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
-    </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>

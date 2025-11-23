@@ -12,7 +12,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ГлавнаяЗадачаExtendedTooltip</name>
+        <name>ГлавнаяЗадачаРасширеннаяПодсказка</name>
         <id>110</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -49,7 +49,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияЗначокExtendedTooltip</name>
+          <name>ДекорацияЗначокРасширеннаяПодсказка</name>
           <id>108</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -116,7 +116,7 @@
       </title>
       <verticalStretch>false</verticalStretch>
       <extendedTooltip>
-        <name>ГруппаСостояниеExtendedTooltip</name>
+        <name>ГруппаСостояниеРасширеннаяПодсказка</name>
         <id>107</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -151,7 +151,7 @@
           </userVisible>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>ЗаголовокЗаданияExtendedTooltip</name>
+            <name>ЗаголовокЗаданияРасширеннаяПодсказка</name>
             <id>112</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -191,7 +191,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВажностьExtendedTooltip</name>
+            <name>ВажностьРасширеннаяПодсказка</name>
             <id>113</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -225,7 +225,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <extendedTooltip>
-            <name>НомерExtendedTooltip</name>
+            <name>НомерРасширеннаяПодсказка</name>
             <id>114</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -268,7 +268,7 @@
           <value>Period and Priority</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСрокВажностьExtendedTooltip</name>
+          <name>ГруппаСрокВажностьРасширеннаяПодсказка</name>
           <id>111</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -297,7 +297,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ИсполнительExtendedTooltip</name>
+            <name>ИсполнительРасширеннаяПодсказка</name>
             <id>116</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -355,7 +355,7 @@
               <value>The date by which the task should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокИсполненияExtendedTooltip</name>
+              <name>СрокИсполненияРасширеннаяПодсказка</name>
               <id>117</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -418,7 +418,7 @@
               <value>Due time</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокИсполненияВремяExtendedTooltip</name>
+              <name>СрокИсполненияВремяРасширеннаяПодсказка</name>
               <id>118</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -502,7 +502,7 @@
           <value>Assignment</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИсполнениеExtendedTooltip</name>
+          <name>ГруппаИсполнениеРасширеннаяПодсказка</name>
           <id>115</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -566,7 +566,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПредметExtendedTooltip</name>
+            <name>ПредметРасширеннаяПодсказка</name>
             <id>120</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -609,7 +609,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>СодержаниеExtendedTooltip</name>
+            <name>СодержаниеРасширеннаяПодсказка</name>
             <id>121</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -810,7 +810,7 @@
         <value>Content</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСодержаниеExtendedTooltip</name>
+        <name>ГруппаСодержаниеРасширеннаяПодсказка</name>
         <id>119</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -850,7 +850,7 @@
         </userVisible>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>НаПроверкеExtendedTooltip</name>
+          <name>НаПроверкеРасширеннаяПодсказка</name>
           <id>123</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -884,7 +884,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ПроверяющийExtendedTooltip</name>
+            <name>ПроверяющийРасширеннаяПодсказка</name>
             <id>125</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -948,7 +948,7 @@
               <value>The date by which the revision should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокПроверкиExtendedTooltip</name>
+              <name>СрокПроверкиРасширеннаяПодсказка</name>
               <id>126</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1014,7 +1014,7 @@
               <value>The time by which the revision should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокПроверкиВремяExtendedTooltip</name>
+              <name>СрокПроверкиВремяРасширеннаяПодсказка</name>
               <id>127</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1101,7 +1101,7 @@
           <value>Supervisor</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПроверяющийExtendedTooltip</name>
+          <name>ГруппаПроверяющийРасширеннаяПодсказка</name>
           <id>124</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1132,7 +1132,7 @@
         <value>Revision</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПроверкаExtendedTooltip</name>
+        <name>ГруппаПроверкаРасширеннаяПодсказка</name>
         <id>122</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1162,7 +1162,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>АвторExtendedTooltip</name>
+          <name>АвторРасширеннаяПодсказка</name>
           <id>129</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1208,7 +1208,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДатаExtendedTooltip</name>
+          <name>ДатаРасширеннаяПодсказка</name>
           <id>130</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1251,7 +1251,7 @@
         <value>Author</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОбщиеСведенияExtendedTooltip</name>
+        <name>ГруппаОбщиеСведенияРасширеннаяПодсказка</name>
         <id>128</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1442,7 +1442,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОстановитьExtendedTooltip</name>
+        <name>ФормаОстановитьРасширеннаяПодсказка</name>
         <id>105</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1467,7 +1467,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПродолжитьExtendedTooltip</name>
+        <name>ФормаПродолжитьРасширеннаяПодсказка</name>
         <id>106</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

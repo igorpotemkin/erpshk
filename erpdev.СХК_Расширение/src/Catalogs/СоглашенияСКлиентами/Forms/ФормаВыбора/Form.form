@@ -214,9 +214,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Список</segments>
-    </dataPath>
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
@@ -236,9 +233,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Номер</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокНомерExtendedTooltip</name>
         <id>98</id>
@@ -277,9 +271,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Наименование</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокНаименованиеExtendedTooltip</name>
         <id>99</id>
@@ -322,9 +313,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ТипСоглашения</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокТипСоглашенияExtendedTooltip</name>
         <id>100</id>
@@ -364,9 +352,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Дата</segments>
-      </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>СписокДатаExtendedTooltip</name>
@@ -414,9 +399,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Состояние</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокСостояниеExtendedTooltip</name>
         <id>102</id>
@@ -457,9 +439,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаНачалаДействия</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокДатаНачалаДействияExtendedTooltip</name>
         <id>103</id>
@@ -507,9 +486,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаОкончанияДействия</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокДатаОкончанияДействияExtendedTooltip</name>
         <id>104</id>
@@ -549,9 +525,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Валюта</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокВалютаExtendedTooltip</name>
         <id>105</id>
@@ -587,9 +560,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Организация</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокОрганизацияExtendedTooltip</name>
         <id>106</id>
@@ -622,9 +592,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Контрагент</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокКонтрагентExtendedTooltip</name>
         <id>107</id>
@@ -657,9 +624,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ссылка</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СписокСсылкаExtendedTooltip</name>
         <id>108</id>
@@ -1478,9 +1442,6 @@
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
-    </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>

@@ -324,6 +324,10 @@
                 <event>Selection</event>
                 <name>ОтчетВыбор</name>
               </handlers>
+              <handlers>
+                <event>DetailProcessing</event>
+                <name>ОтчетОбработкаРасшифровки</name>
+              </handlers>
               <width>50</width>
               <autoMaxWidth>true</autoMaxWidth>
               <height>10</height>

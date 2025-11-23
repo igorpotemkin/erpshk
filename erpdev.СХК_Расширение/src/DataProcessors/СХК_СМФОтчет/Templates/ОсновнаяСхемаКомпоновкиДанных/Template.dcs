@@ -119,37 +119,22 @@
 				</v8:NumberQualifiers>
 			</valueType>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+			</valueType>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<objectName>ТабПродаж</objectName>
 	</dataSet>
-	<dataSet xsi:type="DataSetQuery">
-		<name>НаборДанных1</name>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Сумма</dataPath>
-			<field>Сумма</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Серия</dataPath>
-			<field>Серия</field>
-		</field>
-		<dataSource>ИсточникДанных1</dataSource>
-		<query>ВЫБРАТЬ
-	РеализацияТоваровУслугТовары.Номенклатура КАК Номенклатура,
-	РеализацияТоваровУслугТовары.Сумма КАК Сумма,
-	РеализацияТоваровУслугТовары.Серия КАК Серия
-ИЗ
-	Документ.РеализацияТоваровУслуг.Товары КАК РеализацияТоваровУслугТовары</query>
-	</dataSet>
-	<dataSetLink>
-		<sourceDataSet>Продажи</sourceDataSet>
-		<destinationDataSet>НаборДанных1</destinationDataSet>
-		<sourceExpression>СерииНоменклатуры</sourceExpression>
-		<destinationExpression>Серия</destinationExpression>
-	</dataSetLink>
 	<calculatedField>
 		<dataPath>СуммаРоялти</dataPath>
 		<expression>СуммаВыручкиБезНДС* &amp;Ставка / 100</expression>
@@ -173,47 +158,50 @@
 	<totalField>
 		<dataPath>Количество</dataPath>
 		<expression>Сумма(Количество)</expression>
+		<group>Контрагент</group>
+		<group>Номенклатура</group>
 		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>Количество</dataPath>
 		<expression>Количество</expression>
-		<group>Контрагент</group>
-		<group>Номенклатура</group>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаВыручкиБезНДС</dataPath>
 		<expression>Сумма(СуммаВыручкиБезНДС)</expression>
+		<group>Контрагент</group>
+		<group>Номенклатура</group>
 		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаВыручкиБезНДС</dataPath>
 		<expression>СуммаВыручкиБезНДС</expression>
-		<group>Контрагент</group>
-		<group>Номенклатура</group>
 	</totalField>
 	<totalField>
 		<dataPath>Цена</dataPath>
-		<expression>Цена</expression>
+		<expression>Среднее(Цена)</expression>
 		<group>Контрагент</group>
 		<group>Номенклатура</group>
+		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>СтавкаР</dataPath>
 		<expression>СтавкаР</expression>
-		<group>Контрагент</group>
-		<group>Номенклатура</group>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаРоялти</dataPath>
 		<expression>Сумма(СуммаРоялти)</expression>
+		<group>Контрагент</group>
+		<group>Номенклатура</group>
 		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаРоялти</dataPath>
-		<expression>Сумма(СуммаРоялти)</expression>
-		<group>Контрагент</group>
-		<group>Номенклатура</group>
+		<expression>СуммаРоялти</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Цена</dataPath>
+		<expression>Цена</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -232,30 +220,6 @@
 			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 		</value>
 		<useRestriction>false</useRestriction>
-	</parameter>
-	<parameter>
-		<name>ДатаНачала</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата начала</v8:content>
-			</v8:item>
-		</title>
-		<value xsi:type="xs:string"/>
-		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаНачала</expression>
-	</parameter>
-	<parameter>
-		<name>ДатаОкончания</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата окончания</v8:content>
-			</v8:item>
-		</title>
-		<value xsi:type="xs:string"/>
-		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>Ставка</name>
@@ -370,6 +334,31 @@
 						</dcsset:appearance>
 					</dcsset:item>
 				</dcsset:conditionalAppearance>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+							<dcsset:use>false</dcsset:use>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Документ</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Документ.ЗаказКлиента</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Количество</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Цена</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СуммаВыручкиБезНДС</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

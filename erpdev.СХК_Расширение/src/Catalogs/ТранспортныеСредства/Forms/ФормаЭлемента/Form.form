@@ -19,11 +19,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>45</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -60,11 +57,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Марка</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>МаркаExtendedTooltip</name>
+        <name>МаркаРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -99,11 +93,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Тип</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ТипExtendedTooltip</name>
+        <name>ТипРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -147,7 +138,7 @@
       <value>Code brand</value>
     </title>
     <extendedTooltip>
-      <name>КодМаркаExtendedTooltip</name>
+      <name>КодМаркаРасширеннаяПодсказка</name>
       <id>44</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -172,11 +163,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВидПеревозки</segments>
-    </dataPath>
     <extendedTooltip>
-      <name>ВидПеревозкиExtendedTooltip</name>
+      <name>ВидПеревозкиРасширеннаяПодсказка</name>
       <id>48</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -211,11 +199,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
-    </dataPath>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>49</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -261,11 +246,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ГрузоподъемностьВТоннах</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ГрузоподъемностьВТоннахExtendedTooltip</name>
+        <name>ГрузоподъемностьВТоннахРасширеннаяПодсказка</name>
         <id>51</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -354,11 +336,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВместимостьВКубическихМетрах</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ВместимостьВКубическихМетрахExtendedTooltip</name>
+        <name>ВместимостьВКубическихМетрахРасширеннаяПодсказка</name>
         <id>53</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -445,7 +424,7 @@
       <value>Carrying capacity capacity</value>
     </title>
     <extendedTooltip>
-      <name>ГрузоподъемностьВместимостьExtendedTooltip</name>
+      <name>ГрузоподъемностьВместимостьРасширеннаяПодсказка</name>
       <id>50</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -487,11 +466,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЛицензионнаяКарточкаСерия</segments>
-          </dataPath>
           <extendedTooltip>
-            <name>ЛицензионнаяКарточкаСерияExtendedTooltip</name>
+            <name>ЛицензионнаяКарточкаСерияРасширеннаяПодсказка</name>
             <id>59</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -536,11 +512,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ЛицензионнаяКарточкаНомер</segments>
-          </dataPath>
           <extendedTooltip>
-            <name>ЛицензионнаяКарточкаНомерExtendedTooltip</name>
+            <name>ЛицензионнаяКарточкаНомерРасширеннаяПодсказка</name>
             <id>60</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -583,7 +556,7 @@
           <value>Batch number</value>
         </title>
         <extendedTooltip>
-          <name>СерияНомерExtendedTooltip</name>
+          <name>СерияНомерРасширеннаяПодсказка</name>
           <id>58</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -616,11 +589,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ЛицензионнаяКарточкаВид</segments>
-        </dataPath>
         <extendedTooltip>
-          <name>ЛицензионнаяКарточкаВидExtendedTooltip</name>
+          <name>ЛицензионнаяКарточкаВидРасширеннаяПодсказка</name>
           <id>61</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -690,11 +660,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ЛицензионнаяКарточкаРегистрационныйНомер</segments>
-        </dataPath>
         <extendedTooltip>
-          <name>ЛицензионнаяКарточкаРегистрационныйНомерExtendedTooltip</name>
+          <name>ЛицензионнаяКарточкаРегистрационныйНомерРасширеннаяПодсказка</name>
           <id>62</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -738,7 +705,7 @@
       <width>23</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ЛицензионнаяКарточкаExtendedTooltip</name>
+        <name>ЛицензионнаяКарточкаРасширеннаяПодсказка</name>
         <id>57</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -772,11 +739,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Прицеп</segments>
-          </dataPath>
           <extendedTooltip>
-            <name>ПрицепExtendedTooltip</name>
+            <name>ПрицепРасширеннаяПодсказка</name>
             <id>65</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -819,11 +783,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ГосударственныйНомерПрицепа</segments>
-          </dataPath>
           <extendedTooltip>
-            <name>ГосударственныйНомерПрицепаExtendedTooltip</name>
+            <name>ГосударственныйНомерПрицепаРасширеннаяПодсказка</name>
             <id>66</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -865,7 +826,7 @@
         </title>
         <height>5</height>
         <extendedTooltip>
-          <name>ГруппаПрицепExtendedTooltip</name>
+          <name>ГруппаПрицепРасширеннаяПодсказка</name>
           <id>64</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -899,7 +860,7 @@
         <value>Footer right</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПодвалПравоExtendedTooltip</name>
+        <name>ГруппаПодвалПравоРасширеннаяПодсказка</name>
         <id>63</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1091,7 +1052,7 @@
       <value>Footer</value>
     </title>
     <extendedTooltip>
-      <name>ПодвалExtendedTooltip</name>
+      <name>ПодвалРасширеннаяПодсказка</name>
       <id>56</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

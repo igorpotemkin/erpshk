@@ -12,7 +12,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПоАвторуExtendedTooltip</name>
+        <name>ПоАвторуРасширеннаяПодсказка</name>
         <id>60</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -52,7 +52,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПоИсполнителюExtendedTooltip</name>
+        <name>ПоИсполнителюРасширеннаяПодсказка</name>
         <id>61</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -89,7 +89,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>ПоПроверяющемуExtendedTooltip</name>
+        <name>ПоПроверяющемуРасширеннаяПодсказка</name>
         <id>62</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -134,7 +134,7 @@
       <value>Filters</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПоРеквизитамExtendedTooltip</name>
+      <name>ГруппаПоРеквизитамРасширеннаяПодсказка</name>
       <id>59</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -165,7 +165,7 @@
       </userVisible>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ПоказыватьЗавершенныеЗаданияExtendedTooltip</name>
+        <name>ПоказыватьЗавершенныеЗаданияРасширеннаяПодсказка</name>
         <id>64</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -196,7 +196,7 @@
       </userVisible>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ПоказыватьОстановленныеExtendedTooltip</name>
+        <name>ПоказыватьОстановленныеРасширеннаяПодсказка</name>
         <id>65</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -231,7 +231,7 @@
       <value>Check boxes</value>
     </title>
     <extendedTooltip>
-      <name>ФлажкиExtendedTooltip</name>
+      <name>ФлажкиРасширеннаяПодсказка</name>
       <id>63</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -322,7 +322,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОстановитьExtendedTooltip</name>
+        <name>ФормаОстановитьРасширеннаяПодсказка</name>
         <id>67</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -347,7 +347,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПродолжитьБизнесПроцессExtendedTooltip</name>
+        <name>ФормаПродолжитьБизнесПроцессРасширеннаяПодсказка</name>
         <id>68</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -377,7 +377,7 @@
       <value>Command bar</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельExtendedTooltip</name>
+      <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>66</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -437,7 +437,7 @@
         <value>The duty priority.</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВажностьКартинкаExtendedTooltip</name>
+        <name>ВажностьКартинкаРасширеннаяПодсказка</name>
         <id>70</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -483,7 +483,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>72</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -516,7 +516,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>73</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -554,7 +554,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>75</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -587,7 +587,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПредметExtendedTooltip</name>
+          <name>ПредметРасширеннаяПодсказка</name>
           <id>77</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -617,7 +617,7 @@
         <enabled>true</enabled>
         <userVisible/>
         <extendedTooltip>
-          <name>СодержаниеExtendedTooltip</name>
+          <name>СодержаниеРасширеннаяПодсказка</name>
           <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -655,7 +655,7 @@
         <value>Content</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСодержаниеExtendedTooltip</name>
+        <name>ГруппаСодержаниеРасширеннаяПодсказка</name>
         <id>74</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -679,7 +679,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СрокИсполненияExtendedTooltip</name>
+        <name>СрокИсполненияРасширеннаяПодсказка</name>
         <id>78</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -711,7 +711,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СрокПроверкиExtendedTooltip</name>
+        <name>СрокПроверкиРасширеннаяПодсказка</name>
         <id>79</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -753,7 +753,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДатаЗавершенияExtendedTooltip</name>
+        <name>ДатаЗавершенияРасширеннаяПодсказка</name>
         <id>81</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -785,7 +785,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>ВедущаяЗадачаExtendedTooltip</name>
+        <name>ВедущаяЗадачаРасширеннаяПодсказка</name>
         <id>82</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -816,7 +816,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>НомерИтерацииExtendedTooltip</name>
+        <name>НомерИтерацииРасширеннаяПодсказка</name>
         <id>83</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -847,7 +847,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>АвторExtendedTooltip</name>
+        <name>АвторРасширеннаяПодсказка</name>
         <id>84</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -878,7 +878,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>ИсполнительExtendedTooltip</name>
+        <name>ИсполнительРасширеннаяПодсказка</name>
         <id>85</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -913,7 +913,7 @@
         <userVisible/>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>НаПроверкеExtendedTooltip</name>
+          <name>НаПроверкеРасширеннаяПодсказка</name>
           <id>87</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -941,7 +941,7 @@
         <enabled>true</enabled>
         <userVisible/>
         <extendedTooltip>
-          <name>ПроверяющийExtendedTooltip</name>
+          <name>ПроверяющийРасширеннаяПодсказка</name>
           <id>88</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -979,7 +979,7 @@
         <value>Being revised</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПроверкаExtendedTooltip</name>
+        <name>ГруппаПроверкаРасширеннаяПодсказка</name>
         <id>86</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1103,7 +1103,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>69</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

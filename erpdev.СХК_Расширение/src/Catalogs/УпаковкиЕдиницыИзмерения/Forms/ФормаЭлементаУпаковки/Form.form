@@ -59,9 +59,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Owner</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ВладелецExtendedTooltip</name>
         <id>82</id>
@@ -108,9 +105,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ЕдиницаИзмерения</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ЕдиницаИзмеренияExtendedTooltip</name>
         <id>83</id>
@@ -158,9 +152,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипУпаковки</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТипУпаковки1РасширеннаяПодсказка</name>
@@ -210,9 +201,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Числитель</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>ЧислительРасширеннаяПодсказка</name>
@@ -356,9 +344,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипУпаковки</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТипУпаковки2РасширеннаяПодсказка</name>
@@ -408,9 +393,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КоличествоУпаковок</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>КоличествоУпаковокРасширеннаяПодсказка</name>
@@ -487,9 +469,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Parent</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>РодительРасширеннаяПодсказка</name>
@@ -616,9 +595,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипУпаковки</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТипУпаковки3РасширеннаяПодсказка</name>
@@ -668,9 +644,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.Знаменатель</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>ЗнаменательРасширеннаяПодсказка</name>
@@ -713,9 +686,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ЕдиницаИзмерения</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>НадписьЗнаменательЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -853,9 +823,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ТипУпаковки</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТипУпаковки4РасширеннаяПодсказка</name>
@@ -905,9 +872,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КоличествоУпаковок</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>КоличествоУпаковок1РасширеннаяПодсказка</name>
@@ -955,9 +919,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ЕдиницаИзмерения</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>ЕдиницаИзмерения1РасширеннаяПодсказка</name>
@@ -1087,9 +1048,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Description</segments>
-      </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -1130,9 +1088,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СкладскаяГруппа</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СкладскаяГруппаExtendedTooltip</name>
         <id>96</id>
@@ -1173,9 +1128,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Вес</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ВесExtendedTooltip</name>
           <id>98</id>
@@ -1214,9 +1166,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ВесЕдиницаИзмерения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ВесЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -1283,9 +1232,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Типоразмер</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТипоразмерExtendedTooltip</name>
         <id>100</id>
@@ -1323,9 +1269,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Безразмерная</segments>
-      </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>БезразмернаяExtendedTooltip</name>
@@ -1360,9 +1303,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Высота</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ВысотаExtendedTooltip</name>
           <id>103</id>
@@ -1401,9 +1341,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ВысотаЕдиницаИзмерения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ВысотаЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -1481,9 +1418,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Ширина</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ШиринаExtendedTooltip</name>
           <id>106</id>
@@ -1522,9 +1456,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ШиринаЕдиницаИзмерения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ШиринаЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -1602,9 +1533,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Глубина</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ГлубинаExtendedTooltip</name>
           <id>109</id>
@@ -1643,9 +1571,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ГлубинаЕдиницаИзмерения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ГлубинаЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -1723,9 +1648,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Объем</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ОбъемExtendedTooltip</name>
           <id>112</id>
@@ -1764,9 +1686,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ОбъемЕдиницаИзмерения</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ОбъемЕдиницаИзмеренияРасширеннаяПодсказка</name>
@@ -1852,9 +1771,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПоставляетсяВМногооборотнойТаре</segments>
-        </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
           <name>ПоставляетсяВМногооборотнойТареExtendedTooltip</name>
@@ -1886,9 +1802,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.НоменклатураМногооборотнаяТара</segments>
-        </dataPath>
         <extendedTooltip>
           <name>НоменклатураМногооборотнаяТараExtendedTooltip</name>
           <id>116</id>
@@ -1926,9 +1839,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ХарактеристикаМногооборотнаяТара</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ХарактеристикаМногооборотнаяТараExtendedTooltip</name>
           <id>117</id>
@@ -2074,9 +1984,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.МинимальноеКоличествоУпаковокМногооборотнойТары</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>МинимальноеКоличествоУпаковокМногооборотнойТарыExtendedTooltip</name>

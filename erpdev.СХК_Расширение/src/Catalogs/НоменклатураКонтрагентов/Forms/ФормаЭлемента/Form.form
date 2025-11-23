@@ -19,9 +19,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Code</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
         <id>3</id>
@@ -60,9 +57,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Недействителен</segments>
-      </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>Left</titleLocation>
       <toolTip>
@@ -386,9 +380,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НаименованиеПолное</segments>
-      </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>Left</titleLocation>
       <toolTip>
@@ -446,9 +437,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НаименованиеНоменклатуры</segments>
-      </dataPath>
       <toolTip>
         <key>ru</key>
         <value>Наименование номенклатуры</value>
@@ -504,9 +492,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.НаименованиеХарактеристики</segments>
-      </dataPath>
       <toolTip>
         <key>ru</key>
         <value>Наименование характеристики</value>
@@ -554,9 +539,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КодНоменклатуры</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КодНоменклатурыРасширеннаяПодсказка</name>
         <id>277</id>
@@ -594,9 +576,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Артикул</segments>
-      </dataPath>
       <extendedTooltip>
         <name>АртикулРасширеннаяПодсказка</name>
         <id>24</id>
@@ -634,9 +613,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.СтавкаНДС</segments>
-      </dataPath>
       <extendedTooltip>
         <name>СтавкаНДСРасширеннаяПодсказка</name>
         <id>72</id>
@@ -674,9 +650,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Штрихкод</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ШтрихкодКомбинацииРасширеннаяПодсказка</name>
         <id>78</id>
@@ -1030,9 +1003,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КоличествоУпаковок</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>КоличествоУпаковокРасширеннаяПодсказка</name>
@@ -1118,9 +1088,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>Объект.КоличествоБазовойЕдиницыИзмерения</segments>
-              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>КоличествоБазовойЕдиницыИзмеренияРасширеннаяПодсказка</name>
@@ -1299,9 +1266,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Объект.КоличествоБазовойЕдиницыИзмерения</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>КоличествоБазовойЕдиницыИзмерения1РасширеннаяПодсказка</name>
@@ -1517,9 +1481,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.КодОКЕИБазовойЕдиницыИзмерения</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КодОКЕИБазовойЕдиницыИзмеренияРасширеннаяПодсказка</name>
         <id>54</id>
@@ -1561,9 +1522,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ДругиеШтрихкодыНоменклатуры</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
           <name>ДругиеШтрихкодыНоменклатурыНомерСтроки</name>
@@ -1573,9 +1531,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ДругиеШтрихкодыНоменклатуры.LineNumber</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ДругиеШтрихкодыНоменклатурыНомерСтрокиРасширеннаяПодсказка</name>
             <id>100</id>
@@ -1617,9 +1572,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ДругиеШтрихкодыНоменклатуры.Штрихкод</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ДругиеШтрихкодыНоменклатурыШтрихкодРасширеннаяПодсказка</name>
             <id>103</id>
@@ -1820,9 +1772,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Идентификатор</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Уникальный идентификатор номенклатуры контрагента</value>
@@ -1867,9 +1816,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИдентификаторНоменклатуры</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Идентификатор номенклатуры контрагента.</value>
@@ -1923,9 +1869,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИдентификаторХарактеристики</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Идентификатор характеристики контрагента.</value>
@@ -1971,9 +1914,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИдентификаторУпаковки</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Идентификатор упаковки контрагента.</value>
@@ -2029,9 +1969,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИдентификаторНоменклатурыСервиса</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Идентификатор номенклатуры в сервисе 1С:Номенклатура</value>
@@ -2086,9 +2023,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ИдентификаторХарактеристикиСервиса</segments>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Идентификатор характеристики в сервисе 1С:Номенклатура</value>
@@ -2174,9 +2108,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КодТНВЭД</segments>
-        </dataPath>
         <extendedTooltip>
           <name>КодТНВЭДРасширеннаяПодсказка</name>
           <id>282</id>
@@ -2214,9 +2145,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.КодПоКТРУ</segments>
-        </dataPath>
         <extendedTooltip>
           <name>КодПоКТРУРасширеннаяПодсказка</name>
           <id>285</id>
@@ -2254,9 +2182,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ТипНоменклатурыФНС</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ТипНоменклатурыФНСРасширеннаяПодсказка</name>
           <id>288</id>
@@ -2294,9 +2219,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.СтранаПроисхожденияКод</segments>
-        </dataPath>
         <extendedTooltip>
           <name>СтранаПроисхожденияКодРасширеннаяПодсказка</name>
           <id>297</id>
@@ -2334,9 +2256,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ПрослеживаемыйТовар</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПрослеживаемыйТоварРасширеннаяПодсказка</name>
           <id>291</id>
@@ -2367,9 +2286,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.МаркируемыйТовар</segments>
-        </dataPath>
         <extendedTooltip>
           <name>МаркируемыйТоварРасширеннаяПодсказка</name>
           <id>294</id>
@@ -2464,9 +2380,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Parent</segments>
-      </dataPath>
       <extendedTooltip>
         <name>РодительРасширеннаяПодсказка</name>
         <id>12</id>
@@ -2504,9 +2417,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Номенклатура</segments>
-      </dataPath>
       <extendedTooltip>
         <name>НоменклатураРасширеннаяПодсказка</name>
         <id>15</id>
@@ -2544,9 +2454,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Характеристика</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ХарактеристикаРасширеннаяПодсказка</name>
         <id>18</id>
@@ -2584,9 +2491,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Упаковка</segments>
-      </dataPath>
       <extendedTooltip>
         <name>УпаковкаРасширеннаяПодсказка</name>
         <id>21</id>

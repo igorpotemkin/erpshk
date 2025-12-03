@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1608fe34-be1a-4bb7-9230-148ed2283054">
+  <producedTypes>
+    <refType typeId="81fff512-a3fe-4a82-918f-7965e76136e9" valueTypeId="2d32a590-def7-47ef-90f7-cf1b235e7726"/>
+    <listType typeId="c52670bf-0e1c-4f1f-9482-079ad3a57c63" valueTypeId="b5dca6a0-ddbe-47ea-a1e6-1fb924d5b638"/>
+    <managerType typeId="2ca31754-9715-4d48-89ef-ca988b61eda9" valueTypeId="d8aa5319-b739-493c-89d4-a2435f4e0ea6"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

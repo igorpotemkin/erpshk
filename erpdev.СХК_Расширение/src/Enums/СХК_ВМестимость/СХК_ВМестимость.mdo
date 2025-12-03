@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1465b8aa-6c61-4e8f-aa32-c492bee3d7bb">
+  <producedTypes>
+    <refType typeId="de54038d-fe45-4cde-8aef-1c2f6f1f4a99" valueTypeId="0128ff6a-f6f6-4021-9c93-acc467294537"/>
+    <listType typeId="c51c146c-938e-49f8-8ac5-908fa23541f0" valueTypeId="f7d414aa-b591-4211-b170-ba8e1634a39d"/>
+    <managerType typeId="d3065d4d-b3c1-427d-973f-68f194394a2a" valueTypeId="c452a4c5-737f-4dad-9448-e43a8189c9f4"/>
+  </producedTypes>
+  <name>СХК_ВМестимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК в местимость</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd547840-0b5e-4eb1-87cc-9950ad64abfe">
+    <name>Палет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Палет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2d3d161-df99-49a3-8fa7-8be8e8d1871c">
+    <name>Сборный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="878fb47e-05e6-438e-bc6d-d7ec619ec7b8" extendedConfigurationObject="1b27eb77-d535-43a5-8ae1-fa2fec15d92c">
+  <producedTypes>
+    <refType typeId="f700529d-21cd-44b6-aa4b-c4dd628e3d2b" valueTypeId="220da0af-0b30-4e6d-8c5f-875c0f82ccb4"/>
+    <listType typeId="450ead5e-79ff-4fbe-8d48-4ddd3be04809" valueTypeId="bb44228f-baaf-47ad-8627-bbe583fc198e"/>
+    <managerType typeId="6f616f89-f0fe-44d8-9e5e-8d5911a9a2df" valueTypeId="c24b0957-c870-4f10-8d78-77a3eafb0a8a"/>
+  </producedTypes>
+  <name>СпособыУстановкиВремениНапоминания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b5d246e5-3fa2-43f1-ab40-b841810592ac" extendedConfigurationObject="7743fe24-b941-4dad-bc76-05fb6b26b1d7">
+    <name>ВУказанноеВремя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

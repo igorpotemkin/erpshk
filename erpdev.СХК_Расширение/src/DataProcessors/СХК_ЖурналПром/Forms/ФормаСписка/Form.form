@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Table">
+    <name>СЗ</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СЗ</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>СЗСсылка</name>
+      <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СЗ.Ссылка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СЗСсылкаРасширеннаяПодсказка</name>
+        <id>16</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗСсылкаКонтекстноеМеню</name>
+        <id>15</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СЗДата</name>
+      <id>17</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СЗ.Дата</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СЗДатаРасширеннаяПодсказка</name>
+        <id>19</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗДатаКонтекстноеМеню</name>
+        <id>18</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СЗНомер</name>
+      <id>20</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СЗ.Номер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СЗНомерРасширеннаяПодсказка</name>
+        <id>22</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗНомерКонтекстноеМеню</name>
+        <id>21</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СЗПартнер</name>
+      <id>23</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СЗ.Партнер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СЗПартнерРасширеннаяПодсказка</name>
+        <id>25</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗПартнерКонтекстноеМеню</name>
+        <id>24</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СЗАвтор</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СЗ.Автор</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СЗАвторРасширеннаяПодсказка</name>
+        <id>28</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗАвторКонтекстноеМеню</name>
+        <id>27</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>СЗКоманднаяПанель</name>
+      <id>3</id>
+      <items xsi:type="form:Button">
+        <name>СЗОбновить</name>
+        <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СЗОбновитьРасширеннаяПодсказка</name>
+          <id>30</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Обновить</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Refresh</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <horizontalAlign>Left</horizontalAlign>
+    </autoCommandBar>
+    <handlers>
+      <event>ValueChoice</event>
+      <name>СЗВыборЗначения</name>
+    </handlers>
+    <handlers>
+      <event>ChoiceProcessing</event>
+      <name>СЗОбработкаВыбора</name>
+    </handlers>
+    <searchStringAddition>
+      <name>СЗСтрокаПоиска</name>
+      <id>5</id>
+      <extendedTooltip>
+        <name>СЗСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>7</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗСтрокаПоискаКонтекстноеМеню</name>
+        <id>6</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>СЗ</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <name>СЗСостояниеПросмотра</name>
+      <id>8</id>
+      <extendedTooltip>
+        <name>СЗСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>10</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗСостояниеПросмотраКонтекстноеМеню</name>
+        <id>9</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>СЗ</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <name>СЗУправлениеПоиском</name>
+      <id>11</id>
+      <extendedTooltip>
+        <name>СЗУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>13</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СЗУправлениеПоискомКонтекстноеМеню</name>
+        <id>12</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>СЗ</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>СЗРасширеннаяПодсказка</name>
+      <id>4</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СЗКонтекстноеМеню</name>
+      <id>2</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <representation>HierarchicalList</representation>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <fileDragMode>AsFileRef</fileDragMode>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СЗ.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.СХК_ЖурналПром</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>СЗ</name>
+    <title>
+      <key>ru</key>
+      <value>СЗ</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ДокументСХК_Промо.Ссылка КАК Ссылка,
+	ДокументСХК_Промо.ПометкаУдаления КАК ПометкаУдаления,
+	ДокументСХК_Промо.Номер КАК Номер,
+	ДокументСХК_Промо.Дата КАК Дата,
+	ДокументСХК_Промо.Проведен КАК Проведен,
+	ДокументСХК_Промо.Kpi КАК Kpi,
+	ДокументСХК_Промо.Автор КАК Автор,
+	ДокументСХК_Промо.БюджетДок КАК БюджетДок,
+	ДокументСХК_Промо.КАктиваций КАК КАктиваций,
+	ДокументСХК_Промо.Комментарий КАК Комментарий,
+	ДокументСХК_Промо.Контрагент КАК Контрагент,
+	ДокументСХК_Промо.Метод КАК Метод,
+	ДокументСХК_Промо.Механика КАК Механика,
+	ДокументСХК_Промо.НачалоАкции КАК НачалоАкции,
+	ДокументСХК_Промо.НачалоАкцииОтгр КАК НачалоАкцииОтгр,
+	ДокументСХК_Промо.НачалоАкцииПолка КАК НачалоАкцииПолка,
+	ДокументСХК_Промо.ОбъемДок КАК ОбъемДок,
+	ДокументСХК_Промо.ОбъемНаВсе КАК ОбъемНаВсе,
+	ДокументСХК_Промо.ОкончаниеАкции КАК ОкончаниеАкции,
+	ДокументСХК_Промо.ОкончаниеАкцииОтгр КАК ОкончаниеАкцииОтгр,
+	ДокументСХК_Промо.ОкончаниеАкцииПолка КАК ОкончаниеАкцииПолка,
+	ДокументСХК_Промо.Организация КАК Организация,
+	ДокументСХК_Промо.Партнер КАК Партнер,
+	ДокументСХК_Промо.ПериодРасчетаДок КАК ПериодРасчетаДок,
+	ДокументСХК_Промо.ПлановаяДатаНачала КАК ПлановаяДатаНачала,
+	ДокументСХК_Промо.ПлановаяДатаОкончания КАК ПлановаяДатаОкончания,
+	ДокументСХК_Промо.ПроцентПрироста КАК ПроцентПрироста,
+	ДокументСХК_Промо.Соглашение КАК Соглашение,
+	ДокументСХК_Промо.СрокРПоставки КАК СрокРПоставки,
+	ДокументСХК_Промо.Статус КАК Статус,
+	ДокументСХК_Промо.СтатусДокумента КАК СтатусДокумента,
+	ДокументСХК_Промо.СтатусПромоДокумента КАК СтатусПромоДокумента,
+	ДокументСХК_Промо.ТипKpi КАК ТипKpi,
+	ДокументСХК_Промо.ТипПромо КАК ТипПромо,
+	ДокументСХК_Промо.Согласовать.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Пользователь КАК Пользователь,
+		Согласован КАК Согласован,
+		ЭлПочта КАК ЭлПочта,
+		Комментарий КАК Комментарий,
+		НеСогласован КАК НеСогласован
+	) КАК Согласовать,
+	ДокументСХК_Промо.Файлы.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Файл КАК Файл,
+		Путь КАК Путь
+	) КАК Файлы,
+	ДокументСХК_Промо.МетодыПромо.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		НаименованиеМетода КАК НаименованиеМетода,
+		ВыбратьПромо КАК ВыбратьПромо
+	) КАК МетодыПромо,
+	ДокументСХК_Промо.ТЧФактПромо.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Показатель КАК Показатель,
+		Значение КАК Значение
+	) КАК ТЧФактПромо,
+	ДокументСХК_Промо.СХК_География.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Направление КАК Направление,
+		Область КАК Область,
+		Город КАК Город,
+		КолТТ КАК КолТТ,
+		ТипТТ КАК ТипТТ,
+		Номенклатура КАК Номенклатура
+	) КАК СХК_География,
+	ДокументСХК_Промо.Показатели.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Значение КАК Значение,
+		Показатель КАК Показатель
+	) КАК Показатели,
+	ДокументСХК_Промо.НоменклатураПромо.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Бренд КАК Бренд,
+		НоменклатураПартнера КАК НоменклатураПартнера,
+		Номенклатура КАК Номенклатура,
+		КолТТ КАК КолТТ,
+		ТекущаяЦена КАК ТекущаяЦена,
+		ЦенаСкидка КАК ЦенаСкидка,
+		ПроцентСкидки КАК ПроцентСкидки,
+		ПОбъем_1_ТТ КАК ПОбъем_1_ТТ,
+		Объем КАК Объем,
+		ПолнаяСС КАК ПолнаяСС,
+		Рентабельность КАК Рентабельность,
+		ОбъёмМесяцТТ КАК ОбъёмМесяцТТ,
+		ОбъёмМесяцСетьШт КАК ОбъёмМесяцСетьШт,
+		ОбъёмМесяцСетьРуб КАК ОбъёмМесяцСетьРуб,
+		ОбъёмГодСетьШт КАК ОбъёмГодСетьШт,
+		ОбъёмГодСетьРуб КАК ОбъёмГодСетьРуб,
+		ПОбъёмМесяцШт КАК ПОбъёмМесяцШт,
+		ПОбъёмГодШт КАК ПОбъёмГодШт,
+		Маркетинг КАК Маркетинг,
+		Затраты КАК Затраты,
+		МаржаНе КАК МаржаНе,
+		Окупаемость КАК Окупаемость,
+		ПМаржаНе КАК ПМаржаНе,
+		ПОкупаемость КАК ПОкупаемость,
+		ОбъемЗаПериод КАК ОбъемЗаПериод,
+		ОбъёмДеньСетьШт КАК ОбъёмДеньСетьШт,
+		СебестоимостьОПР КАК СебестоимостьОПР,
+		ПОбъемВсеТТ КАК ПОбъемВсеТТ,
+		ОбъемПРОМОВсеТТРуб КАК ОбъемПРОМОВсеТТРуб,
+		ДопИнвестиции КАК ДопИнвестиции,
+		СебестоимостьПромоР КАК СебестоимостьПромоР,
+		СрокРеализацииПромо КАК СрокРеализацииПромо,
+		ПрибыльОпр КАК ПрибыльОпр,
+		ПрибыльСС КАК ПрибыльСС,
+		ПланируемыйОбъем КАК ПланируемыйОбъем,
+		ВыручкаВМесяцПосле КАК ВыручкаВМесяцПосле,
+		СебестоимостьВМесяцПосле КАК СебестоимостьВМесяцПосле,
+		Прибыль КАК Прибыль,
+		ROI КАК ROI,
+		Эластичность КАК Эластичность
+	) КАК НоменклатураПромо,
+	ДокументСХК_Промо.ТЧКонтрагенты.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Контрагенты КАК Контрагенты
+	) КАК ТЧКонтрагенты,
+	ДокументСХК_Промо.МоментВремени КАК МоментВремени,
+	СХК_ПромоЕком.Ссылка КАК Ссылка1,
+	СХК_ПромоЕком.ВерсияДанных КАК ВерсияДанных,
+	СХК_ПромоЕком.ПометкаУдаления КАК ПометкаУдаления1,
+	СХК_ПромоЕком.Номер КАК Номер1,
+	СХК_ПромоЕком.Дата КАК Дата1,
+	СХК_ПромоЕком.Проведен КАК Проведен1,
+	СХК_ПромоЕком.Kpi КАК Kpi1,
+	СХК_ПромоЕком.ROI КАК ROI,
+	СХК_ПромоЕком.Автор КАК Автор1,
+	СХК_ПромоЕком.БюджетДок КАК БюджетДок1,
+	СХК_ПромоЕком.ИтогЭластичностьПромо КАК ИтогЭластичностьПромо,
+	СХК_ПромоЕком.Комментарий КАК Комментарий1,
+	СХК_ПромоЕком.Контрагент КАК Контрагент1,
+	СХК_ПромоЕком.НачалоАкции КАК НачалоАкции1,
+	СХК_ПромоЕком.ОбъемНаВсе КАК ОбъемНаВсе1,
+	СХК_ПромоЕком.ОкончаниеАкции КАК ОкончаниеАкции1,
+	СХК_ПромоЕком.ОкупаемостьМесяцев КАК ОкупаемостьМесяцев,
+	СХК_ПромоЕком.Организация КАК Организация1,
+	СХК_ПромоЕком.Партнер КАК Партнер1,
+	СХК_ПромоЕком.ПериодРасчетаДок КАК ПериодРасчетаДок1,
+	СХК_ПромоЕком.ПлановаяДатаНачала КАК ПлановаяДатаНачала1,
+	СХК_ПромоЕком.ПлановаяДатаОкончания КАК ПлановаяДатаОкончания1,
+	СХК_ПромоЕком.ПрибыльСС КАК ПрибыльСС,
+	СХК_ПромоЕком.ПроцентПрироста КАК ПроцентПрироста1,
+	СХК_ПромоЕком.РентабельностьБезМаркетинг КАК РентабельностьБезМаркетинг,
+	СХК_ПромоЕком.РентабельностьМаркетинг КАК РентабельностьМаркетинг,
+	СХК_ПромоЕком.Соглашение КАК Соглашение1,
+	СХК_ПромоЕком.СтатусПромоДокумента КАК СтатусПромоДокумента1,
+	СХК_ПромоЕком.ТипПромо КАК ТипПромо1,
+	СХК_ПромоЕком.Согласовать.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Пользователь КАК Пользователь,
+		Согласован КАК Согласован,
+		ЭлПочта КАК ЭлПочта,
+		Комментарий КАК Комментарий,
+		НеСогласован КАК НеСогласован
+	) КАК Согласовать1,
+	СХК_ПромоЕком.Файлы.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Файл КАК Файл,
+		Путь КАК Путь
+	) КАК Файлы1,
+	СХК_ПромоЕком.НоменклатураПромо.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Бренд КАК Бренд,
+		sku КАК sku,
+		НоменклатураПартнера КАК НоменклатураПартнера,
+		КолШтРасчет КАК КолШтРасчет,
+		КолШт КАК КолШт,
+		Номенклатура КАК Номенклатура,
+		ТекущаяЦена КАК ТекущаяЦена,
+		ЦенаЗаШт КАК ЦенаЗаШт,
+		СебестоимостьШт КАК СебестоимостьШт,
+		СебестоимостьSKU КАК СебестоимостьSKU,
+		Скидка КАК Скидка,
+		ЦенаСНдсSku КАК ЦенаСНдсSku,
+		ЦенаСНдсШт КАК ЦенаСНдсШт,
+		ОбъемПромоШт КАК ОбъемПромоШт,
+		ОбъемПромоРуб КАК ОбъемПромоРуб,
+		СебестоимостьПромо КАК СебестоимостьПромо,
+		РентабельностьМаркетинг КАК РентабельностьМаркетинг,
+		РентабельностьБезМаркетинг КАК РентабельностьБезМаркетинг,
+		ПрибыльОтПолнойСС КАК ПрибыльОтПолнойСС,
+		ROI КАК ROI,
+		ОкупаемостьМес КАК ОкупаемостьМес,
+		Комиссия КАК Комиссия,
+		Логистика КАК Логистика,
+		ПоследняяМиля КАК ПоследняяМиля,
+		Локализация КАК Локализация,
+		Маркетинг КАК Маркетинг,
+		ОбъёмДеньСетьШт КАК ОбъёмДеньСетьШт,
+		СебестоимостьОПР КАК СебестоимостьОПР,
+		ПОбъемВсеТТ КАК ПОбъемВсеТТ,
+		ОбъемПРОМОВсеТТРуб КАК ОбъемПРОМОВсеТТРуб,
+		ДопИнвестиции КАК ДопИнвестиции,
+		СебестоимостьПромоР КАК СебестоимостьПромоР,
+		СрокРеализацииПромо КАК СрокРеализацииПромо,
+		ПрибыльОпр КАК ПрибыльОпр,
+		ПрибыльСС КАК ПрибыльСС,
+		ПланируемыйОбъем КАК ПланируемыйОбъем,
+		ВыручкаВМесяцПосле КАК ВыручкаВМесяцПосле,
+		СебестоимостьВМесяцПосле КАК СебестоимостьВМесяцПосле,
+		Прибыль КАК Прибыль,
+		Эластичность КАК Эластичность,
+		ЦенаПолкаРег КАК ЦенаПолкаРег,
+		ЦенаПолкаПромоПлан КАК ЦенаПолкаПромоПлан
+	) КАК НоменклатураПромо1,
+	СХК_ПромоЕком.ТЧКонтрагенты.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Контрагенты КАК Контрагенты
+	) КАК ТЧКонтрагенты1
+ИЗ
+	Документ.СХК_Промо КАК ДокументСХК_Промо,
+	Документ.СХК_ПромоЕком КАК СХК_ПромоЕком
+ГДЕ
+	ДокументСХК_Промо.ПометкаУдаления = &amp;ПометкаУдаления
+	И ДокументСХК_Промо.Проведен = &amp;Проведен
+	И ДокументСХК_Промо.СтатусПромоДокумента = &amp;СтатусПромоДокумента
+	И ДокументСХК_Промо.Согласовать.Пользователь = &amp;Пользователь
+	И СХК_ПромоЕком.ПометкаУдаления = &amp;ПометкаУдаления
+	И СХК_ПромоЕком.Проведен = &amp;Проведен
+	И СХК_ПромоЕком.СтатусПромоДокумента = &amp;СтатусПромоДокумента
+	И СХК_ПромоЕком.Согласовать.Пользователь = &amp;Пользователь</queryText>
+      <mainTable>Document.СХК_Промо</mainTable>
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <formCommands>
+    <name>Обновить</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Обновить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

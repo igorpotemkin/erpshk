@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eecdba06-2cac-4a13-992b-6286d7666ac5">
+  <producedTypes>
+    <objectType typeId="835e68c0-98fa-4978-b41e-fbca24057de6" valueTypeId="14332916-ebef-4524-9c6b-df19450b6209"/>
+    <managerType typeId="ec5a371e-a27d-44d9-aeb5-72b944762ffe" valueTypeId="4030a8cf-a09f-472b-993e-2db093c4e46a"/>
+  </producedTypes>
+  <name>ПомощникЗачетаОплат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <commands uuid="45746d4d-57d2-4aef-ad59-10198dfec7e8">
+    <name>ЗачетОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:DataProcessor>

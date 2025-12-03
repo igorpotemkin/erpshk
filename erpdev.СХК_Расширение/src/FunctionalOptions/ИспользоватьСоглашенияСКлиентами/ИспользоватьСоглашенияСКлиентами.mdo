@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9231c94e-6a7f-44b2-a1b3-dc7fac473a49" extendedConfigurationObject="34daf561-46c8-4cf3-a2fd-73562fc9265c">
+  <name>ИспользоватьСоглашенияСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ИспользоватьСоглашенияСКлиентами</location>
+</mdclass:FunctionalOption>

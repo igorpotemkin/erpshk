@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a9b45e4d-a54c-436f-bbf1-0e20d0e18276" extendedConfigurationObject="8ac26438-a4c0-48bd-8406-ab829526eee2">
+  <producedTypes>
+    <refType typeId="d5800a82-4420-463f-90f7-142e306efafb" valueTypeId="fdd9a8fe-1365-403b-b31c-60b85bc76d0c"/>
+    <listType typeId="7f3046b9-30c2-4627-8fcb-35b363331568" valueTypeId="219df4f6-0022-4f6b-af14-c25783ff3aa3"/>
+    <managerType typeId="63367ad5-de61-4dbb-8feb-b133ea00210e" valueTypeId="b2db14d6-025b-4dab-8020-4f870638714a"/>
+  </producedTypes>
+  <name>СпособыВыпускаВОборотГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

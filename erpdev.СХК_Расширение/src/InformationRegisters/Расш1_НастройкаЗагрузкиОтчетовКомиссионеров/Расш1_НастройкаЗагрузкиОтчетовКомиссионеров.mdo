@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="569eb7c8-263f-42cf-b0a8-4060ac699e20">
+  <producedTypes>
+    <selectionType typeId="16376807-7fb4-4fd6-89b5-1c3e25eacc79" valueTypeId="bd5e13b8-83c4-4db7-a51d-f821d1ee58b3"/>
+    <listType typeId="59b54d35-05ce-46c6-afa3-96503c89afd2" valueTypeId="abfe96c1-a35a-45b0-9db8-1a7eeb6fa1b1"/>
+    <managerType typeId="33a680cb-56f0-42e1-bfc3-e80a5713e849" valueTypeId="7081c69f-811c-4ee7-93fa-c09a251b71af"/>
+    <recordSetType typeId="6741f701-36d4-44d8-bd1a-5af4c0b2a044" valueTypeId="0ae471dc-37f8-43a0-be32-478fc1e2441d"/>
+    <recordKeyType typeId="8d9e6dca-4aa3-4a28-b2e8-5b296883eda7" valueTypeId="9bf64041-88da-467a-a4ea-83a86b8b467c"/>
+    <recordType typeId="3df27c25-7aad-4d71-9972-56c28497a231" valueTypeId="65aa4ece-c354-4e56-a22a-3449ac12a816"/>
+    <recordManagerType typeId="2e20c7b0-f8f5-4de5-b887-f66e0e765186" valueTypeId="179895fe-8f4f-46bb-8f20-b18acceee323"/>
+  </producedTypes>
+  <name>Расш1_НастройкаЗагрузкиОтчетовКомиссионеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка загрузки отчетов комиссионеров (расширение)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1591686a-fb41-488f-9cb5-904e88f319f0">
+    <name>ПолеНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле номенклатура</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="32d85801-8caf-467b-84ef-fdc327cc679b">
+    <name>ПолеКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле количество</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="70a6579f-5da7-4b1f-a109-2ec172387599">
+    <name>ПолеЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле цена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="99236b8b-bfc1-4d62-ac51-c6313c956adc">
+    <name>ПолеДатаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле дата отгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="07fd91ea-a44a-4f49-a81a-70181adb70ec">
+    <name>ПолеСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле стоимость</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3fc82a67-6828-45c2-80ec-c41528236ab4">
+    <name>ПолеСтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле ставка НДС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3928de7c-b1b8-4c1f-a7b7-45a7ac17351a">
+    <name>ПолеСуммаСНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сумма СНДС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ab6d3c9c-216e-4c94-9a8a-4d82f0d27352">
+    <name>ПолеСуммаПродажиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сумма продажи НДС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7c26e638-53c0-4403-9133-5e3867c45838">
+    <name>ПолеСуммаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сумма продажи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="366a1c02-4d7e-441b-9346-62587dad30e0">
+    <name>ПолеСуммаВознаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сумма вознаграждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b3004d02-0ba5-47c5-a6b1-f1309cef4559">
+    <name>ПолеСуммаНДСВознаграждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле сумма НДС Вознаграждения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4e0bb67a-7466-4957-abe1-7bb8f051be83">
+    <name>ПерваяСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая строка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a04272a6-f16b-4e78-add5-d92adefeae48">
+    <name>ПолеНаименованиеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле наименование номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="159e9312-b30d-4885-b4df-70ebe89cbbf9">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

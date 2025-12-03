@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37ab6f51-f36b-4c59-ba9a-57659ea384bf" extendedConfigurationObject="4ef21c5a-df39-4fb4-89ca-208b1ff1fea5">
+  <producedTypes>
+    <refType typeId="56b6fe89-335a-47d7-8537-5ddaff0e27f4" valueTypeId="ae8accac-c067-48e7-b6c4-e17c7bd60d2d"/>
+    <listType typeId="cfceb3b6-bc67-4a57-9bb3-7f1f14e1e5bd" valueTypeId="d6f22811-3eec-4695-8f89-86fbfdef3115"/>
+    <managerType typeId="63fb4ae7-fabc-4938-ac8b-0065cc97468d" valueTypeId="f8ea4b93-227a-4258-89d2-27c65edb4672"/>
+  </producedTypes>
+  <name>СостоянияРасчетаПлановойКалькуляции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

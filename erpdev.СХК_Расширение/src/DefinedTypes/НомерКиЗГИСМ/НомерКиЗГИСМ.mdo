@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe29c31d-194f-492f-b62b-870b80217e9a" extendedConfigurationObject="fe8ddd40-a87b-48b3-bf7a-1561843c47a0">
+  <producedTypes>
+    <containerType typeId="07edce04-7f10-4470-a226-f59bf927e899" valueTypeId="ab2e1a25-4f15-4d8b-a6f9-4b65231b47ec"/>
+  </producedTypes>
+  <name>НомерКиЗГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

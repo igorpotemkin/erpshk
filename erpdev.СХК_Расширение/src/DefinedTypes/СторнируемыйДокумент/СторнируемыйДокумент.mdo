@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7d7b0657-106c-46b8-b46d-4708a00f0596" extendedConfigurationObject="56c25444-f470-4144-9738-91db3a5e837b">
+  <producedTypes>
+    <containerType typeId="7ee1efb4-f07e-4a06-98aa-b2c55312f7b8" valueTypeId="d755b790-56f2-48da-9ebf-67ca8bc91c48"/>
+  </producedTypes>
+  <name>СторнируемыйДокумент</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

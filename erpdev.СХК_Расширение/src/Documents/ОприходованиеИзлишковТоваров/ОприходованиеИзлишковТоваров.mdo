@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89e5be2b-3c02-480a-bfb0-6dbe3a7f0bba" extendedConfigurationObject="318716f3-e4be-4c34-873a-a9fafa785399">
+  <producedTypes>
+    <objectType typeId="e96c0914-7c64-4b6e-b4d6-c1b3d31e8bc1" valueTypeId="fbd47e83-f577-4044-b656-40096a74569f"/>
+    <refType typeId="187a26ce-25ae-4f93-ae9f-e5b2167ba5a2" valueTypeId="e7f09888-2ff0-4e8d-acc5-b74b91c28e8f"/>
+    <selectionType typeId="59285e89-d1fe-47f2-a5c9-148305104af1" valueTypeId="0346e45e-7b57-437b-a83a-b5f7fba044dd"/>
+    <listType typeId="0e4718aa-abfe-4918-8af4-00d8e3b029e3" valueTypeId="9bfb4828-7f25-4daf-8a96-de55f36c231b"/>
+    <managerType typeId="23d586a1-51b0-4b22-8491-d473a6cd8cb8" valueTypeId="dd41aa29-187b-45a1-bfa6-0e4cec1e562e"/>
+  </producedTypes>
+  <name>ОприходованиеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="6f308f19-22fe-4ef4-b203-b1a77ca4dbd1" extendedConfigurationObject="0c7618d7-3597-4324-9b38-8c96badde3c2">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ОприходованиеИзлишковТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="ba6ecb62-4728-492d-8df2-9a579e067d76" extendedConfigurationObject="1f5e395a-a2e5-4b75-9486-de3968b26806">
+    <name>ПересчетТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПересчетТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6c0fb322-ea78-442a-aa84-27e19fde50ef" extendedConfigurationObject="7ba5766f-e688-4188-aa72-661260ca8292">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="931ad639-ba52-4f02-9c8d-3bba53feb428" extendedConfigurationObject="12b88ea5-2c03-48ae-ada5-e748306e4b3d">
+    <producedTypes>
+      <objectType typeId="065c1534-65fa-4c47-a78a-7f696601267a" valueTypeId="ebedba79-5f01-420a-9e54-367bc3b6e2db"/>
+      <rowType typeId="38b4b2d2-5f6e-49ec-8164-33f7010123d6" valueTypeId="065e0850-344b-4cd6-8b0d-1e37728010f8"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="af334b9e-0381-4e25-af50-2372e031d608" extendedConfigurationObject="e61d2274-d32d-4c15-9cc0-736e24e841ca">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

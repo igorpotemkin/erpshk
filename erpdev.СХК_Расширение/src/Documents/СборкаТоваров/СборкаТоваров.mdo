@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="258340e0-05fe-4910-884e-3ae58921e480" extendedConfigurationObject="600ea876-962e-4c78-bacb-7368e2d7bd87">
+  <producedTypes>
+    <objectType typeId="11a506fd-392f-4f51-8876-ac4f6f2cc85f" valueTypeId="823e06af-07fd-431a-97cc-9402935f9e94"/>
+    <refType typeId="6e3cd4a7-438d-4f92-9dab-9d610ce6bfb2" valueTypeId="c24427ed-8908-41d4-8a26-de73071c7505"/>
+    <selectionType typeId="2e423820-4216-41a3-88ae-d455a33ce603" valueTypeId="0a864a56-15e5-47fd-939d-31a712c02d0d"/>
+    <listType typeId="e3d40821-63ab-4183-aadb-8fa1be35d132" valueTypeId="b2c14d39-d7bf-4036-bb84-d2cbea6506a3"/>
+    <managerType typeId="92c4dee8-e778-42e2-b775-47b18099ba2f" valueTypeId="2a8b7e88-c8c1-4296-8112-885ab2cfed0f"/>
+  </producedTypes>
+  <name>СборкаТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="b412e200-7e28-4016-a492-bd5ea98015ed" extendedConfigurationObject="e7d6af32-9bc6-40c2-b3f1-f5d16ad67df9">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СборкаТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a69e64bf-4422-4596-b2cc-3a398ee6eed8" extendedConfigurationObject="660a4c7d-a983-455d-8258-5307371c13f8">
+    <name>ЗаказНаСборку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаСборку</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a5f329d3-8735-4b4f-9c36-2f6ff93d102d" extendedConfigurationObject="b16013d8-0227-4894-95d4-41b953964e2b">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="97ed9202-df08-453d-8553-58dc17348a58" extendedConfigurationObject="52b01363-8774-4cb2-a192-b4017c48be6b">
+    <producedTypes>
+      <objectType typeId="3655506c-51ac-45ee-a80c-9951d6167684" valueTypeId="9443c9a5-1aa0-459b-8006-03a86303f06d"/>
+      <rowType typeId="06759c26-21f6-438d-b104-dab5b42c6233" valueTypeId="01348638-b2f3-4d59-b890-b43b70d549f6"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="5ffdc747-f9d3-48a6-bda0-1f5c179dd84f" extendedConfigurationObject="a25e3b0c-2647-4c12-aa53-991fe77955a6">
+      <name>Назначение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Назначения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

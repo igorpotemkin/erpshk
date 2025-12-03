@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2db1297c-3927-4dc6-b865-051bffc8e72f" extendedConfigurationObject="e607e7b9-ef7c-448d-84b9-25ad0192be1d">
+  <producedTypes>
+    <objectType typeId="f2d03054-3427-411f-a8b6-34d2d1b73b21" valueTypeId="d09aea71-64fc-4b0d-ae7b-447de21d826d"/>
+    <refType typeId="7561e7a1-e403-45dd-a973-966a120d3064" valueTypeId="3c211e2f-a2d4-47f3-81ac-2004cf2b1546"/>
+    <selectionType typeId="2e2a52ac-5e3f-4170-a88e-fb355bcd356e" valueTypeId="9e546dde-7163-4f24-a7ab-dd136a0c91b8"/>
+    <listType typeId="b507202b-f5a0-4079-ba94-1e23ffc4ed66" valueTypeId="e14490e7-cf18-40b7-91ff-6fbe0da2566e"/>
+    <managerType typeId="8e6930c0-bae1-4ec2-8cf3-f73e7ec97172" valueTypeId="c5cf3d50-53b4-4ed9-8c2b-1308cdc4306a"/>
+  </producedTypes>
+  <name>ВзаимозачетЗадолженности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c042f804-b3d0-4f27-81e5-0072c6f9861b" extendedConfigurationObject="c2844ed3-0bb7-487b-90b4-bac298feacba">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="ae61f1d2-a98f-4282-9db3-d88ddd3100eb" extendedConfigurationObject="b7e08104-e8f0-4b81-bf7f-86642070b6b2">
+    <producedTypes>
+      <objectType typeId="5499cd48-19e1-4ebc-9c4d-039ee226ff13" valueTypeId="432c5131-a0d1-454e-9259-ce223b5e3b4d"/>
+      <rowType typeId="8c22c5d2-fbe0-4135-b400-c521e838621f" valueTypeId="c0ca7aa7-7d50-4ab7-a159-b951b9d20a71"/>
+    </producedTypes>
+    <name>ДебиторскаяЗадолженность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="37b8a47f-b0c8-474f-8947-80204f53aa3a" extendedConfigurationObject="a66e72d7-0c49-4f2f-901c-dd03080b11dc">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7d870d27-019f-4558-89bd-fd66bd9b6ba2" extendedConfigurationObject="15801e14-a034-460f-9f96-47c5713c3136">
+    <producedTypes>
+      <objectType typeId="a8bee2c9-bf3c-4337-bd3e-84a654ab2a7c" valueTypeId="cb388d4f-eb23-47e8-b888-7722a1cf75fa"/>
+      <rowType typeId="36a1b4da-a4db-4323-9fb4-fbd106bdf8f8" valueTypeId="3452aaa0-b551-4872-9952-77801ba0111e"/>
+    </producedTypes>
+    <name>КредиторскаяЗадолженность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="64d7686d-9f2b-4a70-994d-1c41fc6bf15a" extendedConfigurationObject="94cd5a39-6a24-4091-8cd1-7f6eeb3aa11d">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

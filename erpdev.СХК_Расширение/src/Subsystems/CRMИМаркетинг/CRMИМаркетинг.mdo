@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30e48727-2121-42db-9cee-299611afb7ed" extendedConfigurationObject="86e05022-b8c0-4115-b7db-bc4853c53e50">
+  <name>CRMИМаркетинг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Catalog.Расш1_РЦ</content>
+  <content>Document.СХК_Промо</content>
+  <content>Catalog.СХК_МетодыПромо</content>
+  <content>Catalog.СХК_НастройкаПромо</content>
+  <content>Catalog.Промо_КалендарьАктиваций</content>
+  <content>Report.СХК_ОтчетПромо</content>
+  <content>DataProcessor.СХК_ОтправкаОтчетов</content>
+  <content>Document.СХК_ПромоЕком</content>
+  <content>Catalog.СХК_ЛогистикаОзон</content>
+  <content>Catalog.СХК_ЛогистикаВБ</content>
+  <content>Catalog.СХК_ЛогистикаЯндекс</content>
+  <content>DataProcessor.СХК_СМФОтчет</content>
+</mdclass:Subsystem>

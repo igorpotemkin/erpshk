@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65b555db-54a9-4011-92f9-d86340857492" extendedConfigurationObject="d4d608af-99bd-4b5f-97a2-94558abacf6a">
+  <producedTypes>
+    <objectType typeId="16dafcd0-6f01-462d-a097-695df15d8161" valueTypeId="277d8199-19b7-495a-92e6-5de5460a14f8"/>
+    <refType typeId="4a4f75fa-51be-41e3-b80c-217304c29dba" valueTypeId="5da9e8e6-75f3-4f4a-bc65-706983ceddb6"/>
+    <selectionType typeId="2bdf9b1f-b5fc-4a67-a912-ea979268f192" valueTypeId="ebf421f8-0df9-4c2e-9bf4-76c7be8a5750"/>
+    <listType typeId="8836adcf-133a-4bbd-8fea-3589c8f6e057" valueTypeId="33adae52-8054-4fbe-bd3b-7efa76a45477"/>
+    <managerType typeId="b6a08ac5-784c-4691-aea2-4918d037c641" valueTypeId="0f896865-a5cf-47ef-88ff-291ff533bc78"/>
+  </producedTypes>
+  <name>ВозвратОСИзАренды2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="21e31f4f-84cb-434e-8eeb-9d18833cfd74" extendedConfigurationObject="c449204b-c064-4a7b-a7b6-9b75592f4e69">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПередачаОСВАренду2_4</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5aab58e-0866-4af3-95f8-7451def84416">
+  <name>СХК_Помощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК помощник</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СХК_Помощник</content>
+  <content>DataProcessor.СХК_Помощник</content>
+  <content>Report.Расш1_ОтчетИПДляЛевиной</content>
+  <parentSubsystem>Subsystem.СХК_Помощь</parentSubsystem>
+</mdclass:Subsystem>

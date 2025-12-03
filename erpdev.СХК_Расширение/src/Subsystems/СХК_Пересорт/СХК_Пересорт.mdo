@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35c38f37-834e-492c-969c-23f58d8cdde7">
+  <name>СХК_Пересорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК пересорт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+</mdclass:Subsystem>

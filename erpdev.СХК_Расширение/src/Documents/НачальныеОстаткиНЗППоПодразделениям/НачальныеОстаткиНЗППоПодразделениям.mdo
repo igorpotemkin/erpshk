@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f254b115-7fcd-4de4-9e9e-9ee396856060" extendedConfigurationObject="d07cddd1-9fe9-48de-b100-acd4c9fc525f">
+  <producedTypes>
+    <objectType typeId="69948682-8e3d-47e3-ab73-9957ea01cff0" valueTypeId="001f0296-b959-4ccb-b828-53883f8cb617"/>
+    <refType typeId="8d2d8a60-ac26-4e61-b34d-39823ba6caf8" valueTypeId="f0c008e0-4ff0-4b69-8a70-f0aa27a5e2d1"/>
+    <selectionType typeId="c87392c8-0d6d-48a8-bd2b-c6f342b1ae35" valueTypeId="a1945dbe-65e0-44c9-b4db-3548d5124a9f"/>
+    <listType typeId="6d77a548-5cc1-48a5-abc5-7857813d3348" valueTypeId="3855fd1c-0881-4fb3-a3b9-17404df79b77"/>
+    <managerType typeId="c9e23cb8-2a09-4e54-856d-813171b9ff8c" valueTypeId="ccff81df-66ff-46dc-9644-f8c0ab83d117"/>
+  </producedTypes>
+  <name>НачальныеОстаткиНЗППоПодразделениям</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

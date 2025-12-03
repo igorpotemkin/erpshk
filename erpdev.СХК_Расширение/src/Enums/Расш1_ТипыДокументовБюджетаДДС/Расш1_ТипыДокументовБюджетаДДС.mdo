@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e4546b2-ffba-4dde-bd89-612f37af94af">
+  <producedTypes>
+    <refType typeId="566316c6-c37f-4835-973d-21ca93680885" valueTypeId="84353571-803f-46ce-aeb4-4e4c553a91da"/>
+    <listType typeId="81e7f0e1-bbb1-4a1a-8d42-acf5854832a8" valueTypeId="01b02455-f798-45fe-82d3-b7469bb6b34b"/>
+    <managerType typeId="e787b131-4a1d-4f54-b8fe-1cb0f08a1303" valueTypeId="abff6ac9-1f18-4fbe-b089-c20d4505caec"/>
+  </producedTypes>
+  <name>Расш1_ТипыДокументовБюджетаДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 типы документов бюджета ДДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="18e16267-ebd7-42d8-8d4d-56f3938352ca">
+    <name>Замещающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замещающий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e50853eb-9eb3-4174-a758-f1ef88bd7bf5">
+    <name>Суммирующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммирующий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

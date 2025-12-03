@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e69917fb-70a3-4685-9ba1-1c450574d9d2">
+  <producedTypes>
+    <selectionType typeId="7740b5a5-d7b7-4114-9c42-17f82950a70b" valueTypeId="0dc067c4-6cd8-4785-b2a9-5df420438bc9"/>
+    <listType typeId="36b15b2d-7f0f-4f53-93b0-d9fe26aa07f9" valueTypeId="530e9312-05e9-4ac1-a5d0-b09445242843"/>
+    <managerType typeId="e90ebe7e-49fd-4eaf-b053-0b6039610d55" valueTypeId="1214cb30-1a97-48da-ac15-b088930b68f7"/>
+    <recordSetType typeId="2d3d047d-6707-43e4-be55-fc50f8c844b9" valueTypeId="5c4a2618-434a-43b3-aa4f-299608b579ff"/>
+    <recordKeyType typeId="0e7114dd-dddc-48f4-8496-9379a59c4925" valueTypeId="6817fae5-034f-4e10-be99-a8fa96b14095"/>
+    <recordType typeId="31b7eae9-59ab-4dc6-a084-2b8447cd2225" valueTypeId="a3ef780b-7913-4611-aeed-561ac31a6e9b"/>
+    <recordManagerType typeId="8410ec9f-3d5c-43a5-802d-15c54e37587a" valueTypeId="36d89725-2b98-4ff6-8745-436a01152ccc"/>
+  </producedTypes>
+  <name>ДокументыСОшибкамиПроверкиКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="dcb62fdf-8565-43fe-b18c-70313a4afde3">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

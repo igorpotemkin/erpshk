@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fdfea242-2201-47bb-ad19-386a3151ab61" extendedConfigurationObject="a99b75b4-8e49-4e46-8df8-c58c5aa08d77">
+  <producedTypes>
+    <objectType typeId="87bc3503-3ed3-42e9-b6a4-31c642b3bf41" valueTypeId="f1a3825f-8035-4dab-a9f8-b51aa1de5b23"/>
+    <refType typeId="b78c3ee4-6292-43c9-8cc9-c04fc04ea555" valueTypeId="20ae841d-ec8d-4ffb-a6bf-1ab35b997a28"/>
+    <selectionType typeId="dd8e75fc-91e6-4b8c-9bbe-181abf7d1fad" valueTypeId="c56cc71d-268e-4d24-8644-09e26ade879c"/>
+    <listType typeId="30d06550-f5e1-46ef-b13e-6c74874c8cb6" valueTypeId="9cd36e49-8a5f-40dc-aa67-4d982eb06436"/>
+    <managerType typeId="4c0d1018-386c-4cd7-9ffe-fe401bc509e7" valueTypeId="633a7045-73fb-48f2-bc72-a47be88f55b0"/>
+  </producedTypes>
+  <name>МаркировкаТоваровГИСМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c9cdf2a3-0362-4966-bf85-c873d803331a" extendedConfigurationObject="c0e16157-a5f9-437f-a73a-b892826d50af">
+    <name>Основание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеМаркировкиТоваровГИСМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="42ddff6e-f26a-46fe-96fc-df4c7fe6dca2" extendedConfigurationObject="a9bff824-bd69-4b42-b3b6-485fa5329c2c">
+    <name>НазначениеКиЗ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e75917eb-2f01-40ab-930b-f48cc0f1bcc4" extendedConfigurationObject="bd180931-e19a-4cec-9f88-6f7399febd7b">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

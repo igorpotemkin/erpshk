@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7cf5dba-7b73-4f57-b1ae-dedc6f61d973">
+  <name>СХК_СКУДСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК СКУДСервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

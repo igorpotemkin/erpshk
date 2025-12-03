@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06333d2c-1e4f-4de4-b320-677cfe15b8a4">
+  <name>СХК_ТСДСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК ТСДСклад</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

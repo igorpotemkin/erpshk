@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a7edd7-d6af-434f-90d4-5e8d60b3bcf3">
+  <producedTypes>
+    <objectType typeId="bf5ef317-dabb-442d-b10b-09de88f014a9" valueTypeId="3e8f3136-4093-4bfa-b254-a84ff0dd3a9d"/>
+    <managerType typeId="abf99671-75ff-4478-82eb-074e33f12d1c" valueTypeId="0183e5cc-0db8-42d0-a0ec-d4f44a3bcecf"/>
+  </producedTypes>
+  <name>Расш1_ОтчетИПДляЛевиной</name>
+  <synonym>
+    <key>ru</key>
+    <value>отчет ИП Для Левиной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Расш1_ОтчетИПДляЛевиной.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c0164867-b430-49e7-9567-41529c0783a2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

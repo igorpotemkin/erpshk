@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a847f500-64f2-41d5-86cd-5d27f86b74a8">
+  <producedTypes>
+    <selectionType typeId="c15219d3-7844-40c2-8690-5c5ff89d8c29" valueTypeId="501539d2-67d3-4159-b2a5-603413fc4f2f"/>
+    <listType typeId="19b0d806-90dd-4cc6-8e42-389308741d57" valueTypeId="98fc168f-3aaf-427c-84a0-e2a7501ce4d2"/>
+    <managerType typeId="2221bfe3-04d4-4fe8-8734-b9728685feab" valueTypeId="a3f6db64-0914-4e5b-b953-cda65cb1ba36"/>
+    <recordSetType typeId="7d19e372-5a1f-42e5-94b9-224c3de6c567" valueTypeId="a29e8378-4e55-48ec-bbbc-78291785ef7a"/>
+    <recordKeyType typeId="40170242-d6ac-4098-8aa4-d1a71f945682" valueTypeId="c60f7f77-d132-4442-9dfb-fd9931393e10"/>
+    <recordType typeId="2a48a293-69e5-497b-b444-61ded7e4f67d" valueTypeId="3e3d5d76-714f-4f0d-93f9-596461c459d1"/>
+    <recordManagerType typeId="044e7053-1e25-45a2-8594-8a0b71284cf4" valueTypeId="d61a98c1-ec12-4d14-8d58-c4643165d772"/>
+  </producedTypes>
+  <name>СХК_ПользователиСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК ПользователиСклад</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СХК_ПользователиСклад.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="47cbd32e-c30b-42d3-85c1-7e23b80bcd6e">
+    <name>ШтрихКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="8f33dfdd-6823-42c1-b1cd-7650495d41c1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="717f64e2-c8fd-477b-a5ca-f3d4bb4a0911">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="07e967c8-b052-4535-958b-bdb58a098b2e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

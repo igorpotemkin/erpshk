@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="885d9e45-ed23-4c6a-8691-0b25c17e52cb">
+  <producedTypes>
+    <objectType typeId="9d497a5a-c81e-4519-b0de-c6a84ab6d0a8" valueTypeId="43866aa4-df43-401c-822a-ee8f4bba7efa"/>
+    <refType typeId="d4e147da-e155-432e-bf30-14d84ad96133" valueTypeId="5b49ac2a-3d70-4582-a0ec-a76f37a77718"/>
+    <selectionType typeId="ca652e07-41eb-4323-9e82-05184d200575" valueTypeId="c17d1bf5-57d4-4d55-90ac-4379e3a88627"/>
+    <listType typeId="84a0dcc6-bf05-4791-9e1f-edabe3082a9a" valueTypeId="9c3716e3-4548-4a35-9b62-c055d2d92c4e"/>
+    <managerType typeId="d3e3d859-e0ea-41a6-b272-3328db9294fb" valueTypeId="799922d9-08fb-4863-bd2a-7a5d799135f6"/>
+  </producedTypes>
+  <name>Расш1_ТипыУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 типы упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_ТипыУпаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Расш1_ТипыУпаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d456e8ea-e8e3-4309-a58f-c2c677f9e9d6">
+    <name>КодУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d600ccd7-178d-4a45-ab0e-4f2eb90b602c">
+    <name>Длина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8348059b-0306-45e9-91c3-fccd9b609c74">
+    <name>Ширина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ширина</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65160159-470a-42ce-8685-7f704bcaabb5">
+    <name>Высота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb269ff4-1e1d-4f48-b30e-ca1287f2b46d">
+    <name>ВесУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес упаковки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

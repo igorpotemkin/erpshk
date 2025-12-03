@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74ce6284-280d-490d-b63c-4df8634ccae2">
+  <producedTypes>
+    <objectType typeId="b017c761-7d3d-46c0-b986-d3cae837c0c2" valueTypeId="6cccacd9-165c-46ee-81b1-e83458edf73c"/>
+    <refType typeId="dbebccfd-06df-4de2-b450-5f24f1cf0a27" valueTypeId="df0adb36-ffdf-49de-aea7-c7fa071235bb"/>
+    <selectionType typeId="59a36fcb-934c-45c6-9968-e90d28cc7a82" valueTypeId="ec6c8a86-09c4-4967-83eb-b21b8e035fe3"/>
+    <listType typeId="bb4ef249-619d-4897-adad-592ad4137633" valueTypeId="6132d624-8c6e-488e-9828-1e8b0abcf618"/>
+    <managerType typeId="ec66e7e9-8a62-43fc-8466-0006af4f17ae" valueTypeId="1a316738-3295-479a-b258-b20fa705d03a"/>
+  </producedTypes>
+  <name>ПолитикиУчетаСерий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

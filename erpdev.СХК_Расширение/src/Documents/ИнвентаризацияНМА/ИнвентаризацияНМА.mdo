@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="764e4549-5c82-427e-a508-b38feca7d87b" extendedConfigurationObject="18b9f08f-6566-4ab8-be14-88ddb64eb7c7">
+  <producedTypes>
+    <objectType typeId="03f0fcb6-3bb5-49e5-9311-93baaf971257" valueTypeId="fb4ef746-c8a5-4cb4-a187-3dc5e20a69f0"/>
+    <refType typeId="688c7637-b6e6-4f5a-8b38-0083ddcfa90b" valueTypeId="0877b12d-5bfc-4df6-a898-8027b08b19a2"/>
+    <selectionType typeId="ee33fdb5-7f7c-4b66-b04a-e33c5092ae48" valueTypeId="043195c2-7d97-47be-8b2e-f86de43d15c9"/>
+    <listType typeId="038a415c-1c82-4bdf-a5e7-b36db89435c2" valueTypeId="5cefd9d9-0740-486d-8ce0-2862989de48b"/>
+    <managerType typeId="e6052416-9b70-49cc-a52e-9e31feac0fb9" valueTypeId="af63fd46-2303-45a9-bea6-5358620a60b5"/>
+  </producedTypes>
+  <name>ИнвентаризацияНМА</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

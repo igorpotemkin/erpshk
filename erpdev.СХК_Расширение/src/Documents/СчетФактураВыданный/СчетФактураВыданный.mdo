@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2164e4aa-47a1-42ae-bd68-720cd8839334" extendedConfigurationObject="9eab2298-ca44-4cc2-a529-95431e0e3800">
+  <producedTypes>
+    <objectType typeId="cb06444d-b216-41d6-be3f-4ddcd68bd467" valueTypeId="835df3ae-54fe-4b20-8322-d946c48966a2"/>
+    <refType typeId="898ed657-69fd-4e31-9406-27a6fb35460f" valueTypeId="1b78a8e0-6d10-4fcf-a2b1-f4c54fed7dc8"/>
+    <selectionType typeId="49bfd2eb-b9ac-4957-b5a3-a806b8c92180" valueTypeId="320689ef-f0aa-4e9b-a213-689f61dd9a81"/>
+    <listType typeId="2caa5439-eabf-4500-a074-e11fcbff03c1" valueTypeId="f963a6df-0f6f-431a-aab0-0b9842714777"/>
+    <managerType typeId="ab0776c8-ce71-4d14-ac10-4025bca143d1" valueTypeId="14325a42-fce9-4292-8866-15b5d63fc869"/>
+  </producedTypes>
+  <name>СчетФактураВыданный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="a40cae72-9680-4292-b5d1-f099dca89fb0" extendedConfigurationObject="82e55215-7a69-44c4-9d89-19f24b9ecf72">
+    <producedTypes>
+      <objectType typeId="89757160-f161-4f63-a56d-1ff0f1c671a0" valueTypeId="5e4dc24e-abf9-486d-81b7-b3adf65927df"/>
+      <rowType typeId="411a6df4-6bf9-44e2-8f75-98a157bb80f8" valueTypeId="2b47c3dc-b7f0-4a80-9c61-ddd357326dac"/>
+    </producedTypes>
+    <name>ДокументыОснования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="012d1680-85c3-49c0-8949-8da2bdb59cfb" extendedConfigurationObject="f0b6a124-2f4c-418b-bd88-d90a523fc274">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ОснованиеСчетФактураВыданный</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

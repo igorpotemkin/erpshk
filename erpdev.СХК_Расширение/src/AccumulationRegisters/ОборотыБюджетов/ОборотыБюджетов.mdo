@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9cfd67e-6832-407e-a26b-22235c82b125" extendedConfigurationObject="4a55d6ca-957a-46c7-bede-97d23ac04df5">
+  <producedTypes>
+    <selectionType typeId="e20dc674-9821-4e23-ae6c-33e8c7a08da7" valueTypeId="5faadd44-bcf8-48b0-b84c-7f73fc495512"/>
+    <listType typeId="81ac7b94-70dc-4d0e-a225-b6a534bdbfea" valueTypeId="aad551e0-661d-4b38-835b-83e96a74bb1a"/>
+    <managerType typeId="01679981-5c3b-4d9c-a519-8d50aff30bba" valueTypeId="e1e5c682-7f3e-4378-a8ea-b707b4ec6c12"/>
+    <recordSetType typeId="61ee9424-be50-4bfd-8a8c-5eb8fe43daec" valueTypeId="87702855-e986-454e-8902-329564f717e2"/>
+    <recordKeyType typeId="4f98dd57-f670-4ee2-addc-eaad9b7aba7f" valueTypeId="23708920-cd6b-48a5-bb32-e68a5ea82d4f"/>
+    <recordType typeId="dc0339ef-45bb-4838-842a-ce1a0e180974" valueTypeId="84858126-e24d-474d-ad63-b94182d454cb"/>
+  </producedTypes>
+  <name>ОборотыБюджетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

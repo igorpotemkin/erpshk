@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4a591af1-5e20-4aff-8bd5-089595c3190d" extendedConfigurationObject="82972c3f-c27e-40f8-8fb6-0e9b7bb68791">
+  <producedTypes>
+    <containerType typeId="c2ab0b9c-ff5f-4f1f-95a3-9e3013aef441" valueTypeId="c851d8bb-eefb-4edd-8731-a9c02dbe33c4"/>
+  </producedTypes>
+  <name>НоменклатураБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

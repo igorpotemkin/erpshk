@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de46773c-84ed-4a26-bdd9-05f812567baf">
+  <producedTypes>
+    <objectType typeId="9b4eecad-e980-4070-b368-f1ab2c772668" valueTypeId="ec7b5e3a-882c-494f-a5c6-63d0ca9c02df"/>
+    <managerType typeId="b288a283-9c54-4f52-916b-9922be7fe3e1" valueTypeId="609114bc-4f5a-4732-a5ec-2228b2c8a192"/>
+  </producedTypes>
+  <name>СХК_АРМПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК АРМПроизводство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_АРМПроизводство.Form.Форма</defaultForm>
+  <attributes uuid="14ecc506-2a92-4e5a-bbd4-6ad235ffcdba">
+    <name>СХК_Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>СХК склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c51e080-b9b2-4f47-81ad-a44f1377c8c3">
+    <name>СХК_Этаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>СХК этаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладскиеПомещения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.СХК_АРМПроизводство.Attribute.СХК_Склад</field>
+    </choiceParameterLinks>
+  </attributes>
+  <forms uuid="3103c38f-70d5-4b7f-9eea-3869138ae8ae">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5a7bdf5d-90cc-470d-a08b-e6e9bebde2a9">
+    <name>ПалетныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Палетный лист</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

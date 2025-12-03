@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6860650e-4006-4e97-86d2-f103cb2f4f83" extendedConfigurationObject="434b6338-7c99-4d50-b9ef-226d2cfe9304">
+  <producedTypes>
+    <objectType typeId="81c32520-b037-445d-af32-5e767120bb1e" valueTypeId="e41eabfe-3e23-4dbe-aafc-f1d693a26955"/>
+    <managerType typeId="bf81d838-d688-4453-9ae2-fc72b9fc5ed4" valueTypeId="6ffe53e6-3b7b-478f-b19e-1bdbc11cfbfd"/>
+  </producedTypes>
+  <name>КнигаПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Report>

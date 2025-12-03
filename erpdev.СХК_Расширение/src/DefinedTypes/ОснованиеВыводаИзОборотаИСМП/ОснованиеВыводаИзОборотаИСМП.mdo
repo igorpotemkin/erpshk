@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0b0363b0-5220-4c5b-a993-309523b36ca4" extendedConfigurationObject="73be27d7-2e2b-4166-8ad3-a4dcdab95439">
+  <producedTypes>
+    <containerType typeId="5e52e732-ea0d-4225-98bb-a60a3759ac15" valueTypeId="cab3ed45-2a37-47d7-99fe-468fe2642964"/>
+  </producedTypes>
+  <name>ОснованиеВыводаИзОборотаИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7bffef6b-1aa9-4f93-a1d2-e02c92b92c94" extendedConfigurationObject="d873fb7c-bffd-4ee5-9885-25af6032a41f">
+  <producedTypes>
+    <refType typeId="4727c354-0ddb-41d9-9728-77c8e11c3a17" valueTypeId="3fc0d536-d327-4a87-9b24-ccf2bc99a580"/>
+    <listType typeId="f6e8b606-3dec-4fac-939f-9f912abbb39a" valueTypeId="5deafac6-f8bc-456e-b268-c2a6919afac1"/>
+    <managerType typeId="2ae7185a-b283-472f-beb5-95a01dae138a" valueTypeId="e2bba08a-e9a3-435e-b1ab-4b81762764fd"/>
+  </producedTypes>
+  <name>СтатусыРасходныхОрдеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="efe4eacd-967e-45f7-ac20-2dc6e258882c" extendedConfigurationObject="bdc2dd3b-b02c-4815-af56-2538b334fbf4">
+    <name>Отгружен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

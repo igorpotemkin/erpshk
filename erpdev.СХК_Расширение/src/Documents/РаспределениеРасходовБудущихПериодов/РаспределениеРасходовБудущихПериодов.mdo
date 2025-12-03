@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e32a379b-caba-41f2-a8f7-55c1df2ad50c" extendedConfigurationObject="6fc9de54-3141-4852-9cb8-c1be947c406a">
+  <producedTypes>
+    <objectType typeId="57286754-1882-49e0-aa31-fdaa8fb7a82b" valueTypeId="10698964-e006-4780-994c-7122495a58e7"/>
+    <refType typeId="5615ec86-c1f0-4b54-a59d-5099f776ce21" valueTypeId="99d914fc-2526-41b8-b949-8026e029be2f"/>
+    <selectionType typeId="16efe43c-ba09-4535-b347-deb89671d6a5" valueTypeId="397b47b9-4f8f-42f9-a5e7-ba58ac952c06"/>
+    <listType typeId="656a87cb-f4a0-4a24-b3b5-c74660d36d3f" valueTypeId="338c808e-be7a-4184-a20a-084693575b26"/>
+    <managerType typeId="1917576e-4328-41ce-ae33-91cf30d26365" valueTypeId="b9937a18-39bb-4c33-8247-e2c2476d1b18"/>
+  </producedTypes>
+  <name>РаспределениеРасходовБудущихПериодов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e44698d7-a49e-4125-8b7b-8122a265a8c3" extendedConfigurationObject="2e8dd765-f5da-46ce-b308-5b6e96fea72f">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="2f27fc23-f7a9-4d47-a6dc-5cfddfe56ea8" extendedConfigurationObject="746c2b00-20d0-4017-ab1a-e55b902e8c71">
+    <producedTypes>
+      <objectType typeId="66259b66-37dc-4a63-ac02-22af478f067e" valueTypeId="5ac431f9-80ca-482f-a04a-bec785ba55c7"/>
+      <rowType typeId="54cd3c2c-0887-406c-804d-2207dc6ebe64" valueTypeId="a2cbd271-084d-49da-8484-1187b0d165b5"/>
+    </producedTypes>
+    <name>РаспределениеРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="c7e8c19e-0a25-4482-a9f8-070a33474fdf" extendedConfigurationObject="8d64a62b-db9e-42fa-a7bc-fab3deb30b22">
+      <name>АналитикаРасходов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.СтатьиРасходов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="53e9fcaa-12c9-4b0c-aa7f-a7810cb50829" extendedConfigurationObject="60bb06b8-925b-4de6-b1b2-7a4565041033">
+  <producedTypes>
+    <containerType typeId="dc013f26-6186-40ec-9246-8629d7fb6167" valueTypeId="ac1899d5-21f7-48a2-a01f-27ca2b83c939"/>
+  </producedTypes>
+  <name>ДокументыРеализацииДляРаздела7ДекларацииПоНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

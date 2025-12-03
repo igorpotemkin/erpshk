@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5673582f-0f0c-4112-bab4-b92ac19d4a73">
+  <producedTypes>
+    <objectType typeId="c146e3c7-3b96-498d-b6a2-df1eb596cbbc" valueTypeId="cacaff34-6b8f-4a84-95ae-770f482784f3"/>
+    <managerType typeId="763598e6-0a84-4e37-96a7-8ee2144850c3" valueTypeId="52e31219-9075-4ad7-b59b-3846449aae1c"/>
+  </producedTypes>
+  <name>СХК_ЗаполнитьСписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК ЗаполнитьСписание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_ЗаполнитьСписание.Form.Форма</defaultForm>
+  <forms uuid="e4f35ee0-8bd0-49ce-b7cb-c83571d3b474">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

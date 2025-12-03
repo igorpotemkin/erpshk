@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fd2a719-91b2-47f3-91f8-384a348796ae">
+  <producedTypes>
+    <selectionType typeId="ae8230f3-e594-43e9-b7e2-f3b2a158408d" valueTypeId="fd0f7b7a-096c-4194-9886-a125cbd3b6ed"/>
+    <listType typeId="ed07a2ec-23fc-4781-ab4b-4776df453a2a" valueTypeId="ef2bcd27-1937-4431-9ab8-2d3a155ba170"/>
+    <managerType typeId="c415fc4f-9abf-4a1d-8bc4-ec71d8cb9d57" valueTypeId="c17355b3-bfd4-4577-b468-a6bdf7c86c61"/>
+    <recordSetType typeId="02ac8e0f-a1f3-4134-aff3-6c4c1fdb07d8" valueTypeId="4aa14df6-6bf0-4bb3-bae0-5b9f12c1d4d0"/>
+    <recordKeyType typeId="eb53b7e3-f151-4f7f-abd4-590e86942ee0" valueTypeId="c74bb2c5-cfb6-4d17-9c5e-125c193628cd"/>
+    <recordType typeId="8ca0faba-0416-4712-967a-4fd2bbd4845c" valueTypeId="87e80f3b-16f5-46ad-9987-5b849cf015ad"/>
+    <recordManagerType typeId="36e6de54-4ac4-4159-bec5-00022486f4ad" valueTypeId="082a1b8a-f994-4024-a2bb-92a883126898"/>
+  </producedTypes>
+  <name>СХК_ПромоСтатусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК промо статусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a773327d-cef0-4b90-a166-f315ebb02ff7">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Промо_СтатусПромо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6f36283d-ac99-4903-9dfc-3c0837f40f8c">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СХК_Промо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3cfb93f6-6f0e-42eb-bc07-76de4574f359">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

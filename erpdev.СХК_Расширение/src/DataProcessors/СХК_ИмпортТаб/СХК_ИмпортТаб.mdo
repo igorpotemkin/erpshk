@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="928985ab-353e-4405-819c-a2a057de3f3a">
+  <producedTypes>
+    <objectType typeId="e8ac92e6-e13b-4bfa-8602-56fae65fdfc5" valueTypeId="0e0d1bdd-6501-4579-b074-064a9e9413c0"/>
+    <managerType typeId="b0e311e4-4e4e-4636-b606-4aac66f40e3a" valueTypeId="29109d9a-957e-4dd7-9bc9-2abfab69c10e"/>
+  </producedTypes>
+  <name>СХК_ИмпортТаб</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК импорт таб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_ИмпортТаб.Form.Форма</defaultForm>
+  <attributes uuid="a29eaf2c-262c-453d-813b-3892652b2fee">
+    <name>Док</name>
+    <synonym>
+      <key>ru</key>
+      <value>Док</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Расш1_ПоступлениеСклад</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="411a221d-f29e-45dc-b769-fde9538153f1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

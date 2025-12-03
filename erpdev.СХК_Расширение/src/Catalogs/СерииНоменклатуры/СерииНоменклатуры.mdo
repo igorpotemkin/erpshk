@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf149ac5-cc91-4433-b027-515e0a182da5">
+  <producedTypes>
+    <objectType typeId="6afb5098-d91b-4c70-96dc-65173f68fe74" valueTypeId="ec9dd18c-a696-4ea7-86de-f26fb3f42a1d"/>
+    <refType typeId="5c57de37-99f7-442c-9c9f-d6fc72520409" valueTypeId="111d21e6-b784-4e39-9565-d97c0aea621b"/>
+    <selectionType typeId="95632b9c-1c71-4cc1-873c-eb8aedc484da" valueTypeId="b4f81170-8e87-4a17-aa08-971f5bcf5298"/>
+    <listType typeId="547cba06-0022-4d03-aa9e-e141b5f28373" valueTypeId="b7a86a6c-0d9b-4762-8105-3d50d324e632"/>
+    <managerType typeId="968c37ba-8db9-454c-8840-db1a385ca650" valueTypeId="e10d199b-de72-4eb4-97d7-d7311a4d6ec4"/>
+  </producedTypes>
+  <name>СерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <attributes uuid="ad8df218-2d3b-4adb-a1e8-33b85f4e3e5c">
+    <name>ГоденДо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8ed62118-cb72-4608-8798-5ea3b3ec1d99">
+    <name>ДатаПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="69471dfb-ba29-43c4-850e-bd874cc400e9" extendedConfigurationObject="cb25b6bc-7f7a-447b-8658-e8893ac87128">
+    <name>ВидНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="7291453d-6ff5-4c77-a9ef-e2f9bf342ac2">
+    <name>СХК_Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>СХК упаковка</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27b563e1-23c4-48df-8c27-c3b70e495a51" extendedConfigurationObject="43c7d80b-bd8e-4151-b0e1-084444292845">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.НомерСерии</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="10853057-a550-4d74-9994-c21239cd46ec">
+    <name>СХК_СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>СрокГодности</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d01331ec-3405-45df-81b5-06ac2a970c9f">
+    <name>СХК_Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>СХК префикс</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

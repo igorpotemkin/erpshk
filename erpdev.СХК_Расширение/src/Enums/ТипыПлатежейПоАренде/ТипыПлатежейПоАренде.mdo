@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6082bce2-7393-4a9c-997f-a821ecaba7c4">
+  <producedTypes>
+    <refType typeId="ce092fd7-e8be-411d-8905-b18ef53d98cd" valueTypeId="197cdd4f-d1a4-4429-8a33-79e12f3b49d9"/>
+    <listType typeId="45476f92-5ce0-4fb6-a7d9-09a0bbb47098" valueTypeId="f3a8f983-9dcd-472c-bcc7-cc2efe7a1cd8"/>
+    <managerType typeId="0086acbf-7e4a-4e76-9657-51754974d0bb" valueTypeId="b1cb2c9e-cd05-4e00-9009-044f9f1a6aa9"/>
+  </producedTypes>
+  <name>ТипыПлатежейПоАренде</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="353b61b6-1d3e-4480-88d7-bffbdc7e2f34">
+    <name>УслугаПоАренде</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a4a1280c-6999-49e5-9967-d62cb33e3471" extendedConfigurationObject="072ab899-e848-4323-a665-260770a193e2">
+  <producedTypes>
+    <objectType typeId="06593054-86aa-4c72-8f92-9531589e56c8" valueTypeId="1f9a2745-9409-4bfc-a885-561d42644f3e"/>
+    <refType typeId="3ed0d0a8-87f7-46f6-9049-0a6d8174488a" valueTypeId="a4c16cb3-711b-4e0a-a1f0-8cfdc5ded1cd"/>
+    <selectionType typeId="ff4f2ae9-2577-4bfd-a941-b426d4f784c9" valueTypeId="37d73662-20c8-4253-81de-673b74428978"/>
+    <listType typeId="41df7855-7f85-4c81-9a5d-6079acdc495f" valueTypeId="a0e3b702-e184-4e29-bdc2-f876de5324ba"/>
+    <managerType typeId="44447dd1-ab7d-45c5-af6f-c3eeb9b628f5" valueTypeId="2600c40a-e402-4b31-b29c-1e32cb07695b"/>
+  </producedTypes>
+  <name>РегистрацияДефекта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e626049-b068-4789-be38-f6bef4fd5444">
+  <producedTypes>
+    <objectType typeId="5843cfe5-0fe2-44e6-baaa-44a8b2f542d1" valueTypeId="d95d3d63-3b51-4ebf-b557-e079718475b0"/>
+    <managerType typeId="d9371d1b-8424-4f41-884c-3cee9fa4f85d" valueTypeId="149b2e1f-0bc8-4f19-aace-3b16ca2fce02"/>
+  </producedTypes>
+  <name>СХК_ТСДСырье</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК ТСДСырье</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СХК_ТСДСырье.Form.Форма</defaultForm>
+  <attributes uuid="ca447838-2d9d-435b-804a-235d8c517eea">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="950bf8a5-0c57-4d43-928d-e78cb9c5f6b2">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4387fa68-b612-4c4b-9194-9f7f75185121">
+    <producedTypes>
+      <objectType typeId="08554cc0-99e7-4ff9-a423-ce94a1785e22" valueTypeId="9db70e26-5318-40d1-8b16-ba7a10106ce0"/>
+      <rowType typeId="4ca9f311-2bd9-4858-b124-4ea1a83b765a" valueTypeId="a8dd0d41-ab21-4ea7-88d6-48a2581ca9b3"/>
+    </producedTypes>
+    <name>ТабПриемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб приемка</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="22985a21-9f2d-482f-b60a-b4ddd904d558">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24f36677-c909-46de-a422-49b5a1ad2182">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Код</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.СХК_ТСДСырье.Attribute.Склад</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.СХК_ТСДСырье.TabularSection.ТабПриемка.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Характеристика</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.СХК_ТСДСырье.TabularSection.ТабПриемка.Attribute.Характеристика</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="90232698-3772-4605-a685-b40f068987fb">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="56c51d02-4a65-4697-b1b6-74ed5b411108">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="54957baa-45f3-4f8f-819f-f01e3c6c4722">
+      <name>Упаковка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9746813f-c93f-4b36-9dad-6195fd303152">
+      <name>ШтихКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штих код</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="cc4f8e12-36de-4206-ab3b-d655bff6bf26">
+      <name>КоличествоСобрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество собрано</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a44e1bdd-6320-42b5-96df-1273d70755bc">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a0b6face-dbe4-4943-b520-f3bf5c2359b3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7dbc2d7-e8c0-4269-9c03-b32c5f39748f">
+    <name>СписокОрдеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ордеров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0dbf13f5-7ace-43f2-9322-5d6097aedbf3">
+    <name>ФормаОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ордер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6d736562-af86-4d05-8667-cfdd6228b8f6">
+    <name>ФормаОрдерСборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ордер сборка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63a5927c-146e-496d-a01e-2b4a33e51602">
+    <name>ЖурналПриемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка товаров на склад</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af1b1f67-5e13-4ae9-ac94-312a91e44e35">
+    <name>ФормаПОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма п ордер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

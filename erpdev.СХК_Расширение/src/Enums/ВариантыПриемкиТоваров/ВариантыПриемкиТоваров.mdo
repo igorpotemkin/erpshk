@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51f655a8-f96c-4ce2-895b-583edb8e4299" extendedConfigurationObject="4ac76022-5cb3-45b4-bcb8-f601c15cee32">
+  <producedTypes>
+    <refType typeId="0d0d6889-0dee-408f-96e9-a3daf6ce998f" valueTypeId="bff022e9-853f-42aa-b6a6-9703a2ac8f7a"/>
+    <listType typeId="a4a3ba42-0324-4e71-8064-06ffe8930f7e" valueTypeId="a475fa8a-709c-4314-aac9-3af5ae665745"/>
+    <managerType typeId="053ac7a2-3af0-4b9a-8fc2-9c1c73cb5d08" valueTypeId="246c0a8a-e296-4cad-b48b-61991068aad7"/>
+  </producedTypes>
+  <name>ВариантыПриемкиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="bd4775ee-12b5-4bc3-8225-fb37e820563c" extendedConfigurationObject="8ad66938-80f2-11e7-6281-f45c898df8f7">
+    <name>ПоДоговорамБезЗаказовИНакладных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

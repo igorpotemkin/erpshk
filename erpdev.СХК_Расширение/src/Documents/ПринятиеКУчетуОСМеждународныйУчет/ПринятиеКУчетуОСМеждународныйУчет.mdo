@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71bf673c-5bc8-4bdd-9ad8-e8365e3ab25f" extendedConfigurationObject="c5ddd1a7-fbe8-4643-86a8-b244ce97469f">
+  <producedTypes>
+    <objectType typeId="0b1e9faa-2f87-4e73-8462-8d4a11c7b46c" valueTypeId="74cf7075-a2ed-453f-9f36-d46696de6a39"/>
+    <refType typeId="5d6877b8-ac38-486d-a48e-2c67bb30b047" valueTypeId="4ad6986f-0136-4348-aa8c-d5374529819e"/>
+    <selectionType typeId="8dd8e51f-b3b4-4e9c-96bb-b743408f1068" valueTypeId="b3271c76-efcf-4771-9de1-924c1b88c57e"/>
+    <listType typeId="51e76c83-e180-4ce0-9979-77f86d99c9ad" valueTypeId="dfb9049d-0525-42bb-92aa-08283197ce22"/>
+    <managerType typeId="037bcc85-a399-4f0b-b38a-8f9caaefb5dc" valueTypeId="d24b6d4d-43a4-4b84-a0e2-c3f10cf376a7"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуОСМеждународныйУчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2d03f420-97ab-4e75-86a8-3728cd57c618" extendedConfigurationObject="a384db02-0954-4ca8-889d-aa4bf7b52c89">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПринятиеКУчетуОС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

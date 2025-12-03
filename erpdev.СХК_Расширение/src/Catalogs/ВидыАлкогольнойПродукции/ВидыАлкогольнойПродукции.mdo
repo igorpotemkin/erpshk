@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6cdce246-1563-408e-b67e-5d4931e6630c" extendedConfigurationObject="1670d4c7-8c4e-4e17-9598-8d29a74dd8b4">
+  <producedTypes>
+    <objectType typeId="2ed964de-89bd-4df2-a22f-baa439b0d589" valueTypeId="2f7cf973-c554-4a9d-9633-bf396f6e266f"/>
+    <refType typeId="6559ace9-586a-4e20-92ad-e5b816a0613d" valueTypeId="87d224a4-4c88-4946-bab3-08c684733db0"/>
+    <selectionType typeId="bac113ea-449b-46b7-91ca-64466835fd4a" valueTypeId="633b7a1a-9abd-4e1d-a7d6-83b0164b09e6"/>
+    <listType typeId="7126a291-d56b-4390-b7dc-d21226d67cb0" valueTypeId="63ed52ed-a23b-4570-9878-f1a456918410"/>
+    <managerType typeId="54e7a4a8-6acc-41e2-acc4-7cdbdcb6dc15" valueTypeId="b91a6a81-8c1d-4c98-beea-d6801c05de7c"/>
+  </producedTypes>
+  <name>ВидыАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

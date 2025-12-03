@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bd08608d-06b2-4ccb-85c5-e4b74f1c07a7">
+  <producedTypes>
+    <objectType typeId="18632aaf-d1ee-410d-b6fd-601024aa8f11" valueTypeId="fb1b34f4-4e1b-4c04-be56-26b3ec51c85f"/>
+    <refType typeId="409615a6-16a0-43b9-9761-6831a0b64a23" valueTypeId="2c852735-99eb-4270-8b0b-f3bb0a547c0d"/>
+    <selectionType typeId="5185e858-882a-41fd-92a9-41ef3c033869" valueTypeId="f6e8553f-e232-423b-ab5f-861418c46632"/>
+    <listType typeId="883967ae-82e0-4a7b-a317-c7cf3a11144c" valueTypeId="6d1963a0-ab37-47ab-8d30-80d852e931d4"/>
+    <managerType typeId="06dde116-7c01-4508-b401-054904473076" valueTypeId="9d55f3bf-b8e3-407e-925d-1fd37d0b7fc0"/>
+  </producedTypes>
+  <name>СтатьиБюджетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

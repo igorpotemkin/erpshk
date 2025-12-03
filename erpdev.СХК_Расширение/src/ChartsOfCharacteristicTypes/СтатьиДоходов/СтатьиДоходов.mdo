@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="11d24510-9db2-4555-818f-d0712dfae9b9" extendedConfigurationObject="7d5d6311-c003-4592-8a85-fbff7eee27b4">
+  <producedTypes>
+    <objectType typeId="8f835423-6a6e-4b12-9f19-6802fcd46027" valueTypeId="ca9eb860-7b37-4467-a2c3-d07e22209c62"/>
+    <refType typeId="991ad4c1-6047-4a4f-be24-69bf0f07d24b" valueTypeId="8f78f2df-751a-4a30-9164-f016fbd58bbc"/>
+    <selectionType typeId="2c661e38-4f28-4dff-a664-3303e791b3ec" valueTypeId="d950607a-69ea-4335-97e3-fc16e2444699"/>
+    <listType typeId="08de6c77-d836-4f09-b97e-6c34244a840e" valueTypeId="6343d373-5098-438e-99fb-0780cef918b2"/>
+    <managerType typeId="b40225f1-9870-42f4-83df-7cd36c12ee65" valueTypeId="cd08bc83-9203-412e-8353-4746555ded9c"/>
+    <containerType typeId="e2f441c5-163d-45f6-8d69-be91330ed5ad" valueTypeId="49543f23-9a12-4c89-830d-19de47c871b6"/>
+  </producedTypes>
+  <name>СтатьиДоходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:ChartOfCharacteristicTypes>

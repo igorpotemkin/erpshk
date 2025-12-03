@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51a1212-9ecc-4034-a024-1c1f4e997e7f">
+  <producedTypes>
+    <selectionType typeId="da0a95f5-7a11-46d0-8137-43dc2d60209a" valueTypeId="a850720a-cc78-4fc9-b764-82dff8a48933"/>
+    <listType typeId="0bea7e3d-2588-43c8-b3a4-c5f312de6f58" valueTypeId="47cb09da-5952-4614-862f-2164ff26db45"/>
+    <managerType typeId="4f8b1f76-a2d5-446e-a690-f30883bb0819" valueTypeId="79b0baa8-8af9-4753-9d80-4d6d24d5dfaf"/>
+    <recordSetType typeId="b6b018ea-3b05-480e-9307-2f627475518c" valueTypeId="52b6e20a-21d3-49bb-b4da-70a559cde76f"/>
+    <recordKeyType typeId="dffe369d-4ccd-4914-82cc-7513f5fef500" valueTypeId="052ff1df-07a6-4acd-98d3-e97f1c54412a"/>
+    <recordType typeId="84b9f50c-45f3-4442-88d3-b29e72f4f22a" valueTypeId="895414f0-802f-439f-9b71-9b911fea9f91"/>
+    <recordManagerType typeId="399a5e51-cfb1-4ece-b144-b58a0f96c361" valueTypeId="ff15f4e3-bcdb-4336-8bde-fef08366ff36"/>
+  </producedTypes>
+  <name>Расш1_ПланОстатокЕком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 план остаток еком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="1ff10bb3-8854-4f6f-aac1-0019c46301d3">
+    <name>ПланОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>План остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="848a75c3-8bc0-448c-8fe9-b5caaf4df782">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1ba2d15f-c550-4d3d-839e-feb5c231d43f">
+    <name>НоменклатураКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c68965f5-deab-4a1c-943a-76af648ba3ec">
+    <name>ДатаПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата плана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

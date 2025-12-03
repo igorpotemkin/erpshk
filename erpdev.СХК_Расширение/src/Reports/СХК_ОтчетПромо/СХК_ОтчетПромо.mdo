@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b7713c4-30b3-4e16-8749-6b34a18e2bc7">
+  <producedTypes>
+    <objectType typeId="26cdcf75-6638-46b4-98ff-605ec277400b" valueTypeId="5f941c7a-cd37-4e51-a854-dda3369a3b83"/>
+    <managerType typeId="360d8bf8-5093-4777-b340-62214707dbb3" valueTypeId="5514e5a7-5282-4696-a46b-c333c6edde43"/>
+  </producedTypes>
+  <name>СХК_ОтчетПромо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ценовым промо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СХК_ОтчетПромо.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="dece2b2d-22f1-4682-b3ec-42f2fa0812c1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

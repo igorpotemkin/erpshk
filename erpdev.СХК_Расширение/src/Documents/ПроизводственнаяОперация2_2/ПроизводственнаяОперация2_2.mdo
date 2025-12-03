@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a46bcf9-267d-4bf8-839e-6c843b80c92d" extendedConfigurationObject="771d1e13-85f9-420f-b53c-16e8c0ec0878">
+  <producedTypes>
+    <objectType typeId="c7edc48e-1486-4a0f-bbd7-e9c1fb775edd" valueTypeId="dfd734ba-2eb9-4d39-99c9-673efb701e8d"/>
+    <refType typeId="dc214ed3-c98b-4ae6-b838-e5d9eaab475c" valueTypeId="7e830c4a-10e6-4a96-847e-bf9100b29a65"/>
+    <selectionType typeId="986e00c9-0872-4dd2-9444-43fd975d155c" valueTypeId="75bc8556-b7ea-4a11-8e3e-bcd10a412d2a"/>
+    <listType typeId="c9bf3d94-b2f9-480a-9076-0ce0c6d6fd49" valueTypeId="1e438f2d-a447-423e-bd21-8752ad1f770b"/>
+    <managerType typeId="618fa30b-1f09-4e61-be45-8e389a51af64" valueTypeId="f3423878-50bf-4e4c-a5f9-b4de3561af04"/>
+  </producedTypes>
+  <name>ПроизводственнаяОперация2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="28952eae-80ef-4a92-aab7-59d996587d3f" extendedConfigurationObject="7256b10c-7515-4bc9-a4a4-fbc84ad2c6df">
+    <name>Этап</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЭтапПроизводства2_2</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

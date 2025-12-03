@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f76dff8c-fcf5-416e-a343-c64dc8df1e32" extendedConfigurationObject="a5fc6d0d-7c52-4f58-9258-6c3836df2051">
+  <producedTypes>
+    <objectType typeId="4fd46c80-8cb3-442e-a559-ab8d0a7cea88" valueTypeId="37298df3-f36c-4975-8e04-d453e024c6c5"/>
+    <managerType typeId="cdd5761d-2240-408b-81c2-4f067774caf7" valueTypeId="0509f943-0052-4fab-a9c1-6ce2f776f75b"/>
+  </producedTypes>
+  <name>ВедомостьРасчетовМеждуОрганизациями</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

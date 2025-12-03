@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbb028a9-bfdd-4878-a8c0-6bdd71c6eb09">
+  <name>СХК_ОбменЗУП</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК обмен ЗУП</value>
+  </synonym>
+  <rootURL>exchange_zup</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="aaec63b6-68e9-41a1-a071-2401ca85a40e">
+    <name>ТабельЗУП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табель ЗУП</value>
+    </synonym>
+    <template>/UploadData/</template>
+    <methods uuid="275e2049-6748-47b4-aee9-f3d498c7e28b">
+      <name>МетодPOST</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьСКУДМетодPOST</handler>
+    </methods>
+    <methods uuid="df34ca15-1267-48ce-963a-ac2b57252d55">
+      <name>МетодGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод GET</value>
+      </synonym>
+      <handler>ПолучитьСКУДМетодGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

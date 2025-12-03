@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b90acd40-fca4-47b3-a55b-3f6e4dcd22bc" extendedConfigurationObject="7ecdbd0d-7dbf-443d-af41-e9cde537fb1b">
+  <producedTypes>
+    <objectType typeId="c516e6f5-e8be-49b6-81ff-240eb4d25bc7" valueTypeId="3427af02-2a85-445e-9162-68b53db859e1"/>
+    <refType typeId="8ea2e51c-5c84-4327-9af7-ea432523e26d" valueTypeId="8abf205d-7388-4edf-bada-2b0b5980562e"/>
+    <selectionType typeId="784fcd99-d197-4f82-a105-0b7dd9bccd28" valueTypeId="3edffd95-693c-4a39-aca2-6d97f6107944"/>
+    <listType typeId="6eb7cb36-11f1-421f-b998-f023fc3ad908" valueTypeId="382feda7-586b-4318-923e-a6476bdded60"/>
+    <managerType typeId="f6ee7bd7-99d1-40c7-bb11-3b57a1d71df5" valueTypeId="2b5244ce-ff80-4e55-b820-9c1cf9479a06"/>
+  </producedTypes>
+  <name>РаспределениеПроизводственныхЗатрат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="d0dd4736-84b3-4aa3-920e-23ce70805d33" extendedConfigurationObject="17b47a19-6cb8-4c45-ad45-3c208dc175ea">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

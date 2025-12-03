@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fb9967-bb0a-46f1-8830-310794df5e09">
+  <producedTypes>
+    <selectionType typeId="d4371363-c886-409d-ac5c-2d8cdc5c6578" valueTypeId="b26d8bae-a8af-4a7c-a152-d9c0bc8b6ed1"/>
+    <listType typeId="302f02c9-b312-4b73-8525-ac05dff80bc7" valueTypeId="c99f5b18-8817-431f-a86e-2a689efe945b"/>
+    <managerType typeId="b6bdff67-ecfa-4f8c-9f4c-d9f92e305ca4" valueTypeId="7e1fa4ae-8da1-480a-9367-7f879eddcc63"/>
+    <recordSetType typeId="f35ea5e3-ae3f-4b2b-becb-926f568e1156" valueTypeId="0b735b77-4fa8-48f2-ac66-2e52edf0157e"/>
+    <recordKeyType typeId="1ca773e4-5d2a-49da-a171-0310b5a751ea" valueTypeId="572681c4-9fa4-49dd-ae96-05e57b04637d"/>
+    <recordType typeId="0c93635b-8862-4bc2-bc5e-d9afa314297d" valueTypeId="7658d661-bcb0-403b-b4b1-a9b63f8fb1e8"/>
+    <recordManagerType typeId="84b881f3-9f6a-4d4d-9daa-697c6a14daf1" valueTypeId="a0b1125b-e5e8-43aa-9131-4bbb2bc9dc62"/>
+  </producedTypes>
+  <name>Расш1_РегистрШтрихЭтикетка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 регистр штрих этикетка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Расш1_РегистрШтрихЭтикетка.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Расш1_РегистрШтрихЭтикетка.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4f1f2f72-4eed-4434-a55a-b10ce67faddf">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура для которой задается штрихкод</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Items for which the barcode is specified</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Набор</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Услуга</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Работа</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Номенклатура.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="39d817f8-a9c6-40aa-98ae-9f1871edea08">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если у выбранной номенклатуры используются характеристики, то необходимо выбрать характеристику номенклатуры.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>If variants are used for the selected item, select a variant.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <changeMode>DontChange</changeMode>
+      <field>InformationRegister.Расш1_РегистрШтрихЭтикетка.Resource.Номенклатура</field>
+    </choiceParameterLinks>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ХарактеристикиНоменклатуры.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="edc75a03-f339-4e89-ab22-3b0a117fdd26">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Packaging unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если у выбранной номенклатуры используются упаковки, то можно выбрать упаковку номенклатуры.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>If packages are used for the selected item, you can select a package to use for this product.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <changeMode>DontChange</changeMode>
+      <field>InformationRegister.Расш1_РегистрШтрихЭтикетка.Resource.Номенклатура</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>ДобавлятьПустуюУпаковку</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.УпаковкиЕдиницыИзмерения.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c2859392-55e4-4ad6-af4b-8c0b3f84570b">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="93fde3ab-5f4f-4507-bc0f-09ab9b5171cd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a859142d-45ab-4a0a-ab3b-4aac97a23bec">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

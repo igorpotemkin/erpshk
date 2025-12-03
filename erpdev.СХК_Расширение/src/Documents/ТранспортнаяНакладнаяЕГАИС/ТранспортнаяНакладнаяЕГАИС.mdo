@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9e0eeced-1e1a-4243-8c25-a7e58530e92a" extendedConfigurationObject="f4f9a404-d299-4556-8b8a-7f6ce5d96049">
+  <producedTypes>
+    <objectType typeId="76f957ab-2865-4363-bb77-d59eaedc6cad" valueTypeId="71de8bd4-0613-48ea-9012-5a7e0417fb20"/>
+    <refType typeId="c8f23dfc-c302-41cb-bdc5-85dcb7156adb" valueTypeId="9b96af70-0f32-45ba-accd-444d500f346e"/>
+    <selectionType typeId="7be9c050-b17c-4a98-a2c8-9f9a2368f480" valueTypeId="6984df91-72b8-4a15-b013-0b2798a19f65"/>
+    <listType typeId="1de6ab2c-6933-4325-a1bf-3aa5e28951cb" valueTypeId="bd8234f5-0817-42c1-aa23-6d37fae364b8"/>
+    <managerType typeId="4b0f2ea9-52e4-491d-856b-eab31fd7764f" valueTypeId="d86fe567-4a0d-462d-a55a-95957f510784"/>
+  </producedTypes>
+  <name>ТранспортнаяНакладнаяЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e9a2966e-c311-4f90-896c-02c1f9ff39ee" extendedConfigurationObject="b33b3e23-8eeb-462c-b20e-ab2dbae2317a">
+    <name>ТоварноТранспортнаяНакладная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="1dcd3979-32ae-4357-93f2-77d90a5793c4" extendedConfigurationObject="23849aab-0d60-4602-acf2-20d63e935109">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеТранспортнаяНакладнаяЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="9535cf06-3436-48dd-83af-429307fea859" extendedConfigurationObject="031a789b-8ab3-4b4e-96d8-319eb21e6311">
+    <producedTypes>
+      <objectType typeId="51b536f6-8a2f-4649-b6e4-a6e15c59a589" valueTypeId="0379c836-f66b-4a45-b9db-6424db1d0b79"/>
+      <rowType typeId="8774bd1b-8e34-4ea9-a4b6-bbaf4137b0bf" valueTypeId="d053c257-8f12-42c2-863d-0f2dd9aa5642"/>
+    </producedTypes>
+    <name>ТранспортныеНакладные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="fb34e34e-331e-4e8b-9f92-60ea85a48cbd" extendedConfigurationObject="29321158-727e-44dc-9174-b2e29a8fa207">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

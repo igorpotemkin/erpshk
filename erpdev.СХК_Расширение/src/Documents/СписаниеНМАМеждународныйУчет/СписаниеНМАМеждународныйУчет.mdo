@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="254a8fd2-3397-4376-864a-2ccd8402cd15" extendedConfigurationObject="a969d992-e3fd-4169-97b5-7c0f8f28b036">
+  <producedTypes>
+    <objectType typeId="50153465-8b1d-4135-b11c-43027ea717dc" valueTypeId="da55dc6a-49a3-4a95-afab-013e70640796"/>
+    <refType typeId="5b372b41-98f9-441e-8fcd-b1c1f9286149" valueTypeId="b19ebc1e-1d13-4201-8a20-63e75405bdf3"/>
+    <selectionType typeId="77a88d06-7d9f-4d09-8f6e-ab7502df287e" valueTypeId="4cb29a1b-46f8-4a8c-88dd-efd3907dba21"/>
+    <listType typeId="30def4c6-6624-4666-9dcd-a79c00408676" valueTypeId="b765b4ec-7fa8-4187-8643-b086bbcd6306"/>
+    <managerType typeId="05d6a303-0b2f-4bf6-ad0e-2764488542b9" valueTypeId="0d104410-c9ba-4031-9238-e7fa3d611257"/>
+  </producedTypes>
+  <name>СписаниеНМАМеждународныйУчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="f2548372-ed88-4e69-b938-2b232e155149" extendedConfigurationObject="4c3d52e0-a73d-48cd-b8d0-2fd8663b5aa8">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СписаниеНМА</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="317810b0-53cc-45b5-87b9-cf530f7d2607" extendedConfigurationObject="a94d1443-00fc-40b2-a418-a96499db3b90">
+  <producedTypes>
+    <objectType typeId="06e46e14-80ae-4979-9f2a-56b19977ba7e" valueTypeId="589bf6a8-95ef-40a3-9a6c-cfee81bab808"/>
+    <refType typeId="eacda62d-b2ec-4908-bc67-be4ff651fc98" valueTypeId="2c084171-a652-4c13-a05f-fc25b57fcb60"/>
+    <selectionType typeId="c4c699e0-d648-4d00-9639-f1220d546eae" valueTypeId="47cb5480-ff78-41cf-89e8-9b56744b2ad4"/>
+    <listType typeId="38915dca-de22-4876-891b-f49158ab50c7" valueTypeId="fa318fcf-c92e-49be-8dcc-bcb72eaa9bc3"/>
+    <managerType typeId="ceb22d93-2e10-42b0-8d28-e06ca3e6a213" valueTypeId="4b501201-dfc6-47bf-bdb6-d8303dd91201"/>
+  </producedTypes>
+  <name>КорректировкаЗадолженностиПоФинансовымИнструментам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="3c8891e4-0687-4ad5-9500-532c773db2b2" extendedConfigurationObject="e2e3d48a-45a5-436b-ba3d-e891c9ac8b26">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="96148684-e4b2-4d3d-a148-f151cdcfccab" extendedConfigurationObject="ed5eee5e-7281-490e-a7db-d44c9760e0d9">
+    <name>АналитикаДоходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиДоходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

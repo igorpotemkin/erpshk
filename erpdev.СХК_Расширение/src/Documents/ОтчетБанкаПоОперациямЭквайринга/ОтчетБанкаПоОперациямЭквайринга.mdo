@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b236f1f6-0caf-4975-bf11-8a438172cc45" extendedConfigurationObject="10cefb2f-fb51-481f-87d1-cb8d023dd564">
+  <producedTypes>
+    <objectType typeId="273f0913-af26-4141-a5ff-4556733c5780" valueTypeId="6371fbd8-3cd9-4cc3-88ec-9bf68dfc502b"/>
+    <refType typeId="aea472fe-50a5-4534-8555-48a5b6ecefc0" valueTypeId="75daf88d-4e1e-47a9-bd3b-9bb9d7bf71fd"/>
+    <selectionType typeId="0842daf5-2de2-4772-9034-c01b024c5b6d" valueTypeId="6e1549db-e20d-4b1b-92d7-a14f669c6e05"/>
+    <listType typeId="428ed655-1d6a-46a0-9034-27f22789a145" valueTypeId="4dfb2d3c-e7ec-4a82-ab69-e827fc8d6294"/>
+    <managerType typeId="3bf22974-4494-471e-8212-2ee7658dbfda" valueTypeId="e56519b8-3a31-4f6d-bb1c-a1bed40cd05c"/>
+  </producedTypes>
+  <name>ОтчетБанкаПоОперациямЭквайринга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="916761db-30de-4eaf-98a2-181ac2fc79f9" extendedConfigurationObject="49194143-4473-4b26-ab29-6ba6fe040f3a">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

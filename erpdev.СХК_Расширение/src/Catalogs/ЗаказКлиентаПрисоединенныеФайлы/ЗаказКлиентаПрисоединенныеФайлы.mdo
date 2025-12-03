@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7693d237-ac3a-4f33-9235-131cb9bda027" extendedConfigurationObject="0e9194d9-dddc-45a0-9c09-12850e480012">
+  <producedTypes>
+    <objectType typeId="0242a8be-b454-48a7-92e8-da0341ec76e0" valueTypeId="4aa93d15-99e4-4833-8940-7782ecb9dc6f"/>
+    <refType typeId="69b412e1-e14d-4bc4-b817-ed5a06f4c9c3" valueTypeId="a5a4a6df-6578-4339-8e07-265aa71e8b77"/>
+    <selectionType typeId="61f7d92b-5b6b-4e95-84a1-93fe09f6d05f" valueTypeId="80af3e2a-9391-4e73-83bf-33d395790f52"/>
+    <listType typeId="4c02f98d-4700-4d4a-b48a-5bddb705005d" valueTypeId="57e9c1c7-d823-4c69-b19e-b055154f10ad"/>
+    <managerType typeId="773f979b-5f5e-4366-a693-f9b87bc384c8" valueTypeId="4a071824-5a8c-4aab-92f0-123454efb065"/>
+  </producedTypes>
+  <name>ЗаказКлиентаПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="472dcf51-a4a4-4ef0-8b1e-80503f17f5f6" extendedConfigurationObject="469aebd1-4902-46e3-8851-7284628c8650">
+    <name>ВладелецФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказКлиента</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="fa857f4d-1e35-4024-9a18-844a1891c571" extendedConfigurationObject="fcc6c558-7eab-436c-9b94-72de7c48db5d">
+    <name>ФайлХранилище</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

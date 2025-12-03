@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4164bc4-4666-4a6c-aa95-ab24a6222b5a">
+  <producedTypes>
+    <selectionType typeId="8593df00-0db8-4be0-a0f1-1de614b1a365" valueTypeId="5aab8c88-dda9-4892-8a52-ee9b408da415"/>
+    <listType typeId="6a601784-1c19-4c18-ac21-da049f055d82" valueTypeId="0f5e3f6d-4ec8-4f60-8de2-e4f82334ec2f"/>
+    <managerType typeId="ad2bb099-b4f3-4902-ac3c-aac9c9d7057f" valueTypeId="c3d526e7-7030-4f5a-8c7b-79a9f63b973f"/>
+    <recordSetType typeId="75a71d49-67c0-4f4b-b292-db51ddaa63f8" valueTypeId="2cc3c86f-3db4-4793-8135-32e1091c22f5"/>
+    <recordKeyType typeId="f2c187c3-1c8c-45b7-95e7-2b5e41f421b4" valueTypeId="46f287e2-0019-4e2a-93c4-e78ca8fa4313"/>
+    <recordType typeId="2d0ed65c-420c-4d8b-8165-8fe6533c8c33" valueTypeId="18aeb9c2-c1bf-40aa-982f-aefb9ba291a8"/>
+    <recordManagerType typeId="9d371812-730c-48d9-8f44-ea4d37a646af" valueTypeId="287afe9e-381d-4fbe-8387-34c663850522"/>
+  </producedTypes>
+  <name>СХКТруд_КТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХКТруд КТУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="850f2dac-f729-4c05-ac66-450f420f7526">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4ef6397d-125e-4bd4-adc5-6616ed4136ca">
+    <name>ТабНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таб номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05fb604c-5782-4e26-8397-63ca8357dbb1">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СХКТруд_Линии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

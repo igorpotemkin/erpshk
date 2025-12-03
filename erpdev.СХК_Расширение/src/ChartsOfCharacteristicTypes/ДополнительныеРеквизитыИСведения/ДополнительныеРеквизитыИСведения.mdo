@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccbb64e4-958a-4fa1-a604-ae0e3800cf7a">
+  <producedTypes>
+    <objectType typeId="13d90c88-30af-46a9-a0fa-ac49680bdaa8" valueTypeId="747ac958-cc73-49e0-9f14-842dd75491a1"/>
+    <refType typeId="6f7471dc-2c5f-4f53-8ba4-2d4b43b1056d" valueTypeId="c1f71014-9c73-4d6b-80ae-4562aa46878e"/>
+    <selectionType typeId="eb54b488-7f21-4795-82fe-180446bb5206" valueTypeId="9f1d1dab-5474-49b1-b0e4-d0bb0c91d8a9"/>
+    <listType typeId="e5c8ccaa-dd9c-4fa1-80f9-67c17a741d46" valueTypeId="ab78f58a-9c23-4c37-835d-74437d0585f8"/>
+    <managerType typeId="0b5b0d2c-3260-4fe1-bb19-e73b102b5c99" valueTypeId="5c1bd240-2285-4902-8d37-7a4e3e6c492e"/>
+    <containerType typeId="520d74f7-ff6c-4428-8059-a698457df879" valueTypeId="3f39a609-400a-4be8-9c73-2a7769723452"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.БанковскиеСчетаОрганизаций</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:ChartOfCharacteristicTypes>

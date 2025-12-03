@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68b1a892-bc45-4d22-9cfb-6da99c74b2bd">
+  <producedTypes>
+    <selectionType typeId="ac0ed6cb-0fe2-4c10-a812-b4258a27e3c0" valueTypeId="9b467cef-8c83-460e-a372-0aefbe071fd5"/>
+    <listType typeId="bc86111a-e304-4102-9402-882610b02cd7" valueTypeId="ecdf6373-7580-4148-b36f-8b42ed06c11c"/>
+    <managerType typeId="36dbe8c7-2f08-4f3f-afaf-bc493ed7b818" valueTypeId="72e586f9-5c59-4bb6-8920-87d20394566b"/>
+    <recordSetType typeId="f0aeeee0-aecf-4610-8894-5f908dfe86c3" valueTypeId="f42f81dc-9707-4db8-987e-e3dae668a72f"/>
+    <recordKeyType typeId="e2d94b85-3f47-4485-b2cc-baa61bd9afe9" valueTypeId="0b157d68-5750-4973-ac63-d6e15a6176d8"/>
+    <recordType typeId="a9f3cebc-55a9-467e-a456-3b9b55fce55a" valueTypeId="0791877b-1b8b-4217-b0b2-870c4cf4bd8b"/>
+    <recordManagerType typeId="3ff6bce5-ee4c-4d97-92d3-8589ccd2a4ec" valueTypeId="cbae4f0a-ac60-428e-a445-f3e971182782"/>
+  </producedTypes>
+  <name>СХК_РазмещениеОрдер</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК размещение ордер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СХК_РазмещениеОрдер.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a48aa585-b3f8-43be-b050-cf2e2afbae4e">
+    <name>ДокументОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ордер</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РасходныйОрдерНаТовары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d628db2e-beac-402e-a439-63aeefd62aaf">
+    <name>Ячейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СХК_СкладЯчейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f73cf983-8f41-47ce-8da9-62ed03bd8ad7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

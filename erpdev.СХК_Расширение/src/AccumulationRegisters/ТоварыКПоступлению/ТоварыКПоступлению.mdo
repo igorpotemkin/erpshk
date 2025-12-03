@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9bf03529-7be6-428c-9fe0-d2265e66b71b" extendedConfigurationObject="f8018ad0-db23-426a-af1c-59a7ce7041b1">
+  <producedTypes>
+    <selectionType typeId="60d0ae1e-b9c9-4e00-8d4c-7ad417131417" valueTypeId="7a950d44-9755-4716-8dc6-3f4964e1240a"/>
+    <listType typeId="693ab5e8-3226-490d-a3e3-d73711208de6" valueTypeId="70fdff43-62b7-4013-a8f4-d52752da1820"/>
+    <managerType typeId="3c0cb13f-4624-4e43-a656-82d158265fd1" valueTypeId="bf6280b4-c410-4245-997e-c00912a018ff"/>
+    <recordSetType typeId="aa8f74da-8f2b-4509-a30f-d0cf7a13fa09" valueTypeId="2bc66cbb-b4d2-4a70-91b7-86c4fde282b0"/>
+    <recordKeyType typeId="85c541fe-a63c-4486-944e-57770e0015e0" valueTypeId="4fb960e9-405c-4c5f-8e30-56312616984f"/>
+    <recordType typeId="49b3cf91-43fc-40b9-b7a5-800c633283fc" valueTypeId="6f4bc1df-6dd8-4e81-9325-cacbca6aac00"/>
+  </producedTypes>
+  <name>ТоварыКПоступлению</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="74914e42-1750-4f93-b463-8720b0174a35" extendedConfigurationObject="24d65230-7e9d-11e7-9886-f45c898df8f7">
+    <name>КОформлениюНакладныхПоРаспоряжению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="6f8d62af-3050-4c67-9bcb-0bed96ef1372" extendedConfigurationObject="13953ba0-31b1-49fd-a87f-e752934aed8f">
+    <name>КОформлениюПоступленийПоРаспоряжению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="9fb015d1-0766-48d8-a487-ed0e38d606fc" extendedConfigurationObject="06301186-7e9d-11e7-9886-f45c898df8f7">
+    <name>КОформлениюПоступленийПоНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="6e66bfc3-a693-48b1-98d6-88d715480ab8" extendedConfigurationObject="1bf287d8-7e9d-11e7-9886-f45c898df8f7">
+    <name>КОформлениюПоступленийПоОрдерам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="1f1f575c-4156-42c3-a3d2-772a7607f6b8" extendedConfigurationObject="e0b42c41-0a7a-4030-9385-53323816129b">
+    <name>КОформлениюОрдеров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="37eeae94-19e8-4c29-83ab-ab6fe48f0b66" extendedConfigurationObject="23626e4f-9fe0-456a-b1c3-d45200b97735">
+    <name>Принимается</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="31d9ef25-198f-4032-8b3a-b956e65a5461" extendedConfigurationObject="c423365a-2cc5-4eb7-96ee-c588a5936691">
+    <name>Сторно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="331a5183-a1e7-4551-bee2-40073802a4d3" extendedConfigurationObject="bbaf810d-00d2-4fe2-a0ee-1e32cb9b9107">
+    <name>ДокументПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.РаспоряжениеНаПоступление</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c00d3b74-f04b-431d-b71d-c2475b1e9f84" extendedConfigurationObject="0ecb99c5-6295-499e-bf79-881e98c4d71d">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="2594baca-c778-4701-84ea-0b14ce572453" extendedConfigurationObject="0dd7b370-c886-4c51-b0b6-b0311f368490">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="2a3fe264-da7c-4315-a721-5cc72bd0f84d" extendedConfigurationObject="dd0ca010-6473-4bc0-8e69-f367295a4ff8">
+    <name>Назначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Назначения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="ee4788fd-24b5-4f81-8a55-66ec1ec02790" extendedConfigurationObject="ea7a5a0c-f343-448c-96db-7bf19c97517a">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="e3cc5858-b1e0-400b-b081-91921c23680b" extendedConfigurationObject="bd224300-4d92-4fbb-afd9-8b0bfa8eb3b1">
+    <name>Отправитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОтправительПолучательТоваров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="2c3eaff5-0bbd-482b-bf03-e691ce7d53e2" extendedConfigurationObject="0d101b81-d93f-4a76-b2ad-07a4ab000d00">
+    <name>ХозяйственнаяОперация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ХозяйственныеОперации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c157e4ab-94dc-4275-8946-4b1be23e66f0" extendedConfigurationObject="49882c84-7e9d-11e7-9886-f45c898df8f7">
+    <name>Серия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СерииНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4de5ad18-be97-4daa-b3da-ea11475e439f">
+  <name>СХК_Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess.Задание</content>
+  <parentSubsystem>Subsystem.СХК_Помощь</parentSubsystem>
+</mdclass:Subsystem>

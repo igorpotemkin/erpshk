@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="063b90e7-18d1-407f-8e3a-a808986e90aa">
+  <producedTypes>
+    <refType typeId="dedb65a0-b3e1-47ab-b0c4-73c3e35768eb" valueTypeId="b1cd47f5-74cb-45ed-a35d-a76ac6645467"/>
+    <listType typeId="902d295a-404b-404a-bca9-9bb7565509d5" valueTypeId="b1fda281-50d7-41f4-b4c6-4bebc423ee50"/>
+    <managerType typeId="25566975-7162-42bf-adbb-4e1c541c2628" valueTypeId="9d442beb-01b6-4ca9-9565-ed6fa16f929a"/>
+  </producedTypes>
+  <name>Промо_СтатусПромо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промо статус промо</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c1446c2-df50-45bd-9018-e0b11d4f332a">
+    <name>НаСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>НаСогласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15be934c-478f-4cd5-bc20-174944f03384">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fac9cbb2-7b8e-4e31-ae31-c19902f24a6b">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9765ef4c-759c-4716-9509-e864d3dce3f6">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="767063d2-545e-4045-80c9-bd2e437357a7">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

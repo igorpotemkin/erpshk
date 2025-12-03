@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce340f4c-e1de-4f86-84b0-9e3e8e674e4a" extendedConfigurationObject="94b2e060-53b7-4b40-af05-30bea3520330">
+  <producedTypes>
+    <selectionType typeId="5a73fe60-290c-49a9-bcd5-c1278611b5f8" valueTypeId="205185a6-7336-4724-a092-9f81eab348d7"/>
+    <listType typeId="9727d2cd-1e04-4f49-b96f-8599c5056cb5" valueTypeId="5228a096-13a7-4e81-89b6-7f05509b53a5"/>
+    <managerType typeId="d6913ec6-e8c6-4272-8379-2e75150b9a7c" valueTypeId="ef1bf0b0-a97f-4d9e-b194-189ca067ce4e"/>
+    <recordSetType typeId="ee522778-c310-46ce-9d69-ab8da3f28764" valueTypeId="39faa6b1-1193-4954-a505-bff93aeb32ba"/>
+    <recordKeyType typeId="bef5bcf0-200a-4a12-bb31-b82266a1e3c4" valueTypeId="070a365c-4e80-4544-afa5-1573e963ac73"/>
+    <recordType typeId="7ae79c51-3e78-4e18-9281-ead249543525" valueTypeId="e4de0b06-1485-406b-b336-1d0b0ca41a0d"/>
+    <recordManagerType typeId="65c487b0-cb73-4ab1-b090-b309c7f402e4" valueTypeId="2a6f7224-ba95-4704-a5a9-79f621c655dc"/>
+  </producedTypes>
+  <name>НапоминанияПользователя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <attributes uuid="9cd78fcc-96b9-407d-bbae-120c0e2cb784" extendedConfigurationObject="41b0dabd-85a3-4819-84dd-371eaf4f996e">
+    <name>Описание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="690b5a1f-3c04-4933-90b4-409a249fdcea" extendedConfigurationObject="12d936f5-932b-4561-b934-c8444808a450">
+    <name>ИнтервалВремениНапоминания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="bff28f62-19a1-451a-b8d3-a6d5e54de5db" extendedConfigurationObject="c3ffeb09-121b-4d77-9c15-def4648b4f3c">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="dd3bdd1d-d10d-4921-a0a7-dc52c21f70b6" extendedConfigurationObject="c2de0724-04c1-4adb-b62a-b7ba727dbe67">
+    <name>ВремяСобытия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="4cbd01b4-b305-4b4a-9821-cfffcd9188d1" extendedConfigurationObject="4ae26777-69ff-4a55-942b-0bad8ab7a70a">
+    <name>Источник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ПредметНапоминания</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

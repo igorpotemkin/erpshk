@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55080d21-c828-4757-815d-66e3a1d40e4c" extendedConfigurationObject="7fab6b57-3b56-4f62-b21e-afa1b8a6451b">
+  <producedTypes>
+    <objectType typeId="96b0d260-c5e3-465e-94c7-850f5d078f0f" valueTypeId="411698de-65a3-48f5-aea2-5f3e1344bad9"/>
+    <refType typeId="167d3545-9ae6-460c-9ab3-df071472ed6b" valueTypeId="d913595b-8756-417f-9884-bca275411606"/>
+    <selectionType typeId="666dd6c0-c40e-4a81-aa5e-b0c5937970b5" valueTypeId="df8f961a-3ec8-401c-8438-6ea8ca2ba6ad"/>
+    <listType typeId="08cfb2ea-8a25-45b5-a4f9-bc10063094b7" valueTypeId="affd0fa6-dc97-414a-a2a1-30d9300ff81e"/>
+    <managerType typeId="b1583780-dc47-4de1-81ef-c9cb0aa78ece" valueTypeId="39794d48-b399-4cc3-96dc-c2feb1bccc17"/>
+  </producedTypes>
+  <name>ДрагоценныеМатериалы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

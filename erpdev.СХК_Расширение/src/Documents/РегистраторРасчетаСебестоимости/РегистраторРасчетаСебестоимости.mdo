@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbd65f75-ee17-445e-953e-aac8f24605d0" extendedConfigurationObject="8a9b68eb-ca02-42c3-ab29-561ecaced3c1">
+  <producedTypes>
+    <objectType typeId="7e3ae3c2-8faf-4897-820b-5b7a5b627d87" valueTypeId="ef7fea4b-9183-466c-91c5-baacd1966a76"/>
+    <refType typeId="ebeaec69-21e9-4cd5-91b9-8b68a356dd04" valueTypeId="904ecc7b-a149-4a12-b408-cb6e64f84281"/>
+    <selectionType typeId="a96887c2-df09-4584-8719-3bab690f3231" valueTypeId="7c1805a4-24ac-4543-9bc6-d5e8ce3dd517"/>
+    <listType typeId="e27d59f0-418d-4ba2-b0b0-2c31c9f699ae" valueTypeId="844194d4-a3a8-428f-874a-e27867acaad0"/>
+    <managerType typeId="d567030f-4185-425e-86fc-daccfd571593" valueTypeId="a7012184-29e5-483b-aebd-52c0e21af05f"/>
+  </producedTypes>
+  <name>РегистраторРасчетаСебестоимости</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

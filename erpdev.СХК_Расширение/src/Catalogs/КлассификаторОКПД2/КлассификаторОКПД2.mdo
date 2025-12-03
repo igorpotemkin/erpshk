@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ebb8bdd-6928-4cab-9ac2-4ddd8fce185f" extendedConfigurationObject="2e21616d-d3b3-463e-aab6-32bf856b4a9d">
+  <producedTypes>
+    <objectType typeId="ff8287ff-4443-4058-930c-0727c329da07" valueTypeId="68ac659e-18a1-4b24-ac55-8f589b9f1657"/>
+    <refType typeId="110799c4-551e-4ecb-8f37-35652881a875" valueTypeId="1d033d4d-6e93-48af-a9c3-15813186eacb"/>
+    <selectionType typeId="80fa8139-2c77-42db-b26c-54a661d4f663" valueTypeId="5f27f3eb-6bd4-4c37-b485-cc9ad79ddac0"/>
+    <listType typeId="d025459a-6d9a-4aec-bc99-03c7058514c9" valueTypeId="36d4c507-d653-4b72-a58f-7acfb0eef8f7"/>
+    <managerType typeId="cdb204c2-a89a-46b2-85e1-5e2a59148a02" valueTypeId="4fe3c8c6-440a-4beb-a069-f574b407f596"/>
+  </producedTypes>
+  <name>КлассификаторОКПД2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+</mdclass:Catalog>

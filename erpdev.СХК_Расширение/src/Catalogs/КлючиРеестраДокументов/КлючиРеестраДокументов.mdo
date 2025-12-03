@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5403b7d6-edc8-41ee-b56e-bc0ecc3472f2">
+  <producedTypes>
+    <objectType typeId="ef463b76-e066-4cd1-8ab5-141480b0d571" valueTypeId="4eeaf970-8cbe-4b7c-900c-a12262e09d24"/>
+    <refType typeId="805dbcf8-91d3-4bf5-9669-5e498d07d98d" valueTypeId="20f426d3-89c0-4858-9c2b-86541d703e9e"/>
+    <selectionType typeId="b815b144-fced-473b-9301-5c4b2b9b1bce" valueTypeId="6bc4d2cc-b889-4955-af65-01e798fc538a"/>
+    <listType typeId="d673564c-df98-4bc5-8b60-fbb7650d0de7" valueTypeId="c5067c6d-1ba1-4b53-a9f9-fd1feeafd099"/>
+    <managerType typeId="8a476fbb-3bcc-42e1-a17f-29c153d3465e" valueTypeId="b20ebeb1-a4ce-49a7-9507-d1a8006cfbc7"/>
+  </producedTypes>
+  <name>КлючиРеестраДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="9c343dd7-aae2-47fd-9142-b69e3646ec7c" extendedConfigurationObject="9bd4d77a-a83d-11e7-7088-f45c898df8f7">
+    <name>Ключ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

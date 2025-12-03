@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c53bf7f-fcf2-451d-b6bb-a828cbe5fd01">
+  <producedTypes>
+    <refType typeId="8466c44e-25a4-41c1-a799-bca93ed2a8d5" valueTypeId="39b0b827-dc14-4f8d-8554-3f0ec480bbe1"/>
+    <listType typeId="bcb79a35-6958-4218-b731-68424ec6e58a" valueTypeId="9df796da-3ad4-429e-a319-70124d145b1a"/>
+    <managerType typeId="f027180d-e028-438b-a3cf-7fb6eabb4376" valueTypeId="710ddc03-35a0-483a-abd4-73d07af87836"/>
+  </producedTypes>
+  <name>Промо_ТипПромо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Промо тип промо</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c4f22304-8d65-43c2-949b-26db4bdd6a83">
+    <name>Ценовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8379a762-ec2a-4904-977d-017b4e55e052">
+    <name>НеЦеновое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не ценовое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90106e31-1625-4f10-9f05-ced6152800e2">
+    <name>Ecom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ecom</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22b96a43-71f7-4152-b00a-07c85ba3ba7b">
+    <name>EcomЦеновое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ecom ценовое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

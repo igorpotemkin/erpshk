@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="055fc10a-226c-4255-bc14-1a53116c24c6" extendedConfigurationObject="7c10b77c-1957-48a6-8155-3682168a4ab1">
+  <name>ДобавлениеИзменениеПересчетовТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:RoleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <rights>Extended</rights>
+  </extension>
+</mdclass:Role>

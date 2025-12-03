@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="93b1344d-617f-4b24-b5ef-c6afcfe14e74" extendedConfigurationObject="05f5329f-ef4d-49d7-8f98-759a62444841">
+  <producedTypes>
+    <objectType typeId="aa12bddf-01c1-40ea-ae7b-eed3d2bdfbd3" valueTypeId="da97f08b-0c3c-48f4-aaf8-e9c467032a60"/>
+    <refType typeId="30149dc2-18bc-439a-9651-63ad967a6736" valueTypeId="6debb7fb-ce23-49e2-ba6a-01bbae08f5ff"/>
+    <selectionType typeId="04699779-0e8f-42c4-92dc-43370aa2e851" valueTypeId="bb677f70-898e-4088-8039-965c57d27696"/>
+    <listType typeId="a64f08e3-3604-4279-8983-deff43458cf5" valueTypeId="2f2d4e34-d3e8-4b5e-ad58-039e4c1aea0d"/>
+    <managerType typeId="2a47a6f0-f013-486e-92f9-a12a8da6d654" valueTypeId="14285085-e72d-42ae-bc16-3dfd67e1a83f"/>
+  </producedTypes>
+  <name>ОперацияПоЯндексКассе</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="dcbe03a9-81f4-4844-8928-9b8d3fd0ebac" extendedConfigurationObject="ab7cb612-24f8-4727-bb3f-d59bb74e0aee">
+    <name>ОснованиеПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеПлатежаЧерезЯндексКассу</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

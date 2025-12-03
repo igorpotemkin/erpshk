@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d9d4d97-cc2e-4fbd-81fd-35daaf09d8e1">
+  <producedTypes>
+    <objectType typeId="a8e28948-2851-445f-a7f1-dc43af38816b" valueTypeId="308570c3-8035-494a-9ef0-f05608208c38"/>
+    <managerType typeId="29bb993e-62d5-479c-b0d4-2e1160da3491" valueTypeId="5f0e9018-5122-4bbb-99e2-20b5f51773a9"/>
+  </producedTypes>
+  <name>СХК_АнализБуфер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение товаров по складу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СХК_АнализБуфер.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="54c828d6-b44a-42d0-bba4-9593ed72ffc1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

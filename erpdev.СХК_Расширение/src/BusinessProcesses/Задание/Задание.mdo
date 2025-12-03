@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b23a079-9282-48ff-964e-b69fb155c8b3" extendedConfigurationObject="dad11c2e-08fc-4a6b-8829-8be6c64c15fc">
+  <producedTypes>
+    <objectType typeId="0f8aea83-dff2-4691-8abc-949d0f7289a9" valueTypeId="848f43eb-02d3-4986-b0e8-c3a488bcaacb"/>
+    <refType typeId="83fe46c3-37b0-4e6c-ad50-ae0b0b50961b" valueTypeId="51f0d641-c24b-4838-946f-e52d46dc6986"/>
+    <selectionType typeId="3a95871e-7c16-4cd7-be41-2cf8b53b0e08" valueTypeId="e55a239f-9350-484a-96cb-d0beff24a702"/>
+    <listType typeId="b90164d4-8ba8-4e07-a4f7-1d31aeac31ac" valueTypeId="3a049ebd-21d1-4fa5-95c1-e6e042f76668"/>
+    <managerType typeId="2eed1ed9-08ed-4517-8ab1-4efcc1621dd4" valueTypeId="db8d7200-6f60-458b-b4da-a0fddba757b8"/>
+    <routePointRef typeId="422ba5c3-9317-422c-a352-c0397c593069" valueTypeId="f67fb56d-84fa-4d16-982e-4570c946a7b8"/>
+  </producedTypes>
+  <name>Задание</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:BusinessProcessExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="44f4d04e-fc3d-4c8f-a53a-8698eaea68eb" extendedConfigurationObject="1a7c7427-bead-4655-9dd6-df6e722663c5">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="9b4454d9-876e-4d4d-8f03-982e87bf41c0" extendedConfigurationObject="b58942ca-1367-4e1d-b5b4-7d973d0fecd8">
+    <name>ФормаБизнесПроцесса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:BusinessProcess>

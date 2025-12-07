@@ -37,7 +37,6 @@
       <key>ru</key>
       <value>СБОРКА</value>
     </title>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -74,7 +73,6 @@
   <items xsi:type="form:Decoration">
     <name>Декорация1</name>
     <id>5</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -175,7 +173,6 @@
   <items xsi:type="form:Button">
     <name>Отгрузка</name>
     <id>3</id>
-    <visible>true</visible>
     <enabled>false</enabled>
     <userVisible>
       <common>true</common>
@@ -201,7 +198,6 @@
   <items xsi:type="form:Button">
     <name>Выход</name>
     <id>16</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -236,6 +232,7 @@
     </font>
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -255,7 +252,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.СХК_ТСДСырье</types>
+      <types>DataProcessorObject.СХК_МобильныйСкладСырье</types>
     </valueType>
     <view>
       <common>true</common>

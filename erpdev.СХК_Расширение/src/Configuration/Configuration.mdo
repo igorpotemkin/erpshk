@@ -757,7 +757,7 @@
   <dataProcessors>DataProcessor.СХК_Помощник</dataProcessors>
   <dataProcessors>DataProcessor.СХК_СМФОтчет</dataProcessors>
   <dataProcessors>DataProcessor.СХК_СоздатьСерии</dataProcessors>
-  <dataProcessors>DataProcessor.СХК_ТСДСырье</dataProcessors>
+  <dataProcessors>DataProcessor.СХК_МобильныйСкладСырье</dataProcessors>
   <dataProcessors>DataProcessor.СХКТруд_Табель</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеОтгрузкой</dataProcessors>
   <informationRegisters>InformationRegister.АналитикаУчетаПоПартнерам</informationRegisters>

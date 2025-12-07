@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DataProcessor.СХК_ТСДСырье</content>
+  <content>DataProcessor.СХК_МобильныйСкладСырье</content>
   <content>InformationRegister.СХК_ПланПродажБюджет</content>
   <content>DataProcessor.СХК_АРМПроизводство</content>
   <content>InformationRegister.СХК_ВыпускПоЭтапу</content>
@@ -21,4 +21,5 @@
   <content>Report.СХК_АнализБуфер</content>
   <content>DataProcessor.Склад</content>
   <content>Report.СХК_ОстаткиПоЯчейкам</content>
+  <content>DataProcessor.СХК_СМФОтчет</content>
 </mdclass:Subsystem>

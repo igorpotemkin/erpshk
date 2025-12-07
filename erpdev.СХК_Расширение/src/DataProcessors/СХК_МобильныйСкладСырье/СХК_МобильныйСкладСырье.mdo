@@ -4,13 +4,13 @@
     <objectType typeId="5843cfe5-0fe2-44e6-baaa-44a8b2f542d1" valueTypeId="d95d3d63-3b51-4ebf-b557-e079718475b0"/>
     <managerType typeId="d9371d1b-8424-4f41-884c-3cee9fa4f85d" valueTypeId="149b2e1f-0bc8-4f19-aace-3b16ca2fce02"/>
   </producedTypes>
-  <name>СХК_ТСДСырье</name>
+  <name>СХК_МобильныйСкладСырье</name>
   <synonym>
     <key>ru</key>
-    <value>СХК ТСДСырье</value>
+    <value>Мобильный склад сырье</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.СХК_ТСДСырье.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.СХК_МобильныйСкладСырье.Form.Форма</defaultForm>
   <attributes uuid="ca447838-2d9d-435b-804a-235d8c517eea">
     <name>Склад</name>
     <synonym>
@@ -88,17 +88,17 @@
       <choiceParameterLinks>
         <name>Отбор.Код</name>
         <changeMode>DontChange</changeMode>
-        <field>DataProcessor.СХК_ТСДСырье.Attribute.Склад</field>
+        <field>DataProcessor.СХК_МобильныйСкладСырье.Attribute.Склад</field>
       </choiceParameterLinks>
       <choiceParameterLinks>
         <name>Номенклатура</name>
         <changeMode>DontChange</changeMode>
-        <field>DataProcessor.СХК_ТСДСырье.TabularSection.ТабПриемка.Attribute.Номенклатура</field>
+        <field>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Номенклатура</field>
       </choiceParameterLinks>
       <choiceParameterLinks>
         <name>Характеристика</name>
         <changeMode>DontChange</changeMode>
-        <field>DataProcessor.СХК_ТСДСырье.TabularSection.ТабПриемка.Attribute.Характеристика</field>
+        <field>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Характеристика</field>
       </choiceParameterLinks>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
@@ -205,47 +205,38 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d7dbc2d7-e8c0-4269-9c03-b32c5f39748f">
-    <name>СписокОрдеров</name>
+  <forms uuid="29491354-b190-4722-a0d6-b04c08763767">
+    <name>ЖурналЗаказыПоставщику</name>
     <synonym>
       <key>ru</key>
-      <value>Список ордеров</value>
+      <value>Журнал заказы поставщику</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="0dbf13f5-7ace-43f2-9322-5d6097aedbf3">
-    <name>ФормаОрдер</name>
+  <forms uuid="01662fab-6372-4515-a272-fef79a0ef1f3">
+    <name>ФормаЗаказа</name>
     <synonym>
       <key>ru</key>
-      <value>Форма ордер</value>
+      <value>Форма заказа</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="6d736562-af86-4d05-8667-cfdd6228b8f6">
-    <name>ФормаОрдерСборка</name>
+  <forms uuid="154ee10e-b8b7-436a-afad-85d0897483cc">
+    <name>ФормаПоступления</name>
     <synonym>
       <key>ru</key>
-      <value>Форма ордер сборка</value>
+      <value>Форма поступления</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="63a5927c-146e-496d-a01e-2b4a33e51602">
-    <name>ЖурналПриемка</name>
+  <forms uuid="6ec23edb-db0c-49b6-a01d-f04830d6a2f3">
+    <name>ФормаСерии</name>
     <synonym>
       <key>ru</key>
-      <value>Приемка товаров на склад</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="af1b1f67-5e13-4ae9-ac94-312a91e44e35">
-    <name>ФормаПОрдер</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма п ордер</value>
+      <value>Форма серии</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

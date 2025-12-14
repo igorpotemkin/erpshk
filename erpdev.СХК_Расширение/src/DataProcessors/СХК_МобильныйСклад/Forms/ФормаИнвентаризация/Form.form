@@ -216,6 +216,10 @@
       <items xsi:type="form:Button">
         <name>Очистить</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить ячейку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

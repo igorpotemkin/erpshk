@@ -94,6 +94,22 @@
 			</v8:item>
 		</title>
 	</calculatedField>
+	<calculatedField>
+		<dataPath>Расхождения</dataPath>
+		<expression/>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расхождения</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ВыделятьОтрицательные</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
 	<totalField>
 		<dataPath>ВНаличииОстаток</dataPath>
 		<expression>ВНаличииОстаток</expression>
@@ -108,6 +124,11 @@
 	<totalField>
 		<dataPath>ВНаличииОстатокГП</dataPath>
 		<expression>ВНаличииОстатокГП</expression>
+		<group>Серия</group>
+	</totalField>
+	<totalField>
+		<dataPath>Расхождения</dataPath>
+		<expression>Сумма(ВНаличииОстаток)-ВНаличииОстатокГП</expression>
 		<group>Серия</group>
 	</totalField>
 	<parameter>
@@ -150,7 +171,7 @@
 					<dcsset:lwsTitle>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Остаток по складу ГП</v8:content>
+							<v8:content>Остаток склад ГП</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
 				</dcsset:item>
@@ -159,9 +180,12 @@
 					<dcsset:lwsTitle>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Остаток по ячейкам</v8:content>
+							<v8:content>Ячейки остаток</v8:content>
 						</v8:item>
 					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Расхождения</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -227,6 +251,9 @@
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВНаличииОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Расхождения</dcsset:field>
 						</dcsset:item>
 					</dcsset:selection>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">

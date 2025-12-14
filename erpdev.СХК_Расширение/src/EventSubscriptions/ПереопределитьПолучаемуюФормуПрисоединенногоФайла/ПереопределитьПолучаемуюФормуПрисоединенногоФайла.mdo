@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3fc62f5b-d707-40c8-9438-39e7c7f783ff" extendedConfigurationObject="555ceb12-0509-45a9-bf20-a1fa96ed1a34">
+  <name>ПереопределитьПолучаемуюФормуПрисоединенногоФайла</name>
+  <comment>//++shishkin@syspod.ru #87939</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EventSubscriptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <source>Extended</source>
+  </extension>
+  <source>
+    <types>CatalogManager.ПересчетТоваровПрисоединенныеФайлы</types>
+    <types>CatalogManager.ОприходованиеИзлишковТоваровПрисоединенныеФайлы</types>
+    <types>CatalogManager.СписаниеНедостачТоваровПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПересортицаТоваровПрисоединенныеФайлы</types>
+  </source>
+</mdclass:EventSubscription>

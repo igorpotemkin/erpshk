@@ -52,6 +52,14 @@
       </typeExtension>
     </extension>
   </attributes>
+  <forms uuid="e6d50862-e99b-48ce-87cf-33261d5bef34" extendedConfigurationObject="ea5950f2-eb3d-4631-ae22-f7eef148acca">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
   <tabularSections uuid="931ad639-ba52-4f02-9c8d-3bba53feb428" extendedConfigurationObject="12b88ea5-2c03-48ae-ada5-e748306e4b3d">
     <producedTypes>
       <objectType typeId="065c1534-65fa-4c47-a78a-7f696601267a" valueTypeId="ebedba79-5f01-420a-9e54-367bc3b6e2db"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47af07b7-80ba-429c-adb1-874e03f05ee3">
+  <name>__РедактированиеОприходованиеИзлишковПФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование оприходование излишков ПФ</value>
+  </synonym>
+  <comment>//++shishkin@syspod.ru #87939</comment>
+</mdclass:Role>

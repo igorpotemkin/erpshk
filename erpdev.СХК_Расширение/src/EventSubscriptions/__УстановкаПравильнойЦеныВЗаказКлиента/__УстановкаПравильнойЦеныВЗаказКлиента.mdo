@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6137cc7-a8b8-4e17-a9a4-f6d6546e2ecf">
+  <name>__УстановкаПравильнойЦеныВЗаказКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка правильной цены в заказ клиента</value>
+  </synonym>
+  <comment>//++ plotnikov@syspod.ru #85606</comment>
+  <source>
+    <types>DocumentObject.ЗаказКлиента</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.__СП_ЗаказКлиента.__УстановкаПравильнойЦеныВЗаказКлиентаПередЗаписью</handler>
+</mdclass:EventSubscription>

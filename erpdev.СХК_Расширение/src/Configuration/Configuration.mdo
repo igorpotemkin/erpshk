@@ -71,7 +71,6 @@
   <styleItems>StyleItem.СерыйЦветТекста1</styleItems>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыУказаны</commonPictures>
-  <commonPictures>CommonPicture.СерииНоменклатурыУказаныFEFO</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
@@ -138,22 +137,33 @@
   <commonPictures>CommonPicture.МРМКладовщикаОтгрузка</commonPictures>
   <commonPictures>CommonPicture.МРМКладовщикаПеремещение</commonPictures>
   <commonPictures>CommonPicture.МРМКладовщикаОтгрузкаАктивная</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыУказаныFEFO</commonPictures>
   <commonPictures>CommonPicture.МРМКладовщикаОтчеты</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВниз</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьЦеныПоВидуЦен</commonPictures>
   <roles>Role.ДобавлениеИзменениеРеализацийТоваровУслуг</roles>
+  <roles>Role.СХК_Пересорт</roles>
+  <roles>Role.Промо_ОсновнаяРоль</roles>
+  <roles>Role.ДобавлениеИзменениеПересчетовТоваров</roles>
+  <roles>Role.ДобавлениеИзменениеНоменклатуры</roles>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.СХК_ТСД</roles>
+  <roles>Role.СХК_Логистика</roles>
   <roles>Role.ДобавлениеИзменениеПриобретенийТоваровУслугВозвратовПоставщикам</roles>
   <roles>Role.ЧтениеРеализацийТоваровУслуг</roles>
-  <roles>Role.ДобавлениеИзменениеНоменклатуры</roles>
-  <roles>Role.ДобавлениеИзменениеПересчетовТоваров</roles>
-  <roles>Role.Промо_ОсновнаяРоль</roles>
-  <roles>Role.СХК_Логистика</roles>
-  <roles>Role.СХК_ТСД</roles>
-  <roles>Role.Администрирование</roles>
-  <roles>Role.СХК_Пересорт</roles>
   <roles>Role.СХК_СоглашенияСКлиентами</roles>
   <roles>Role.СХК_ПолныеСклад</roles>
   <roles>Role.СХК_ОператорПланированияПроизводства</roles>
   <roles>Role.СХК_КоординаторПланированияПроизводства</roles>
+  <roles>Role.__ЧтениеПросмотрОприходованиеИзлишковПФ</roles>
+  <roles>Role.__ЧтениеПросмотрСписаниеНедостачПФ</roles>
+  <roles>Role.__ЧтениеПросмотрПересортицаТоваровПФ</roles>
+  <roles>Role.__ЧтениеПросмотрПересчетТоваровПФ</roles>
+  <roles>Role.__РедактированиеОприходованиеИзлишковПФ</roles>
+  <roles>Role.__РедактированиеСписаниеНедостачПФ</roles>
+  <roles>Role.__РедактированиеПересортицаТоваровПФ</roles>
+  <roles>Role.__РедактированиеПересчетТоваровПФ</roles>
+  <roles>Role.__СогласованиеЦенНоменклатурыВЗаказеКлиента</roles>
   <commonModules>CommonModule.__СпОбщийМодуль</commonModules>
   <commonModules>CommonModule.ВзаиморасчетыКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
@@ -178,7 +188,11 @@
   <commonModules>CommonModule.СХК_СКУДСервер</commonModules>
   <commonModules>CommonModule.СХК_СКУДКлиент</commonModules>
   <commonModules>CommonModule.ПроизводствоСервер</commonModules>
+  <commonModules>CommonModule.__СП_ЗаказКлиента</commonModules>
   <httpServices>HTTPService.СХК_ОбменЗУП</httpServices>
+  <eventSubscriptions>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.__УстановкаПравильнойЦеныВЗаказКлиента</eventSubscriptions>
   <functionalOptions>FunctionalOption.ИспользоватьУпаковкиНоменклатуры</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНесколькоСкладов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьРучныеСкидкиВПродажах</functionalOptions>
@@ -376,6 +390,12 @@
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ЦеновыеГруппы</catalogs>
   <catalogs>Catalog.ШаблоныЭтикетокИЦенников</catalogs>
+  <catalogs>Catalog.ПредопределенныеЗначения</catalogs>
+  <catalogs>Catalog.СписаниеНедостачТоваровПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.ОприходованиеИзлишковТоваровПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПересортицаТоваровПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПересчетТоваровПрисоединенныеФайлы</catalogs>
   <documents>Document.АвансовыйОтчет</documents>
   <documents>Document.АктВыполненныхВнутреннихРабот</documents>
   <documents>Document.АктВыполненныхРабот</documents>
@@ -719,6 +739,7 @@
   <enums>Enum.УправлениеМаршрутнымиЛистами</enums>
   <enums>Enum.ФормыОплаты</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.ТипыХраненияФайлов</enums>
   <reports>Report.ОстаткиПоСкладам20221004</reports>
   <reports>Report.ОтгрузкаСоСкладаЗаПериод</reports>
   <reports>Report.СХК_ОтчетПромо</reports>

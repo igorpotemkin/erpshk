@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3986e8d7-2847-4198-8a9e-1b2523ab0555">
+  <name>__ЧтениеПросмотрПересчетТоваровПФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение просмотр пересчет товаров ПФ</value>
+  </synonym>
+  <comment>//++shishkin@syspod.ru #87939</comment>
+</mdclass:Role>

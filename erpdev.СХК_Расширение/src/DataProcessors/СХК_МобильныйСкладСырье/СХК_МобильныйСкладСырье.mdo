@@ -241,4 +241,31 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="db5df30f-f8a1-41f7-ae48-605c64dd54d7">
+    <name>ФормаУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упаковки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d39cadc-d164-4e90-8a8a-3d2b992cf514">
+    <name>ЖурналПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал перемещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca05f2e9-7ae9-475e-a4b6-0df92d7e1c0f">
+    <name>ФормаПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма перемещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

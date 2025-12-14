@@ -17,4 +17,11 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="5ba54ced-6c7d-40f3-8f7c-a350ebaeb8d9" extendedConfigurationObject="b5885bdb-ac5b-4484-a766-4dfb1dacab0c">
+    <name>КВыполнению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

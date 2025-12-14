@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="613cb93d-31ba-4b9b-90fa-3ff5ef1405ee" extendedConfigurationObject="d912e472-9553-4b96-8b16-7aaff6c14239">
+  <producedTypes>
+    <objectType typeId="fbf16939-a7a4-4440-82be-b87118e37f5c" valueTypeId="11d45811-cef1-4d65-b832-e62a29be7611"/>
+    <refType typeId="9e83f54f-eea8-40b1-a0f7-6082e12b0e27" valueTypeId="f9577241-90c1-47b8-999e-e34def4d16f7"/>
+    <selectionType typeId="f999eb31-5743-4a9c-bd7a-ff4b796cc683" valueTypeId="fdf7dd42-7388-44cd-9b6b-5e21ce426544"/>
+    <listType typeId="3fbacc6e-9b64-49e9-9536-633fa0bc8803" valueTypeId="e0329cc2-7137-4ad2-afb3-0ff27522b178"/>
+    <managerType typeId="872f2c22-b8b0-42db-97ca-dae129305702" valueTypeId="70d9dec1-d4c2-448c-a7f6-95edbeeffdb5"/>
+  </producedTypes>
+  <name>ТомаХраненияФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

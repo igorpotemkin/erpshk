@@ -128,6 +128,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="4e42482b-bf55-459d-be32-c23e9f6136b1">
+    <name>Архив_ФормаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив форма перемещение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="be0471f9-d86e-473d-896d-975573aeb492">
     <name>МакетСклад</name>
     <synonym>

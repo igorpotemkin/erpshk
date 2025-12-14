@@ -2743,6 +2743,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.Статус</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>Статус1ПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>Статус1РасширеннаяПодсказка</name>
                 <id>219</id>

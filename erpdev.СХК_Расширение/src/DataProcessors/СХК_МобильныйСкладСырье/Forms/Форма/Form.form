@@ -30,46 +30,6 @@
       <horizontalAlign>Left</horizontalAlign>
     </extInfo>
   </items>
-  <items xsi:type="form:Button">
-    <name>Сборка</name>
-    <id>1</id>
-    <title>
-      <key>ru</key>
-      <value>СБОРКА</value>
-    </title>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>СборкаРасширеннаяПодсказка</name>
-      <id>2</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.Сборка</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <horizontalStretch>true</horizontalStretch>
-    <groupHorizontalAlign>Center</groupHorizontalAlign>
-    <placementArea>UserCmds</placementArea>
-    <font xsi:type="core:FontRef">
-      <font>Style.NormalTextFont</font>
-      <height>16.0</height>
-      <bold>true</bold>
-      <italic>false</italic>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-      <scale>100</scale>
-    </font>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
   <items xsi:type="form:Decoration">
     <name>Декорация1</name>
     <id>5</id>
@@ -171,39 +131,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>Отгрузка</name>
-    <id>3</id>
+    <name>Перемещение</name>
+    <id>16</id>
+    <title>
+      <key>ru</key>
+      <value>ПЕРЕМЕЩЕНИЕ</value>
+    </title>
+    <visible>true</visible>
     <enabled>false</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ОтгрузкаРасширеннаяПодсказка</name>
-      <id>4</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.Отгрузка</commandName>
-    <representation>Auto</representation>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
-  </items>
-  <items xsi:type="form:Button">
-    <name>Выход</name>
-    <id>16</id>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <extendedTooltip>
-      <name>ВыходРасширеннаяПодсказка</name>
+      <name>ПеремещениеРасширеннаяПодсказка</name>
       <id>17</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -213,17 +153,15 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.Выход</commandName>
+    <commandName>Form.Command.Перемещение</commandName>
     <representation>Auto</representation>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <horizontalStretch>true</horizontalStretch>
-    <groupHorizontalAlign>Center</groupHorizontalAlign>
     <placementArea>UserCmds</placementArea>
     <font xsi:type="core:FontRef">
       <font>Style.NormalTextFont</font>
-      <faceName>Arial</faceName>
-      <height>10.0</height>
+      <height>16.0</height>
       <bold>true</bold>
       <italic>false</italic>
       <underline>false</underline>
@@ -284,19 +222,24 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Отгрузка</name>
+    <name>Перемещение</name>
     <title>
       <key>ru</key>
-      <value>Отгрузка</value>
+      <value>Перемещение</value>
     </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Отгрузка</value>
+      <value>Перемещение</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Перемещение</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>

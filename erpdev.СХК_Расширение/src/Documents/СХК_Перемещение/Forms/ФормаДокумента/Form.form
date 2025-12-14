@@ -293,6 +293,10 @@
     <items xsi:type="form:FormField">
       <name>ТЧТоварыТекЯчейка</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Ячейка отправитель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -333,6 +337,10 @@
     <items xsi:type="form:FormField">
       <name>ТЧТоварыНЯчейка</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Ячейка получатель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

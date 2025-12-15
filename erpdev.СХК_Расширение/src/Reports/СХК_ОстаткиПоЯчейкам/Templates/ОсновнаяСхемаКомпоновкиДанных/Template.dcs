@@ -38,7 +38,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>В наличии остаток ГП</v8:content>
+					<v8:content>Остаток склад ГП</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -56,7 +56,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>В наличии остаток</v8:content>
+					<v8:content>Остаток ячейки</v8:content>
 				</v8:item>
 			</title>
 			<valueType>

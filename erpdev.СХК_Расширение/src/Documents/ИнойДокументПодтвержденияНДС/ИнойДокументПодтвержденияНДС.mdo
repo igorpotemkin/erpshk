@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d340f884-878a-4370-b184-35138b3640f3" extendedConfigurationObject="660198c9-5454-4438-b85d-f7ad1abcc4bd">
+  <producedTypes>
+    <objectType typeId="08bcd4fd-8418-4a2a-90da-33ad8d5a95de" valueTypeId="a432b079-371c-4408-b9b8-3b6d6ea3f3ab"/>
+    <refType typeId="577bd085-b962-4b8d-b1df-1b52ca5f227a" valueTypeId="3da0da2c-a045-4d46-a736-baa50bc49a16"/>
+    <selectionType typeId="d36d9db6-de85-4b2c-8aa1-c411442409e9" valueTypeId="ac805697-9d71-45c8-be58-1f3e64c122a7"/>
+    <listType typeId="bca2fd41-6062-4e0b-b992-98f389cf45b3" valueTypeId="e9dea64e-493a-4502-875e-b52d023ada3e"/>
+    <managerType typeId="7083ea6a-b4d2-4887-93c1-3ea118a76213" valueTypeId="c598e481-051f-412f-87f6-92f8bc1f084c"/>
+  </producedTypes>
+  <name>ИнойДокументПодтвержденияНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="bbed86dd-4c98-43ab-930c-8c2c8225d12d" extendedConfigurationObject="9114ff68-34cf-42f7-ba96-a75083fc52e8">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

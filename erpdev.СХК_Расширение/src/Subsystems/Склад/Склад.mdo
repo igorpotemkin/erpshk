@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9eda2b2b-c569-4e84-bf69-982cf1483e5d" extendedConfigurationObject="d235646a-3351-45e3-b68b-054183fce119">
+  <name>Склад</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>DataProcessor.МобильныйСклад</content>
+  <content>Document.Расш1_ОтгрузкаФакт</content>
+  <content>Catalog.Расш1_РЦ</content>
+  <content>Catalog.СХК_СкладЯчейки</content>
+  <content>DataProcessor.ЗаполнитьЯчейки</content>
+  <content>DataProcessor.Склад</content>
+  <content>Report.СХК_Логистика</content>
+  <content>Report.ВедомостьПоТоварамОрганизаций</content>
+  <content>Report.ВедомостьРасчетовМеждуОрганизациями</content>
+  <content>DataProcessor.ОбработкаЯчеек</content>
+  <content>DataProcessor.СХК_ИмпортТаб</content>
+</mdclass:Subsystem>

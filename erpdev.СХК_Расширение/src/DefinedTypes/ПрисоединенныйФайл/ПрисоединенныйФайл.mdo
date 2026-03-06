@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6759938-7d00-48ee-ba1b-09aa8d6bc00a" extendedConfigurationObject="bef6081e-f377-41d6-83a1-b0e218a3fb46">
+  <producedTypes>
+    <containerType typeId="a67147fa-274a-485f-b1fc-3a60d4a46b62" valueTypeId="549eb36c-7f29-46f7-a949-ae21b7ceaae2"/>
+  </producedTypes>
+  <name>ПрисоединенныйФайл</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.ПересчетТоваровПрисоединенныеФайлы</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.ПересортицаТоваровПрисоединенныеФайлы</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.ОприходованиеИзлишковТоваровПрисоединенныеФайлы</type>
+      </types>
+      <types>
+        <state>Extended</state>
+        <type>CatalogRef.СписаниеНедостачТоваровПрисоединенныеФайлы</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

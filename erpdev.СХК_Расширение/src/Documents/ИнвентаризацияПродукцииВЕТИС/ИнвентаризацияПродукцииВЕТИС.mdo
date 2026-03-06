@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b4115d85-c01d-488d-aa87-6085d285dae0" extendedConfigurationObject="9830a472-2e1a-4317-9ae4-551b2a704b1d">
+  <producedTypes>
+    <objectType typeId="37cecae0-ee17-4032-b015-6cba1c04cd75" valueTypeId="7d0ee7cc-ba38-4894-b78c-843667ea8097"/>
+    <refType typeId="c8e5180e-da1f-45b8-a358-71cc92130c7a" valueTypeId="bb780819-6ac6-498b-8952-30a41c49a743"/>
+    <selectionType typeId="ef8a52dd-3fd5-4b42-9b6e-f6e8627fc0cb" valueTypeId="96d6837c-8e27-4bf7-99a9-b3d1fdd9d116"/>
+    <listType typeId="1e4ed5cd-c96d-4308-9b0c-f9ea2ba8129d" valueTypeId="6d6feff7-855c-47d1-9b2d-a965101544d5"/>
+    <managerType typeId="b150f348-cee4-46ab-855b-5a0ab170f502" valueTypeId="59408f27-869a-45c3-9d00-9a0fde9c612f"/>
+  </producedTypes>
+  <name>ИнвентаризацияПродукцииВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="a6a1df9c-9ff7-46f5-8451-c1bd4f5ee5bb" extendedConfigurationObject="097190ef-2b4b-40ca-8683-dd5f82d137f0">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеИнвентаризацияПродукцииВЕТИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

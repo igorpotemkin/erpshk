@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="10e5a2d7-1571-496d-86ac-0dd8a610269d" extendedConfigurationObject="feefe80c-5271-482d-8533-ce65827a0638">
+  <producedTypes>
+    <objectType typeId="26af39d0-22d0-408c-a77a-efcc5b57d5a3" valueTypeId="b3b5f8a8-d0dc-4a64-bb89-62a8ff0579b4"/>
+    <refType typeId="c3fd0544-2647-4bf7-a0d4-3b527723649e" valueTypeId="f1cff432-5492-4897-bdca-9d3bd9e4a744"/>
+    <selectionType typeId="02fecb89-603e-4d46-b727-366a2977002f" valueTypeId="484f4d85-4a7e-4897-864c-b4c222ce3e5a"/>
+    <listType typeId="078689a3-44b2-4c70-8e1b-6cd8de80d80e" valueTypeId="16527744-81c0-46f8-a48b-b9f78d11da3e"/>
+    <managerType typeId="7d5dea8c-e9ea-4c9c-9ab0-be4faa749c73" valueTypeId="08ad9e7d-ace3-4d86-9904-74b6a7b7a3db"/>
+  </producedTypes>
+  <name>ОтчетКомитентуОСписании</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="5c3f10b7-1ae6-47e2-801d-33bfb1d8a718" extendedConfigurationObject="11f5636b-bca0-4155-a3c0-e423e6e9ca09">
+    <producedTypes>
+      <objectType typeId="9a77dcea-af86-4d7f-8919-14fb7bcda4a8" valueTypeId="e2795292-ffa3-47eb-83fb-b1b7028baf12"/>
+      <rowType typeId="dfe043e4-8d78-40bc-b22a-c503e95194fd" valueTypeId="8f175d8f-11bc-4711-a753-37fd776fee81"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="aebf3fbc-6674-4cda-ad3c-00d3c7caec3f" extendedConfigurationObject="c510a1ba-41dd-47f1-a5c8-4d4599a3e509">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

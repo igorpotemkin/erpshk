@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="01a26af4-e0db-4448-807a-62762788695f" extendedConfigurationObject="0c588f17-899d-4631-99f3-44aaf039357e">
+  <producedTypes>
+    <objectType typeId="a29f44d0-0666-4620-afbd-1a5db03d632e" valueTypeId="c31d0a2c-d983-4d5b-aad9-3573ffb1d695"/>
+    <refType typeId="156080a4-21a9-4153-9efe-4ab50ee81ff4" valueTypeId="ed5a398a-8f35-42a6-a37e-0c6b8b0766ee"/>
+    <selectionType typeId="42f2ce4f-3d8e-4e82-aec8-a7b3fec2444a" valueTypeId="637b0455-e164-4396-8e82-f92d83c8b91e"/>
+    <listType typeId="dec8ba39-b104-4a9a-9f5e-ac6f5b20cc74" valueTypeId="c7a1e92b-a73c-4f83-91f8-49e2deeb3b4e"/>
+    <managerType typeId="62593972-f301-4a04-a641-2aa3c99cf018" valueTypeId="a453b3d1-322c-4944-8a6d-3a605c9b622c"/>
+  </producedTypes>
+  <name>ОбъектыРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="8483d707-d483-48e2-86d5-a6cafbdcad35" extendedConfigurationObject="d9b52c65-7828-4280-a247-e281ed971ffb">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОбъектРасчетов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cf36d17-63dd-49c2-8171-1cead28108b1">
+  <producedTypes>
+    <selectionType typeId="4740e9f3-0c24-49da-b472-551bc04ea56d" valueTypeId="303483c6-91a3-4517-9843-4c4141fb61df"/>
+    <listType typeId="0c3558e5-c1c4-4670-83ca-23242f350072" valueTypeId="8cef9c4f-3b3f-4303-bfc9-62ab5349949e"/>
+    <managerType typeId="d1be3783-4b88-4f09-8fde-c5c4f282752f" valueTypeId="423d8ecc-0475-4b00-94eb-2a52b9b9f381"/>
+    <recordSetType typeId="7374606f-530f-41df-85e0-440ea19dbd76" valueTypeId="8243abde-6f04-4f82-9eba-de906737ca98"/>
+    <recordKeyType typeId="007cd4e2-5f12-4c3d-92b8-859518b7cda3" valueTypeId="4e82f029-bfa9-4c50-a98b-36864a1d71a7"/>
+    <recordType typeId="6808138b-cfae-435d-a4cc-041d05c952fe" valueTypeId="6df09b7e-c833-41b7-9f86-0ce3ea46d62a"/>
+    <recordManagerType typeId="b3b3ba2f-e52b-489b-9513-424fbaab52a1" valueTypeId="ba3c9c53-861b-45c5-a480-d50a2ce4329c"/>
+  </producedTypes>
+  <name>СХК_Спайки</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК спайки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СХК_Спайки.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c8c92936-aa55-4367-994d-f1aa65a880d7">
+    <name>ОснНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осн номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7276c5f0-a500-4ed1-8821-3dbee15af093">
+    <name>ДопНомеклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп номеклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cb594d25-572a-418e-b39d-358f3290b693">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

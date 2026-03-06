@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9f08a5f1-2b5d-4694-aa51-12670be6ea55" extendedConfigurationObject="be4f0456-1ce4-40a6-ac82-e7c16fc933aa">
+  <producedTypes>
+    <refType typeId="1e5df836-7ad9-4a6d-98d9-1495a9c90590" valueTypeId="2de75af0-02fb-4aed-97ec-1906a66c9c4d"/>
+    <listType typeId="0e406093-adfe-4409-ad3a-45c723baf6d4" valueTypeId="180cd794-b204-438b-8584-8581db33cf8f"/>
+    <managerType typeId="a75717f4-2e6d-43a8-b8e2-c6813768215b" valueTypeId="3427c920-0308-4673-9abd-74f55e595abd"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="fb60e3b7-b5cb-49fe-b274-791710eb2237" extendedConfigurationObject="7bb34262-b085-4113-887b-e46724b5cfab">
+    <name>ОжидаетсяПоступление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

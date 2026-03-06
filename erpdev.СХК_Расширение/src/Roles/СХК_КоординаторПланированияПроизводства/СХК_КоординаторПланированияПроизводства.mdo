@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9aad0d6-bb43-4cb1-8f57-91721a2e1acf">
+  <name>СХК_КоординаторПланированияПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Координатор планирования производства</value>
+  </synonym>
+</mdclass:Role>

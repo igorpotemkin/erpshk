@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04f42b47-7f9b-403c-9789-604b54ac1ca4">
+  <name>СХК_РедактированиеУпаковкиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>СХК редактирование упаковки номенклатуры</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bdff7b28-9ead-41a3-999c-6cda78475651" extendedConfigurationObject="beff78d8-e14c-4839-b748-2295a05b8c25">
+  <producedTypes>
+    <containerType typeId="47e43890-09fc-4f8c-8511-479ff298537a" valueTypeId="06d48a56-70a7-436a-ad9f-a0dc83b17a7e"/>
+  </producedTypes>
+  <name>ОснованиеОтгрузкаТоваровИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

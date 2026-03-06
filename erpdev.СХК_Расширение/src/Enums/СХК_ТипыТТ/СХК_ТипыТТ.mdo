@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="136768e5-b97f-4d8f-9be6-1f22c8eae270">
+  <producedTypes>
+    <refType typeId="6e08cfa7-15c8-49ff-bddb-ef491af3ce86" valueTypeId="4a4fe083-2f34-4efa-8288-9190f4a963c5"/>
+    <listType typeId="11d094ee-12cc-447d-a77e-cce487d9c59c" valueTypeId="99f19c48-33f4-4135-b284-7562cad600b3"/>
+    <managerType typeId="60cd6f0b-5458-46d2-a77d-75299413348c" valueTypeId="0cc7d2e6-dda6-442f-83e0-cdf4442f901f"/>
+  </producedTypes>
+  <name>СХК_ТипыТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы торговых точек</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86a86f79-f282-4051-9f5c-61867434dc54">
+    <name>Гипермаркет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гипермаркет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fd68973-ca70-41d9-ba7e-369e42a450d0">
+    <name>Супермаркет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супермаркет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="224799d0-1a10-4acf-b1f0-3722e7ea8cbf">
+    <name>МагазинУДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин у дома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="957d3d8c-ba04-4cd9-9953-455d7104e59a">
+    <name>Универмаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универмаг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="411e0836-f77f-4a7e-b854-4d04fffd244b">
+    <name>Минимаркет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимаркет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4763f79e-154e-42de-8603-1a01ebe56159">
+    <name>Дискаунтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дискаунтер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

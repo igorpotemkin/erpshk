@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41113a7d-9815-4749-8a0a-b8bf21ea752b" extendedConfigurationObject="c7f9c79d-019b-4193-90f2-6187922df2cb">
+  <producedTypes>
+    <refType typeId="1642b145-e744-4f8c-9d2c-a32f19c8745c" valueTypeId="20c4afc7-e06e-4b86-b338-894d4c0794c0"/>
+    <listType typeId="6984b85b-e067-47ee-8a49-e84685a80815" valueTypeId="5f491349-e7fd-4062-9dc1-33b33072f9ca"/>
+    <managerType typeId="cd00f16a-13ec-4132-8aaa-43e80eb1aa18" valueTypeId="18754758-91ef-4130-bc2e-a4fdc6bf7513"/>
+  </producedTypes>
+  <name>ТочностьГрафикаПроизводства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="4ad7b02f-e49f-4dde-9071-73d195262ff3" extendedConfigurationObject="4e56ae30-33dd-4da0-bfa5-5e5234c2de2a">
+    <name>Неделя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="312c1df3-a09d-4a3c-880d-79852cd0fe51" extendedConfigurationObject="ccc565c3-61f0-4bf2-afc3-adf028dd9b7f">
+    <name>День</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ac5a5e90-3b2c-477b-a07a-a1a0b73a8c96" extendedConfigurationObject="5a187f61-f057-479c-bb9e-9b311567176f">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

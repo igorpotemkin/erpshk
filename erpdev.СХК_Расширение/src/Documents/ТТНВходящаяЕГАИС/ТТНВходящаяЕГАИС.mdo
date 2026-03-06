@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="08770569-2323-4357-b5c7-ed2ee6296687" extendedConfigurationObject="f533706f-45b2-4584-b97f-e6d2e7175c2e">
+  <producedTypes>
+    <objectType typeId="add914a6-5321-46c0-99f8-3a08f1344958" valueTypeId="40acb679-1826-43be-b5cc-ce2dce911750"/>
+    <refType typeId="e924e2d5-2cb4-4830-8db6-1b5c62069ad9" valueTypeId="a26b82b7-a7ea-4812-a405-fd2949abe721"/>
+    <selectionType typeId="e2b4c487-d6e3-4a5a-9f9d-96446dc969a1" valueTypeId="0a674d8e-a847-4e10-8395-0d4fc30d89a7"/>
+    <listType typeId="370130d3-049d-45ce-9611-6f4ee0af572b" valueTypeId="40933ef2-6b5e-4388-94cb-3d42b6edb1d8"/>
+    <managerType typeId="5e9f578c-02df-4c8c-a8c5-e9aae7c3621d" valueTypeId="0c8b90c4-9baa-414d-8c3a-2b6f7d21a455"/>
+  </producedTypes>
+  <name>ТТНВходящаяЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2c9be3f8-329d-4393-96ff-ebe775a29fc2" extendedConfigurationObject="7c132d17-7b0d-4a9c-b207-27d2ae9e195b">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеТТНВходящаяЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

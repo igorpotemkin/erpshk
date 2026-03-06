@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4b80bf8-ecdb-493b-9536-dd980f8d7b64">
+  <name>__СогласованиеЦенНоменклатурыВЗаказеКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование цен номенклатуры в заказе клиента</value>
+  </synonym>
+  <comment>//++ plotnikov@syspod.ru #85606</comment>
+</mdclass:Role>

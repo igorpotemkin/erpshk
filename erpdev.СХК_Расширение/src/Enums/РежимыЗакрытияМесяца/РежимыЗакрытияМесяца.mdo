@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4af9d5ff-f204-4384-82a5-72d8a4d94716" extendedConfigurationObject="e51d059b-6c69-4d0c-a5f3-7cf6c5723361">
+  <producedTypes>
+    <refType typeId="b7f6c788-9659-4aff-9774-044aedfc34eb" valueTypeId="26039db9-325e-45ce-9c6e-6f26a354eb9a"/>
+    <listType typeId="6bbe76f3-838c-4bb8-bc36-7fe3fc0ea880" valueTypeId="7683a961-b41c-4710-a9e0-81aff20c65b9"/>
+    <managerType typeId="a0e1fe48-849e-4947-a45e-ef91f9578382" valueTypeId="c5ba7429-de84-446f-ba86-acb6abb455f7"/>
+  </producedTypes>
+  <name>РежимыЗакрытияМесяца</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

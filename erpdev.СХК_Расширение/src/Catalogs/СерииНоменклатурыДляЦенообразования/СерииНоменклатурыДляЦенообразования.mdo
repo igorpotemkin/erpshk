@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="75923735-2cfe-4747-a980-22b3af997708" extendedConfigurationObject="1f80691d-a262-43cd-8b15-e8cf503a9e0a">
+  <producedTypes>
+    <objectType typeId="2f05e2d9-e252-49d9-8728-c9afa74db8c4" valueTypeId="84b0a5d6-46e4-47ef-b569-ae8cb0b3330b"/>
+    <refType typeId="74ed6f20-d033-4a80-9356-5f76ebc0d2d7" valueTypeId="d9624871-c57d-4400-ba77-4c08ac6bef74"/>
+    <selectionType typeId="b5b8a41a-316f-459d-b7c0-e266b78f89bd" valueTypeId="8da60b16-9566-4eed-8fcb-fba3cf7ac9c5"/>
+    <listType typeId="7cdcc6b0-b45f-49df-b1d8-122ddeaed7f9" valueTypeId="92bc6f8d-a1ae-45a1-b475-8eef1c1470f1"/>
+    <managerType typeId="329ba564-5d65-44d7-888d-42772e3ee56f" valueTypeId="013d0960-da7e-4b6b-afaf-5214510f4e27"/>
+  </producedTypes>
+  <name>СерииНоменклатурыДляЦенообразования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

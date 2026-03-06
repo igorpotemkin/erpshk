@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24b06fd0-a68b-4e3c-832a-d0dc3eecddaf">
+  <producedTypes>
+    <objectType typeId="0a3bca97-35d4-42a9-af8e-d83d011a2cb3" valueTypeId="782acb39-a707-47ca-b63a-802a9d5586fb"/>
+    <managerType typeId="e15814ed-36a9-4a73-b5c9-d2d7af577b64" valueTypeId="12e5a17e-43e6-4d56-8f59-9c09528e0575"/>
+  </producedTypes>
+  <name>СХК_Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет логистика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СХК_Логистика.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="53b13942-974a-4b9d-8eff-9ae08492d0aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

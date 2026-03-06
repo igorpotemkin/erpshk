@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b69451c-f1aa-45e9-ba1b-659c619e01fa" extendedConfigurationObject="2c95c52b-594b-41e1-8203-f1a3f9e7b056">
+  <producedTypes>
+    <objectType typeId="5b7fe271-0590-4d1a-aa6b-262dc1a5868f" valueTypeId="d6cec9e4-d5d1-47cd-9c54-4e2a908869ad"/>
+    <refType typeId="93d497c3-e483-4239-8f21-09ee38b2e42b" valueTypeId="bee2367f-1903-42e0-813a-58c024aa3ca9"/>
+    <selectionType typeId="d8131744-2ae4-4968-bc8a-0d0c6551d603" valueTypeId="2ee774d0-f6aa-45c0-8d8a-5483339a8398"/>
+    <listType typeId="4e756192-0ab3-4121-a831-49a25f2104db" valueTypeId="9f4aebf2-8138-470c-b6f1-4e4c6a492160"/>
+    <managerType typeId="a6b04f2e-8f14-42ad-b832-19efa26a52f8" valueTypeId="7184b13d-fa2c-4844-b8d1-9f99f0766e2a"/>
+  </producedTypes>
+  <name>СчетФактураПолученныйАванс</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="e89ae70d-9879-4eb0-adaf-4ca9e0aefc3c" extendedConfigurationObject="aa95b682-481b-4625-bd10-8e6174bd4576">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеСчетФактураПолученныйАванс</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="c126b5b0-16e0-4887-a0f3-94d4ab1fc7c6" extendedConfigurationObject="f9c452ce-e7db-4048-9486-d5a5d219135d">
+    <name>СчетФактураОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.СчетФактураПолученныйАванс</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

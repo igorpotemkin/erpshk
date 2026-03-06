@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fcd2b392-baa4-43fb-b8ab-15a91c549089" extendedConfigurationObject="1bf3f8ea-6e4c-49e2-a0cb-ea43db62e1a1">
+  <producedTypes>
+    <objectType typeId="78fcd44b-fb7a-4db7-8501-108c840bbe83" valueTypeId="408cb58d-4402-4f16-9569-a73ff0135f4b"/>
+    <managerType typeId="c477d097-5ac4-440e-828a-fdd7899568d1" valueTypeId="c326d0db-af1c-493f-b4bd-afafe00177f6"/>
+  </producedTypes>
+  <name>ВедомостьПоТоварамОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32412535-a16d-4831-9ee7-c1c04a994b1e">
+  <producedTypes>
+    <objectType typeId="b2ecebc7-871e-44c5-a7b3-0dba431ceb91" valueTypeId="51ec61ab-840f-4a28-89bc-ba63ea53673b"/>
+    <managerType typeId="c0436a30-9f39-42fb-8b61-7bd2af1bb581" valueTypeId="93a7e885-2180-4c21-8a58-e1adfbc84441"/>
+  </producedTypes>
+  <name>__ПоступившиеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступившие заказы</value>
+  </synonym>
+  <comment>//++shishkin@syspod.ru #88572</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.__ПоступившиеЗаказы.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.__ПоступившиеЗаказы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.__ПоступившиеЗаказы.Form.ФормаНастроек</defaultSettingsForm>
+  <forms uuid="ae45914a-1b8b-446a-a574-02b37abf26b4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8db45708-e66e-4f6f-950e-1deb5cafee4b">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7ca9aa2b-a84c-4de8-a98c-bd74523df580">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

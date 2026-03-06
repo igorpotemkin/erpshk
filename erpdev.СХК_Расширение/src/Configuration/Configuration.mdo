@@ -215,7 +215,6 @@
   <roles>Role.СХК_РедактированиеУпаковкиНоменклатуры</roles>
   <roles>Role.СХК_РедактированиеГотовойПродукции</roles>
   <roles>Role.__ПросмотрПоступившиеЗаказы</roles>
-  <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <commonModules>CommonModule.__СпОбщийМодуль</commonModules>
   <commonModules>CommonModule.ВзаиморасчетыКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>

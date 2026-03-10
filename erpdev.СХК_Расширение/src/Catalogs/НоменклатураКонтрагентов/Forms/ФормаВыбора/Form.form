@@ -13,7 +13,7 @@
       </userVisible>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>ОтборExtendedTooltip</name>
+        <name>ОтборРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -57,7 +57,7 @@
       <value>Quick filters</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаБыстрыеОтборыExtendedTooltip</name>
+      <name>ГруппаБыстрыеОтборыРасширеннаяПодсказка</name>
       <id>43</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -70,7 +70,7 @@
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <throughAlign>Auto</throughAlign>
+      <throughAlign>DontUse</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
@@ -94,7 +94,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КартинкаExtendedTooltip</name>
+        <name>КартинкаРасширеннаяПодсказка</name>
         <id>56</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -110,7 +110,11 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаПодсказкаСтраницы</name>
@@ -198,7 +202,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ПодсказкаExtendedTooltip</name>
+            <name>ПодсказкаРасширеннаяПодсказка</name>
             <id>57</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -218,8 +222,8 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -293,7 +297,7 @@
       <value>Tooltip</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПодсказкаExtendedTooltip</name>
+      <name>ГруппаПодсказкаРасширеннаяПодсказка</name>
       <id>55</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -364,6 +368,9 @@
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
+    <excludedCommands>DynamicListStandardSettings</excludedCommands>
+    <excludedCommands>LoadDynamicListSettings</excludedCommands>
+    <excludedCommands>SaveDynamicListSettings</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
       <id>88</id>
@@ -455,7 +462,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокНаименованиеExtendedTooltip</name>
+        <name>СписокНаименованиеРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -499,7 +506,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокАртикулExtendedTooltip</name>
+        <name>СписокАртикулРасширеннаяПодсказка</name>
         <id>50</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -535,7 +542,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокКодExtendedTooltip</name>
+        <name>СписокКодРасширеннаяПодсказка</name>
         <id>51</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -566,7 +573,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокНоменклатураExtendedTooltip</name>
+        <name>СписокНоменклатураРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -597,7 +604,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокХарактеристикаExtendedTooltip</name>
+        <name>СписокХарактеристикаРасширеннаяПодсказка</name>
         <id>53</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -628,7 +635,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокУпаковкаExtendedTooltip</name>
+        <name>СписокУпаковкаРасширеннаяПодсказка</name>
         <id>54</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -727,7 +734,7 @@
           <value>Form commands group</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаГлобальныеКомандыExtendedTooltip</name>
+          <name>ГруппаГлобальныеКомандыРасширеннаяПодсказка</name>
           <id>46</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -757,7 +764,7 @@
           <value>Form commands</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКомандыФормыExtendedTooltip</name>
+          <name>ГруппаКомандыФормыРасширеннаяПодсказка</name>
           <id>47</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -874,7 +881,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>48</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -926,12 +933,31 @@
   </autoCommandBar>
   <excludedCommands>Abort</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
+  <excludedCommands>CancelSearch</excludedCommands>
+  <excludedCommands>Change</excludedCommands>
+  <excludedCommands>Choose</excludedCommands>
+  <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>Create</excludedCommands>
+  <excludedCommands>CreateFolder</excludedCommands>
+  <excludedCommands>Delete</excludedCommands>
+  <excludedCommands>Find</excludedCommands>
+  <excludedCommands>FindByCurrentValue</excludedCommands>
+  <excludedCommands>HierarchicalList</excludedCommands>
   <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>LevelDown</excludedCommands>
+  <excludedCommands>LevelUp</excludedCommands>
+  <excludedCommands>List</excludedCommands>
+  <excludedCommands>ListSettings</excludedCommands>
+  <excludedCommands>MoveItem</excludedCommands>
   <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
+  <excludedCommands>OutputList</excludedCommands>
+  <excludedCommands>Refresh</excludedCommands>
   <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>Tree</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>

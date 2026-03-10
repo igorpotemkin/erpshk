@@ -17,7 +17,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ДекорацияПредупреждениеExtendedTooltip</name>
+      <name>ДекорацияПредупреждениеРасширеннаяПодсказка</name>
       <id>81</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -63,7 +63,7 @@
         <segments>Объект.Owner</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВладелецExtendedTooltip</name>
+        <name>ВладелецРасширеннаяПодсказка</name>
         <id>82</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -112,7 +112,7 @@
         <segments>Объект.ЕдиницаИзмерения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЕдиницаИзмеренияExtendedTooltip</name>
+        <name>ЕдиницаИзмеренияРасширеннаяПодсказка</name>
         <id>83</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -132,10 +132,8 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <width>10</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
         <wrap>true</wrap>
         <dropListButton>false</dropListButton>
         <choiceButton>true</choiceButton>
@@ -517,6 +515,9 @@
               <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>false</horizontalStretch>
               <wrap>true</wrap>
+              <dropListButton>false</dropListButton>
+              <choiceButton>true</choiceButton>
+              <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
@@ -777,6 +778,7 @@
             </contextMenu>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
+            <groupVerticalAlign>Center</groupVerticalAlign>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
@@ -1092,7 +1094,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>95</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1112,10 +1114,8 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <width>10</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>false</horizontalStretch>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
@@ -1134,7 +1134,7 @@
         <segments>Объект.СкладскаяГруппа</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СкладскаяГруппаExtendedTooltip</name>
+        <name>СкладскаяГруппаРасширеннаяПодсказка</name>
         <id>96</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1177,7 +1177,7 @@
           <segments>Объект.Вес</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВесExtendedTooltip</name>
+          <name>ВесРасширеннаяПодсказка</name>
           <id>98</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1258,7 +1258,7 @@
         <value>Weight</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВесExtendedTooltip</name>
+        <name>ГруппаВесРасширеннаяПодсказка</name>
         <id>97</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1287,7 +1287,7 @@
         <segments>Объект.Типоразмер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипоразмерExtendedTooltip</name>
+        <name>ТипоразмерРасширеннаяПодсказка</name>
         <id>100</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1328,7 +1328,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>БезразмернаяExtendedTooltip</name>
+        <name>БезразмернаяРасширеннаяПодсказка</name>
         <id>101</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1364,7 +1364,7 @@
           <segments>Объект.Высота</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВысотаExtendedTooltip</name>
+          <name>ВысотаРасширеннаяПодсказка</name>
           <id>103</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1453,7 +1453,7 @@
         <value>Weight group</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаВысотаExtendedTooltip</name>
+        <name>ГруппаВысотаРасширеннаяПодсказка</name>
         <id>102</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1485,7 +1485,7 @@
           <segments>Объект.Ширина</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ШиринаExtendedTooltip</name>
+          <name>ШиринаРасширеннаяПодсказка</name>
           <id>106</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1574,7 +1574,7 @@
         <value>Weight group</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаШиринаExtendedTooltip</name>
+        <name>ГруппаШиринаРасширеннаяПодсказка</name>
         <id>105</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1606,7 +1606,7 @@
           <segments>Объект.Глубина</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ГлубинаExtendedTooltip</name>
+          <name>ГлубинаРасширеннаяПодсказка</name>
           <id>109</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1695,7 +1695,7 @@
         <value>Weight group</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаГлубинаExtendedTooltip</name>
+        <name>ГруппаГлубинаРасширеннаяПодсказка</name>
         <id>108</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1727,7 +1727,7 @@
           <segments>Объект.Объем</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ОбъемExtendedTooltip</name>
+          <name>ОбъемРасширеннаяПодсказка</name>
           <id>112</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1816,7 +1816,7 @@
         <value>Weight group</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаОбъемExtendedTooltip</name>
+        <name>ГруппаОбъемРасширеннаяПодсказка</name>
         <id>111</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1857,7 +1857,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ПоставляетсяВМногооборотнойТареExtendedTooltip</name>
+          <name>ПоставляетсяВМногооборотнойТареРасширеннаяПодсказка</name>
           <id>115</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1890,7 +1890,7 @@
           <segments>Объект.НоменклатураМногооборотнаяТара</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НоменклатураМногооборотнаяТараExtendedTooltip</name>
+          <name>НоменклатураМногооборотнаяТараРасширеннаяПодсказка</name>
           <id>116</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1930,7 +1930,7 @@
           <segments>Объект.ХарактеристикаМногооборотнаяТара</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ХарактеристикаМногооборотнаяТараExtendedTooltip</name>
+          <name>ХарактеристикаМногооборотнаяТараРасширеннаяПодсказка</name>
           <id>117</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1972,11 +1972,11 @@
           <titleLocation>None</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Если в качестве тары используется ящик, вместимость которого 20 бутылок,  в документ подберется количество полностью заполненных ящиков. Для 43 бутылок в таком случае будет подобрано 2 ящика, при этом 3 бутылки будут транспортироваться без тары</value>
+            <value>Если в качестве тары используется ящик, вместимость которого 20 бутылок, в документ подберется количество полностью заполненных ящиков. Для 43 бутылок в таком случае будет подобрано 2 ящика, при этом 3 бутылки будут транспортироваться без тары.</value>
           </toolTip>
           <toolTip>
             <key>en</key>
-            <value>If a box with a capacity of 20 bottles is used as a package by default, the number of completely filled boxes will be picked in the document by default. In this case, 2 boxes will be picked for 43 bottles, while 3 bottles will be transported without a package</value>
+            <value>If a box with a capacity of 20 bottles is used as a package by default, the number of completely filled boxes will be picked in the document by default. In this case, 2 boxes will be picked for 43 bottles, while 3 bottles will be transported without a package.</value>
           </toolTip>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <extendedTooltip>
@@ -2079,7 +2079,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>МинимальноеКоличествоУпаковокМногооборотнойТарыExtendedTooltip</name>
+              <name>МинимальноеКоличествоУпаковокМногооборотнойТарыРасширеннаяПодсказка</name>
               <id>119</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2132,7 +2132,7 @@
             </userVisible>
             <toolTip>
               <key>ru</key>
-              <value>Если в качестве тары используется ящик, вместимость которого 20 бутылок, но 3 и более бутылок также нужно везти в ящике - укажите значение 3. Для транспортировки 43 бутылок в таком случае будет подобрано 3 ящика, один из которых будет заполнен 3 бутылками</value>
+              <value>Если в качестве тары используется ящик, вместимость которого 20 бутылок, но 3 и более бутылок также нужно везти в ящике - укажите значение 3. Для транспортировки 43 бутылок в таком случае будет подобрано 3 ящика, один из которых будет заполнен 3 бутылками.</value>
             </toolTip>
             <toolTip>
               <key>en</key>
@@ -2178,7 +2178,7 @@
           <toolTipRepresentation>None</toolTipRepresentation>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
-            <name>ГруппаМинимальноеКоличествоУпаковокExtendedTooltip</name>
+            <name>ГруппаМинимальноеКоличествоУпаковокРасширеннаяПодсказка</name>
             <id>118</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2253,7 +2253,7 @@
         <value>Reusable packaging</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаМногооборотнаяТараExtendedTooltip</name>
+        <name>ГруппаМногооборотнаяТараРасширеннаяПодсказка</name>
         <id>114</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

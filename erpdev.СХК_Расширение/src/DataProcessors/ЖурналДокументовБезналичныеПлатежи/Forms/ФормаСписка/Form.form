@@ -887,6 +887,10 @@
         <common>true</common>
       </userVisible>
       <titleLocation>None</titleLocation>
+      <excludedCommands>Change</excludedCommands>
+      <excludedCommands>Copy</excludedCommands>
+      <excludedCommands>Delete</excludedCommands>
+      <excludedCommands>Refresh</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ЕстьОшибкиПроверкиКонтрагентов</name>
         <id>783</id>
@@ -1893,6 +1897,9 @@
           </extendedTooltip>
           <type>Popup</type>
           <extInfo xsi:type="form:PopupGroupExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ЗначокПлюс</picture>
+            </picture>
             <representation>Auto</representation>
           </extInfo>
         </items>
@@ -1932,6 +1939,9 @@
           </extendedTooltip>
           <type>Popup</type>
           <extInfo xsi:type="form:PopupGroupExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ЗначокМинус</picture>
+            </picture>
             <representation>Auto</representation>
           </extInfo>
         </items>

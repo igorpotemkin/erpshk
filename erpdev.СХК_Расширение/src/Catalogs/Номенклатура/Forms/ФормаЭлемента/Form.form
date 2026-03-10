@@ -155,7 +155,7 @@
                 </toolTip>
                 <toolTip>
                   <key>en</key>
-                  <value>To use other kinds of items, enable Settings - Items - Variety of item kinds.</value>
+                  <value>To use other kinds of items, enable Settings - Items - Multiple item kinds.</value>
                 </toolTip>
                 <toolTipRepresentation>Balloon</toolTipRepresentation>
                 <extendedTooltip>
@@ -1456,7 +1456,7 @@
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:InputFieldExtInfo">
-                    <height>2</height>
+                    <height>4</height>
                     <autoMaxHeight>true</autoMaxHeight>
                     <verticalStretch>false</verticalStretch>
                     <wrap>true</wrap>
@@ -1767,7 +1767,7 @@
                   </extendedTooltip>
                   <contextMenu>
                     <name>ТипНДКонтекстноеМеню</name>
-                    <id>1544</id>
+                    <id>1582</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>RadioButtonField</type>
@@ -1820,7 +1820,7 @@
                   </extendedTooltip>
                   <contextMenu>
                     <name>ЗначениеНДКонтекстноеМеню</name>
-                    <id>1547</id>
+                    <id>1583</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>InputField</type>
@@ -1863,7 +1863,7 @@
                   </extendedTooltip>
                   <contextMenu>
                     <name>ЗначениеНДДопКонтекстноеМеню</name>
-                    <id>1550</id>
+                    <id>1584</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>InputField</type>
@@ -1995,11 +1995,11 @@
                 <id>122</id>
                 <title>
                   <key>ru</key>
-                  <value>Производитель</value>
+                  <value>Производитель (бренд)</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Manufacturer</value>
+                  <value>Manufacturer (brand)</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2091,11 +2091,11 @@
                 <id>355</id>
                 <title>
                   <key>ru</key>
-                  <value>Производитель (импортер)</value>
+                  <value>Производитель, импортер (контрагент)</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Manufacturer (importer)</value>
+                  <value>Manufacturer, importer (counterparty)</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2136,7 +2136,7 @@
               </items>
               <items xsi:type="form:FormField">
                 <name>СтранаПроисхождения</name>
-                <id>1560</id>
+                <id>1544</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2147,7 +2147,7 @@
                 </dataPath>
                 <extendedTooltip>
                   <name>СтранаПроисхожденияРасширеннаяПодсказка</name>
-                  <id>1564</id>
+                  <id>1546</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -2157,7 +2157,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>СтранаПроисхожденияКонтекстноеМеню</name>
-                  <id>1563</id>
+                  <id>1545</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -4048,7 +4048,7 @@
               </items>
               <items xsi:type="form:FormGroup">
                 <name>ГруппаСтавкаНДС</name>
-                <id>1555</id>
+                <id>1539</id>
                 <items xsi:type="form:FormField">
                   <name>СтавкаНДС</name>
                   <id>30</id>
@@ -4102,7 +4102,7 @@
                 </items>
                 <items xsi:type="form:Decoration">
                   <name>ГиперссылкаПерейтиСтавкиНДСНоменклатуры</name>
-                  <id>1552</id>
+                  <id>1541</id>
                   <title>
                     <key>ru</key>
                     <value>&lt;link СтавкиНДСНоменклатуры>Все ставки (0)&lt;/></value>
@@ -4118,7 +4118,7 @@
                   </userVisible>
                   <extendedTooltip>
                     <name>ГиперссылкаПерейтиСтавкиНДСНоменклатурыРасширеннаяПодсказка</name>
-                    <id>1567</id>
+                    <id>1543</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
@@ -4128,7 +4128,7 @@
                   </extendedTooltip>
                   <contextMenu>
                     <name>ГиперссылкаПерейтиСтавкиНДСНоменклатурыКонтекстноеМеню</name>
-                    <id>1566</id>
+                    <id>1542</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <formatted>true</formatted>
@@ -4153,7 +4153,7 @@
                 </title>
                 <extendedTooltip>
                   <name>ГруппаСтавкаНДСРасширеннаяПодсказка</name>
-                  <id>1565</id>
+                  <id>1540</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -4187,7 +4187,7 @@
                 </toolTip>
                 <toolTip>
                   <key>en</key>
-                  <value>To use other kinds of items, enable Settings - Items - Variety of item kinds.</value>
+                  <value>To use other kinds of items, enable Settings - Items - Multiple item kinds.</value>
                 </toolTip>
                 <toolTipRepresentation>Balloon</toolTipRepresentation>
                 <extendedTooltip>
@@ -4533,6 +4533,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <createButton>false</createButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -4773,7 +4774,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>&lt;link Товары другого качества>Other quality goods&lt;/></value>
+                    <value>&lt;link Товары другого качества>Nonconforming products&lt;/></value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4882,7 +4883,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Packages</value>
+                  <value>Packaging units</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4963,7 +4964,7 @@
                       </title>
                       <title>
                         <key>en</key>
-                        <value>Packages</value>
+                        <value>Packaging units</value>
                       </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5089,7 +5090,7 @@
                       </title>
                       <title>
                         <key>en</key>
-                        <value>Packages</value>
+                        <value>Packaging units</value>
                       </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5261,7 +5262,7 @@
                     </title>
                     <title>
                       <key>en</key>
-                      <value>&lt;link Прогнозы расхода упаковок>Package consumption forecasts&lt;/></value>
+                      <value>&lt;link Прогнозы расхода упаковок>Packaging unit consumption forecasts&lt;/></value>
                     </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5301,7 +5302,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>Packages:</value>
+                    <value>Packaging units:</value>
                   </title>
                   <titleTextColor xsi:type="core:ColorRef">
                     <color>Style.FormTextColor</color>
@@ -5336,7 +5337,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Packages:</value>
+                  <value>Packaging units:</value>
                 </title>
                 <titleTextColor xsi:type="core:ColorRef">
                   <color>Style.FormTextColor</color>
@@ -7851,7 +7852,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>General ledger</value>
+                <value>Financial accounting</value>
               </title>
               <extendedTooltip>
                 <name>СворачиваемаяГруппаФинансовыйУчетРасширеннаяПодсказка</name>
@@ -7923,7 +7924,7 @@
               </items>
               <items xsi:type="form:FormField">
                 <name>ПрослеживаемыйТовар</name>
-                <id>1557</id>
+                <id>1547</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -7944,7 +7945,7 @@
                 <toolTipRepresentation>Button</toolTipRepresentation>
                 <extendedTooltip>
                   <name>ПрослеживаемыйТоварРасширеннаяПодсказка</name>
-                  <id>1569</id>
+                  <id>1549</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -7954,7 +7955,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>ПрослеживаемыйТоварКонтекстноеМеню</name>
-                  <id>1568</id>
+                  <id>1548</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>CheckBoxField</type>
@@ -8554,7 +8555,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Kind of alcoholic products</value>
+                  <value>Kind of alcohol containing products</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -8990,7 +8991,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>Information on alcoholic products</value>
+                <value>Information on alcohol containing products</value>
               </title>
               <horizontalStretch>true</horizontalStretch>
               <extendedTooltip>
@@ -9352,11 +9353,11 @@
                 <id>1484</id>
                 <title>
                   <key>ru</key>
-                  <value>ОКВЭД2</value>
+                  <value>ОКВЭД 2</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>OKVED2</value>
+                  <value>OKVED 2</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -9364,7 +9365,7 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Объект.УдалитьКодОКВЭД2</segments>
+                  <segments>Объект.КодОКВЭД2</segments>
                 </dataPath>
                 <toolTip>
                   <key>ru</key>
@@ -9400,6 +9401,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <choiceButton>true</choiceButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -9595,6 +9597,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
+                  <createButton>false</createButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
@@ -9679,9 +9682,9 @@
                   <horizontalStretch>false</horizontalStretch>
                   <wrap>true</wrap>
                   <choiceButton>true</choiceButton>
+                  <clearButton>true</clearButton>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -9726,7 +9729,7 @@
               </items>
               <items xsi:type="form:FormField">
                 <name>КодТРУ</name>
-                <id>1570</id>
+                <id>1550</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -9737,7 +9740,7 @@
                 </dataPath>
                 <extendedTooltip>
                   <name>КодТРУРасширеннаяПодсказка</name>
-                  <id>1574</id>
+                  <id>1552</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -9747,7 +9750,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>КодТРУКонтекстноеМеню</name>
-                  <id>1573</id>
+                  <id>1551</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>

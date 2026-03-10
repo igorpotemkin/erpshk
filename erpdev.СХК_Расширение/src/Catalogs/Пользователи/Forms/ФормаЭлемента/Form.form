@@ -36,7 +36,11 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>СлужебныйПользовательНадпись</name>
@@ -157,7 +161,11 @@ They are not displayed in any user lists, including the lists where one can sele
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.DialogExclamation</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>СвойстваПояснениеИКоманды</name>
@@ -384,7 +392,11 @@ Click &quot;Save&quot; to resolve the differences and hide this message.</value>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <skipOnInput>false</skipOnInput>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.DialogExclamation</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>СопоставлениеПояснениеНесоответствия</name>
@@ -590,6 +602,7 @@ Click &quot;Save&quot; to resolve the issue and hide this message.</value>
           <value>Add photo</value>
         </nonselectedPictureText>
         <border xsi:type="core:BorderDef">
+          <style>Single</style>
           <width>1</width>
         </border>
         <fileDragMode>AsFileRef</fileDragMode>
@@ -871,8 +884,8 @@ Click &quot;Save&quot; to resolve the issue and hide this message.</value>
       </toolTip>
       <toolTip>
         <key>en</key>
-        <value>Allow user to log in
-with the specified authentication methods.</value>
+        <value>Allow the user to log in using
+the specified authentication methods.</value>
       </toolTip>
       <extendedTooltip>
         <name>ВходВПрограммуРазрешенРасширеннаяПодсказка</name>
@@ -933,6 +946,9 @@ with the specified authentication methods.</value>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Предупреждение</picture>
+          </picture>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -1050,6 +1066,9 @@ with the specified authentication methods.</value>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Предупреждение</picture>
+          </picture>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -1144,7 +1163,7 @@ with the specified authentication methods.</value>
         </title>
         <title>
           <key>en</key>
-          <value>No rights to sign in picture</value>
+          <value>No rights to log in picture</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1169,6 +1188,9 @@ with the specified authentication methods.</value>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Предупреждение</picture>
+          </picture>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -1181,7 +1203,7 @@ with the specified authentication methods.</value>
         </title>
         <title>
           <key>en</key>
-          <value>No rights to sign in</value>
+          <value>No rights to log in</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1228,7 +1250,7 @@ with the specified authentication methods.</value>
       </title>
       <title>
         <key>en</key>
-        <value>No rights to sign in</value>
+        <value>No rights to log in</value>
       </title>
       <extendedTooltip>
         <name>ГруппаНетПравНаВходРасширеннаяПодсказка</name>
@@ -1261,7 +1283,7 @@ with the specified authentication methods.</value>
         </title>
         <title>
           <key>en</key>
-          <value>Edit sign-in restrictions</value>
+          <value>Change time restriction</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1296,7 +1318,7 @@ with the specified authentication methods.</value>
       </title>
       <title>
         <key>en</key>
-        <value>Edit authentication restrictions</value>
+        <value>Change time restriction</value>
       </title>
       <extendedTooltip>
         <name>ГруппаИзменитьОграничениеРасширеннаяПодсказка</name>
@@ -1326,7 +1348,7 @@ with the specified authentication methods.</value>
       </title>
       <title>
         <key>en</key>
-        <value>Consider reviewing user authentication settings</value>
+        <value>Consider reviewing login settings</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1502,7 +1524,7 @@ by the user list owner (not by the administrator).</value>
             </title>
             <title>
               <key>en</key>
-              <value>Email account</value>
+              <value>Email</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2001,7 +2023,7 @@ username and password.</value>
                   </title>
                   <title>
                     <key>en</key>
-                    <value>Deny password change</value>
+                    <value>User cannot change password</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2017,9 +2039,8 @@ username and password.</value>
                   </toolTip>
                   <toolTip>
                     <key>en</key>
-                    <value>Prevent limited-access user from changing
-their password, even during sign-in
-</value>
+                    <value>Prevent the limited-access user from
+changing their password.</value>
                   </toolTip>
                   <extendedTooltip>
                     <name>ПользовательИБЗапрещеноИзменятьПарольРасширеннаяПодсказка</name>
@@ -2052,7 +2073,7 @@ their password, even during sign-in
                   </title>
                   <title>
                     <key>en</key>
-                    <value>Deny password recovery</value>
+                    <value>User cannot recover password</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2091,7 +2112,7 @@ their password, even during sign-in
                   </title>
                   <title>
                     <key>en</key>
-                    <value>Show in list</value>
+                    <value>Show in choice list</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2301,7 +2322,7 @@ Only for a web server connection (the service address must be configured)</value
                 </title>
                 <title>
                   <key>en</key>
-                  <value>OpenID Connect enables the 1C:Enterprise system to verify a user's identity through third-party authentication. Users can sign in to the 1C:Enterprise application with their account credentials from other websites that support OpenID Connect authentication, such as Google.
+                  <value>OpenID Connect enables the 1C:Enterprise system to verify a user's identity through third-party authentication. Users can log in to the 1C:Enterprise application with their account credentials from other websites that support OpenID Connect authentication, such as Google.
 
 This authentication applies only to web server connections and requires the service address to be configured accordingly.</value>
                 </title>
@@ -2663,8 +2684,7 @@ associated with the 1C:Enterprise user.</value>
             </title>
             <title>
               <key>en</key>
-              <value>UI language
-</value>
+              <value>UI language</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2868,6 +2888,18 @@ associated with the 1C:Enterprise user.</value>
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>HierarchicalList</excludedCommands>
+        <excludedCommands>List</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>MoveUp</excludedCommands>
+        <excludedCommands>SortListAsc</excludedCommands>
+        <excludedCommands>SortListDesc</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>РолиКолонок</name>
           <id>180</id>
@@ -2880,7 +2912,7 @@ associated with the 1C:Enterprise user.</value>
             </title>
             <title>
               <key>en</key>
-              <value>Checkmark</value>
+              <value>Checkbox</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2997,7 +3029,7 @@ associated with the 1C:Enterprise user.</value>
               </title>
               <title>
                 <key>en</key>
-                <value>Enable selected roles</value>
+                <value>Include selected roles</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3694,7 +3726,7 @@ associated with the 1C:Enterprise user.</value>
         </title>
         <title>
           <key>en</key>
-          <value>Standard reports submenu</value>
+          <value>Submenu fill in standard</value>
         </title>
         <extendedTooltip>
           <name>ПодменюОтчетыОбычноеРасширеннаяПодсказка</name>
@@ -3793,6 +3825,7 @@ associated with the 1C:Enterprise user.</value>
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <excludedCommands>WriteAndClose</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>

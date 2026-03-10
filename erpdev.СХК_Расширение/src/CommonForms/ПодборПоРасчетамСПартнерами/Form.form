@@ -4,6 +4,10 @@
     <key>ru</key>
     <value>Подбор по расчетам</value>
   </title>
+  <title>
+    <key>en</key>
+    <value>Select by settlements</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОрганизация</name>
     <id>102</id>
@@ -15,9 +19,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>16</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ИдентификаторПлатежаРасширеннаяПодсказка</name>
         <id>229</id>
@@ -59,9 +60,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>6</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПартнерExtendedTooltip</name>
@@ -101,9 +99,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>3</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>КонтрагентExtendedTooltip</name>
@@ -144,9 +139,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>5</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ОрганизацияExtendedTooltip</name>
@@ -187,6 +179,10 @@
       <key>ru</key>
       <value>Организация</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Company</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОрганизацияExtendedTooltip</name>
       <id>184</id>
@@ -215,14 +211,15 @@
         <key>ru</key>
         <value>Таблица остатков расчетов</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Payment balance table</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>4</segments>
-      </dataPath>
       <skipOnInput>false</skipOnInput>
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
@@ -382,6 +379,10 @@
         <title>
           <key>ru</key>
           <value>Сумма</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Amount</value>
         </title>
         <extendedTooltip>
           <name>ГруппаСуммаExtendedTooltip</name>
@@ -567,6 +568,10 @@
           <key>ru</key>
           <value>К оплате</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>For payment</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаКОплатеExtendedTooltip</name>
           <id>203</id>
@@ -712,6 +717,10 @@
         <title>
           <key>ru</key>
           <value>Долг</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Debt</value>
         </title>
         <extendedTooltip>
           <name>ГруппаДолгExtendedTooltip</name>
@@ -880,7 +889,7 @@
             <name>Отбор.ХозяйственнаяОперация</name>
             <changeMode>DontChange</changeMode>
             <datapath xsi:type="form:DataPath">
-              <segments>9</segments>
+              <segments>ХозяйственнаяОперация</segments>
             </datapath>
           </choiceParameterLinks>
         </extInfo>
@@ -907,7 +916,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -933,7 +941,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -959,7 +966,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -985,7 +991,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1011,7 +1016,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1037,7 +1041,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1166,6 +1169,10 @@
       <key>ru</key>
       <value>Платежи</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Payments</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПлатежиExtendedTooltip</name>
       <id>188</id>
@@ -1200,6 +1207,10 @@
         <key>ru</key>
         <value>[todo Декорация для отступа]</value>
       </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>[todo Декорация для отступа]</value>
+      </toolTip>
       <extendedTooltip>
         <name>ДекорацияИтогиРасширеннаяПодсказка</name>
         <id>235</id>
@@ -1232,14 +1243,15 @@
           <key>ru</key>
           <value>Выбранные платежи</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Selected payments</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>11</segments>
-        </dataPath>
         <extendedTooltip>
           <name>СуммаПлатежейExtendedTooltip</name>
           <id>213</id>
@@ -1323,9 +1335,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>7</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ВалютаExtendedTooltip</name>
@@ -1405,6 +1414,10 @@
         <key>ru</key>
         <value>Итого</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Total</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаИтогоРасширеннаяПодсказка</name>
         <id>237</id>
@@ -1434,6 +1447,10 @@
     <title>
       <key>ru</key>
       <value>Подвал</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Cellar</value>
     </title>
     <extendedTooltip>
       <name>ГруппаПодвалExtendedTooltip</name>
@@ -1475,7 +1492,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПеренестиВДокумент</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>

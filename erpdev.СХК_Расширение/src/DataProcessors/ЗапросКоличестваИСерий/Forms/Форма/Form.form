@@ -303,10 +303,11 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <choiceForm>Catalog.УпаковкиЕдиницыИзмерения.Form.ФормаВыбораИзДокументов</choiceForm>
                 <choiceParameterLinks>
                   <name>Номенклатура</name>
                   <datapath xsi:type="form:DataPath">
-                    <segments>1</segments>
+                    <segments>ТекущаяНоменклатура</segments>
                   </datapath>
                 </choiceParameterLinks>
               </extInfo>
@@ -4729,7 +4730,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <height>1</height>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>StdPicture.Information</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаИнформация</name>

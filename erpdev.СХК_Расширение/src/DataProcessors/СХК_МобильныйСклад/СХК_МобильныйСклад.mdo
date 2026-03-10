@@ -7,7 +7,7 @@
   <name>СХК_МобильныйСклад</name>
   <synonym>
     <key>ru</key>
-    <value>АРМ Склад</value>
+    <value>АРМ Склад ГП</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.СХК_МобильныйСклад.Form.ФормаАвторизации</defaultForm>
@@ -154,6 +154,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82e9425a-0e74-48a8-9841-4490a2ad68f4">
+    <name>ФормаИнтерфейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма интерфейса</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

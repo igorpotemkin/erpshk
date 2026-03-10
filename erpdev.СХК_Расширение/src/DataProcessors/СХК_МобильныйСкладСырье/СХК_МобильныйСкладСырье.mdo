@@ -7,7 +7,7 @@
   <name>СХК_МобильныйСкладСырье</name>
   <synonym>
     <key>ru</key>
-    <value>Мобильный склад сырье</value>
+    <value>АРМ Склад СМ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.СХК_МобильныйСкладСырье.Form.Форма</defaultForm>

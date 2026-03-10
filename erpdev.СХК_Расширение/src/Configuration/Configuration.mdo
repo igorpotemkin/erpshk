@@ -74,6 +74,8 @@
   <styleItems>StyleItem.ШрифтЗаголовкаСпискаСборкаИДоставка</styleItems>
   <styleItems>StyleItem.ШрифтКнопокСборкаИДоставка</styleItems>
   <styleItems>StyleItem.ШрифтКомандСборкаИДоставка</styleItems>
+  <styleItems>StyleItem.БыстрыеОтборыФонГруппы</styleItems>
+  <styleItems>StyleItem.НеЗаполненноеСубконто</styleItems>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыУказаны</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
@@ -188,6 +190,8 @@
   <commonPictures>CommonPicture.СправочникПВХКоннекторВверх</commonPictures>
   <commonPictures>CommonPicture.Минус</commonPictures>
   <commonPictures>CommonPicture.Добавить</commonPictures>
+  <commonPictures>CommonPicture.ЖурналПроводок</commonPictures>
+  <commonPictures>CommonPicture.АктивностьПоРБ</commonPictures>
   <roles>Role.ДобавлениеИзменениеРеализацийТоваровУслуг</roles>
   <roles>Role.СХК_Пересорт</roles>
   <roles>Role.Промо_ОсновнаяРоль</roles>
@@ -215,6 +219,7 @@
   <roles>Role.СХК_РедактированиеУпаковкиНоменклатуры</roles>
   <roles>Role.СХК_РедактированиеГотовойПродукции</roles>
   <roles>Role.__ПросмотрПоступившиеЗаказы</roles>
+  <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <commonModules>CommonModule.__СпОбщийМодуль</commonModules>
   <commonModules>CommonModule.ВзаиморасчетыКлиент</commonModules>
   <commonModules>CommonModule.ГенерацияШтрихкода</commonModules>
@@ -820,8 +825,6 @@
   <dataProcessors>DataProcessor.ЖурналДокументовПродажи</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнитьЯчейки</dataProcessors>
   <dataProcessors>DataProcessor.ЗапросКоличестваИСерий</dataProcessors>
-  <dataProcessors>DataProcessor.МобильныйСклад</dataProcessors>
-  <dataProcessors>DataProcessor.МобильныйСкладТест</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаЯчеек</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьОбщихФорм</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьЭтикетокПечать_v4</dataProcessors>

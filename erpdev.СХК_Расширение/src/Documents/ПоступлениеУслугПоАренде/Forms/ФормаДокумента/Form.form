@@ -24,7 +24,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>11</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -68,7 +68,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>14</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -109,7 +109,7 @@
               <value>Number and date</value>
             </title>
             <extendedTooltip>
-              <name>НомерДатаExtendedTooltip</name>
+              <name>НомерДатаРасширеннаяПодсказка</name>
               <id>8</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -133,12 +133,12 @@
               <name>Партнер</name>
               <id>296</id>
               <title>
-                <key>en</key>
-                <value>Lessor</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>Арендодатель</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Lessor</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -277,7 +277,11 @@
                   </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.ВниманиеКрасный</picture>
+                    </picture>
+                  </extInfo>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -516,7 +520,11 @@
                   <height>1</height>
                   <autoMaxHeight>true</autoMaxHeight>
                   <verticalStretch>true</verticalStretch>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <picture xsi:type="core:PictureRef">
+                      <picture>CommonPicture.ВниманиеКрасный</picture>
+                    </picture>
+                  </extInfo>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -800,7 +808,7 @@
           <value>Additional attributes</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+          <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
           <id>218</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -942,7 +950,7 @@
         </userVisible>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>319</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1401,7 +1409,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>НачисленияРасчетныйДокумент</name>
-          <id>365</id>
+          <id>212</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1409,7 +1417,7 @@
           </userVisible>
           <extendedTooltip>
             <name>НачисленияРасчетныйДокументРасширеннаяПодсказка</name>
-            <id>369</id>
+            <id>214</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1419,7 +1427,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НачисленияРасчетныйДокументКонтекстноеМеню</name>
-            <id>368</id>
+            <id>213</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -1687,7 +1695,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>НачисленияПредставлениеОтраженияВРеглУчете</name>
-          <id>362</id>
+          <id>334</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1695,7 +1703,7 @@
           </userVisible>
           <extendedTooltip>
             <name>НачисленияПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка</name>
-            <id>371</id>
+            <id>336</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1705,7 +1713,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>НачисленияПредставлениеОтраженияВРеглУчетеКонтекстноеМеню</name>
-            <id>370</id>
+            <id>335</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -1896,6 +1904,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Начисления.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2042,7 +2053,7 @@ number</value>
               </userVisible>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>НомерВходящегоДокументаExtendedTooltip</name>
+                <name>НомерВходящегоДокументаРасширеннаяПодсказка</name>
                 <id>179</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2087,7 +2098,7 @@ number</value>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ДатаВходящегоДокументаExtendedTooltip</name>
+                <name>ДатаВходящегоДокументаРасширеннаяПодсказка</name>
                 <id>182</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2209,7 +2220,7 @@ name</value>
             <value>Incoming document</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаВходящийДокументExtendedTooltip</name>
+            <name>ГруппаВходящийДокументРасширеннаяПодсказка</name>
             <id>176</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2241,7 +2252,7 @@ name</value>
           <value>Additionally left</value>
         </title>
         <extendedTooltip>
-          <name>Группа2РасширеннаяПодсказка</name>
+          <name>ГруппаДополнительноЛевоРасширеннаяПодсказка</name>
           <id>348</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2390,7 +2401,7 @@ name</value>
           <value>Additionally right</value>
         </title>
         <extendedTooltip>
-          <name>Группа2РасширеннаяПодсказка1</name>
+          <name>ГруппаДополнительноПравоРасширеннаяПодсказка</name>
           <id>350</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2506,7 +2517,11 @@ name</value>
         </contextMenu>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ВниманиеКрасный</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:FormField">
         <name>ТекстСчетаФактурыПолученные</name>
@@ -2565,7 +2580,7 @@ name</value>
       </title>
       <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаСчетФактураExtendedTooltip</name>
+        <name>ГруппаСчетФактураРасширеннаяПодсказка</name>
         <id>268</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -2612,7 +2627,7 @@ name</value>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаНДСExtendedTooltip</name>
+                <name>СуммаНДСРасширеннаяПодсказка</name>
                 <id>99</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2634,7 +2649,8 @@ name</value>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <maxWidth>10</maxWidth>
+                <width>10</width>
+                <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
                 <format>
@@ -2664,7 +2680,7 @@ name</value>
               <value>Page VAT</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаСНДСExtendedTooltip</name>
+              <name>СтраницаСНДСРасширеннаяПодсказка</name>
               <id>96</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2700,7 +2716,7 @@ name</value>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПолеБезНДСExtendedTooltip</name>
+                <name>ПолеБезНДСРасширеннаяПодсказка</name>
                 <id>107</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2714,16 +2730,19 @@ name</value>
                 <id>106</id>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>LabelField</type>
+              <type>InputField</type>
               <readOnly>true</readOnly>
               <horizontalAlign>Right</horizontalAlign>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:LabelFieldExtInfo">
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <width>10</width>
+                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>10</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
                 <format>
                   <key>ru</key>
                   <value>ЧН='Без НДС'</value>
@@ -2732,6 +2751,17 @@ name</value>
                   <key>en</key>
                   <value>NZ='excluding VAT'</value>
                 </format>
+                <editFormat>
+                  <key>ru</key>
+                  <value>ЧН='Без НДС'</value>
+                </editFormat>
+                <editFormat>
+                  <key>en</key>
+                  <value>NZ='excluding VAT'</value>
+                </editFormat>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2749,7 +2779,7 @@ name</value>
             </title>
             <verticalStretch>true</verticalStretch>
             <extendedTooltip>
-              <name>СтраницаБезНДСExtendedTooltip</name>
+              <name>СтраницаБезНДСРасширеннаяПодсказка</name>
               <id>101</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2780,7 +2810,7 @@ name</value>
           </title>
           <groupVerticalAlign>Center</groupVerticalAlign>
           <extendedTooltip>
-            <name>ГруппаСтраницыНДСExtendedTooltip</name>
+            <name>ГруппаСтраницыНДСРасширеннаяПодсказка</name>
             <id>94</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2817,7 +2847,7 @@ name</value>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаВсегоСНДСExtendedTooltip</name>
+                <name>СуммаВсегоСНДСРасширеннаяПодсказка</name>
                 <id>114</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2848,7 +2878,7 @@ name</value>
                 </format>
                 <format>
                   <key>en</key>
-                  <value>NFD=2; NZ=0,00</value>
+                  <value>NFD=2; NZ=0.00</value>
                 </format>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
@@ -2869,7 +2899,7 @@ name</value>
               <value>Page including VAT</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаВсегоСНДСExtendedTooltip</name>
+              <name>СтраницаВсегоСНДСРасширеннаяПодсказка</name>
               <id>111</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2904,7 +2934,7 @@ name</value>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаВсегоБезНДСExtendedTooltip</name>
+                <name>СуммаВсегоБезНДСРасширеннаяПодсказка</name>
                 <id>119</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2935,7 +2965,7 @@ name</value>
                 </format>
                 <format>
                   <key>en</key>
-                  <value>NFD=2; NZ=0,00</value>
+                  <value>NFD=2; NZ=0.00</value>
                 </format>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
@@ -2956,7 +2986,7 @@ name</value>
               <value>Page excluding VAT</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаВсегоБезНДСExtendedTooltip</name>
+              <name>СтраницаВсегоБезНДСРасширеннаяПодсказка</name>
               <id>116</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2993,7 +3023,7 @@ name</value>
             <value>VAT page group</value>
           </toolTip>
           <extendedTooltip>
-            <name>ГруппаСтраницыВсегоExtendedTooltip</name>
+            <name>ГруппаСтраницыВсегоРасширеннаяПодсказка</name>
             <id>109</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3066,7 +3096,7 @@ name</value>
         </toolTip>
         <groupVerticalAlign>Center</groupVerticalAlign>
         <extendedTooltip>
-          <name>ГруппаПоДокументуExtendedTooltip</name>
+          <name>ГруппаПоДокументуРасширеннаяПодсказка</name>
           <id>92</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3137,7 +3167,7 @@ name</value>
     </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
-      <name>ГруппаПодвалExtendedTooltip</name>
+      <name>ГруппаПодвалРасширеннаяПодсказка</name>
       <id>82</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -3176,7 +3206,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиИЗакрыть</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3201,7 +3230,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаписатьДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3226,7 +3254,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3612,7 +3639,7 @@ name</value>
         <value>Additional filling commands</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>220</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3647,7 +3674,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3673,7 +3699,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.CustomizeForm</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3698,7 +3723,6 @@ name</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

@@ -814,7 +814,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаСостояниеЭДО</name>
-        <id>263</id>
+        <id>281</id>
         <items xsi:type="form:FormField">
           <name>ДекорацияСостояниеЭДО</name>
           <id>268</id>
@@ -872,7 +872,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаСостояниеЭДОРасширеннаяПодсказка</name>
-          <id>264</id>
+          <id>282</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -882,7 +882,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
+          <group>AlwaysHorizontal</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -1706,28 +1706,28 @@
               <choiceParameterLinks>
                 <name>Отбор.СтранаПроисхождения</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/8:5bdad865-f2c5-434b-8041-ba4aad3b6687</segments>
+                  <segments>Items.Товары.CurrentData.СтранаПроисхождения</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameterLinks>
                 <name>Характеристика</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/0:b48a732f-d560-40c9-9eff-a72485307839</segments>
+                  <segments>Items.Товары.CurrentData.ХарактеристикаОприходование</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameterLinks>
                 <name>Дата</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>1/-3</segments>
+                  <segments>Объект.Date</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameterLinks>
                 <name>Номенклатура</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/0:f337b9f0-a2af-443c-93dc-6bb1a1c4beb1</segments>
+                  <segments>Items.Товары.CurrentData.НоменклатураОприходование</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -2392,6 +2392,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Товары.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">

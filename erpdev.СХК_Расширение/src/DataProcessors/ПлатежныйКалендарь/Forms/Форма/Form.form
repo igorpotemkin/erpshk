@@ -920,6 +920,13 @@
         </userVisible>
         <defaultItem>true</defaultItem>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Change</excludedCommands>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
+        <excludedCommands>Create</excludedCommands>
+        <excludedCommands>Delete</excludedCommands>
+        <excludedCommands>LoadDynamicListSettings</excludedCommands>
+        <excludedCommands>SaveDynamicListSettings</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ЗаявкиКОплатеДатаПлатежа</name>
           <id>26</id>
@@ -2425,6 +2432,21 @@
             </userVisible>
             <defaultItem>true</defaultItem>
             <titleLocation>None</titleLocation>
+            <excludedCommands>Add</excludedCommands>
+            <excludedCommands>Change</excludedCommands>
+            <excludedCommands>Copy</excludedCommands>
+            <excludedCommands>CopyToClipboard</excludedCommands>
+            <excludedCommands>Delete</excludedCommands>
+            <excludedCommands>EndEdit</excludedCommands>
+            <excludedCommands>HierarchicalList</excludedCommands>
+            <excludedCommands>List</excludedCommands>
+            <excludedCommands>MoveDown</excludedCommands>
+            <excludedCommands>MoveUp</excludedCommands>
+            <excludedCommands>OutputList</excludedCommands>
+            <excludedCommands>ShowRowRearrangement</excludedCommands>
+            <excludedCommands>SortListAsc</excludedCommands>
+            <excludedCommands>SortListDesc</excludedCommands>
+            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ДеревоПлатежейГруппировка</name>
               <id>348</id>
@@ -3777,6 +3799,12 @@
             <common>true</common>
           </userVisible>
           <titleLocation>None</titleLocation>
+          <excludedCommands>Change</excludedCommands>
+          <excludedCommands>Copy</excludedCommands>
+          <excludedCommands>Create</excludedCommands>
+          <excludedCommands>Delete</excludedCommands>
+          <excludedCommands>LoadDynamicListSettings</excludedCommands>
+          <excludedCommands>SaveDynamicListSettings</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ПлатежиВКалендареТипОбъектаОплатыНаименование</name>
             <id>463</id>

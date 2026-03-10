@@ -49,6 +49,10 @@
           <key>ru</key>
           <value>Все</value>
         </inputHint>
+        <inputHint>
+          <key>en</key>
+          <value>All</value>
+        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -67,8 +71,12 @@
         <key>ru</key>
         <value>Подразделение, в котором выполняется этап производства.</value>
       </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Business unit in which the production stage is performed.</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ПодразделениеОтборExtendedTooltip</name>
+        <name>ПодразделениеОтборРасширеннаяПодсказка</name>
         <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -112,6 +120,10 @@
           <key>ru</key>
           <value>Все</value>
         </inputHint>
+        <inputHint>
+          <key>en</key>
+          <value>All</value>
+        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -151,49 +163,15 @@
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <clearButton>true</clearButton>
-        <listChoiceMode>true</listChoiceMode>
-        <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <choiceList>
-          <presentation>
-            <key>ru</key>
-            <value>Рассчитаны</value>
-          </presentation>
-          <value xsi:type="core:StringValue">
-            <value>Рассчитана</value>
-          </value>
-        </choiceList>
-        <choiceList>
-          <presentation>
-            <key>ru</key>
-            <value>Раассчитаны с ошибками</value>
-          </presentation>
-          <value xsi:type="core:StringValue">
-            <value>РассчитанаСОшибками</value>
-          </value>
-        </choiceList>
-        <choiceList>
-          <presentation>
-            <key>ru</key>
-            <value>Не рассчитаны</value>
-          </presentation>
-          <value xsi:type="core:StringValue">
-            <value>НеРассчитана</value>
-          </value>
-        </choiceList>
-        <choiceList>
-          <presentation>
-            <key>ru</key>
-            <value>Ошибка расчета</value>
-          </presentation>
-          <value xsi:type="core:StringValue">
-            <value>ОшибкаРасчета</value>
-          </value>
-        </choiceList>
         <inputHint>
           <key>ru</key>
           <value>Все</value>
+        </inputHint>
+        <inputHint>
+          <key>en</key>
+          <value>All</value>
         </inputHint>
       </extInfo>
     </items>
@@ -206,8 +184,12 @@
       <key>ru</key>
       <value>Отбор</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Filter</value>
+    </title>
     <extendedTooltip>
-      <name>ГруппаОтборExtendedTooltip</name>
+      <name>ГруппаОтборРасширеннаяПодсказка</name>
       <id>35</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -230,6 +212,10 @@
     <title>
       <key>ru</key>
       <value>Список</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>List</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -398,6 +384,10 @@
           <key>ru</key>
           <value>Есть ошибка</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>There is error</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -446,6 +436,10 @@
           <key>ru</key>
           <value>Состояние</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>State</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -485,6 +479,10 @@
       <title>
         <key>ru</key>
         <value>Состояние</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>State</value>
       </title>
       <extendedTooltip>
         <name>Группа1РасширеннаяПодсказка</name>
@@ -624,6 +622,10 @@
           <key>ru</key>
           <value>Создать на основании</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Generate</value>
+        </title>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
           <name>ПодменюСоздатьНаОснованииРасширеннаяПодсказка</name>
@@ -655,9 +657,17 @@
           <key>ru</key>
           <value>Печать</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Print</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Команды печати</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Print commands</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюПечатьРасширеннаяПодсказка</name>
@@ -689,6 +699,10 @@
             <key>ru</key>
             <value>Подменю отчеты важное</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Important reports submenu</value>
+          </title>
           <extendedTooltip>
             <name>ПодменюОтчетыВажноеРасширеннаяПодсказка</name>
             <id>54</id>
@@ -713,9 +727,17 @@
             <key>ru</key>
             <value>Подменю отчеты перейти</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Submenu reports go to</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Подменю отчеты важное</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Important reports submenu</value>
           </toolTip>
           <extendedTooltip>
             <name>ПодменюОтчетыПерейтиРасширеннаяПодсказка</name>
@@ -741,9 +763,17 @@
             <key>ru</key>
             <value>Подменю отчеты см также</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>See also reports submenu</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Подменю отчеты важное</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Important reports submenu</value>
           </toolTip>
           <extendedTooltip>
             <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>
@@ -765,6 +795,10 @@
         <title>
           <key>ru</key>
           <value>Отчеты</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Reports</value>
         </title>
         <extendedTooltip>
           <name>ПодменюОтчетыРасширеннаяПодсказка</name>
@@ -796,8 +830,12 @@
           <key>ru</key>
           <value>Глобальные команды</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Global commands</value>
+        </title>
         <extendedTooltip>
-          <name>ГлобальныеКомандыExtendedTooltip</name>
+          <name>ГлобальныеКомандыРасширеннаяПодсказка</name>
           <id>60</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -831,7 +869,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.StandardCommand.CustomizeForm</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -847,12 +884,20 @@
           <key>ru</key>
           <value>Группа командная панель формы</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Form command bar group</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Группа командная панель формы</value>
         </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Form command bar group</value>
+        </toolTip>
         <extendedTooltip>
-          <name>ГруппаКоманднаяПанельФормыExtendedTooltip</name>
+          <name>ГруппаКоманднаяПанельФормыРасширеннаяПодсказка</name>
           <id>80</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -881,7 +926,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.StandardCommand.Help</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -937,6 +981,7 @@
       <source>Список</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
+        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -1010,7 +1055,6 @@
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
       <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
-      <userSettingsGroup>1:02023637-7868-4a5f-8576-835a76e0c9ba</userSettingsGroup>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>

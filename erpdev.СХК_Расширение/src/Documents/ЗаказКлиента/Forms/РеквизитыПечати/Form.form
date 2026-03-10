@@ -148,7 +148,7 @@
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>9</segments>
+                  <segments>Контрагент</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -191,7 +191,7 @@
               <choiceParameterLinks>
                 <name>Отбор.Партнер</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>7</segments>
+                  <segments>Партнер</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -242,7 +242,7 @@
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>6</segments>
+                  <segments>Грузополучатель</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -365,7 +365,7 @@
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>10</segments>
+                  <segments>Организация</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -461,7 +461,7 @@
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>5</segments>
+                  <segments>Грузоотправитель</segments>
                 </datapath>
               </choiceParameterLinks>
             </extInfo>
@@ -550,14 +550,14 @@
                 <name>Отбор.Дата</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>11</segments>
+                  <segments>Дата</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>10</segments>
+                  <segments>Организация</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameters>
@@ -609,14 +609,14 @@
                 <name>Отбор.Дата</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>11</segments>
+                  <segments>Дата</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameterLinks>
                 <name>Отбор.Владелец</name>
                 <changeMode>DontChange</changeMode>
                 <datapath xsi:type="form:DataPath">
-                  <segments>10</segments>
+                  <segments>Организация</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameters>

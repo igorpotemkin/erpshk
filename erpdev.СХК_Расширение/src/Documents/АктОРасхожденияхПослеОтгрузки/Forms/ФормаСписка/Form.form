@@ -103,27 +103,27 @@
             <value>All</value>
           </presentation>
           <value xsi:type="core:ReferenceValue">
-            <value>3a43cb50-e1a5-48f2-82b5-34a15ab43629.00000000-0000-0000-0000-000000000000</value>
+            <value>Enum.СтатусыАктаОРасхождениях.EmptyRef</value>
           </value>
         </choiceList>
         <choiceList>
           <value xsi:type="core:ReferenceValue">
-            <value>3a43cb50-e1a5-48f2-82b5-34a15ab43629.4bf604ed-69ed-4bc9-b409-b30ece7ba24b</value>
+            <value>Enum.СтатусыАктаОРасхождениях.EnumValue.НеСогласовано</value>
           </value>
         </choiceList>
         <choiceList>
           <value xsi:type="core:ReferenceValue">
-            <value>3a43cb50-e1a5-48f2-82b5-34a15ab43629.17415374-4c27-409d-9cc0-f00b5cb5b72b</value>
+            <value>Enum.СтатусыАктаОРасхождениях.EnumValue.Согласовано</value>
           </value>
         </choiceList>
         <choiceList>
           <value xsi:type="core:ReferenceValue">
-            <value>3a43cb50-e1a5-48f2-82b5-34a15ab43629.b0136d62-adce-43f4-87ac-2d16a14203a7</value>
+            <value>Enum.СтатусыАктаОРасхождениях.EnumValue.КВыполнению</value>
           </value>
         </choiceList>
         <choiceList>
           <value xsi:type="core:ReferenceValue">
-            <value>3a43cb50-e1a5-48f2-82b5-34a15ab43629.b106d894-7bae-424d-b517-bbace77477b4</value>
+            <value>Enum.СтатусыАктаОРасхождениях.EnumValue.Отработано</value>
           </value>
         </choiceList>
       </extInfo>
@@ -212,6 +212,8 @@
     </userVisible>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Номер</name>
       <id>6</id>
@@ -1184,6 +1186,8 @@
     <name>Расш1_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
+  <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>Delete</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>

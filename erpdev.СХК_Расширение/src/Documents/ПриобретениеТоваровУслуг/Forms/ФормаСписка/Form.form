@@ -12,7 +12,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>МенеджерExtendedTooltip</name>
+        <name>МенеджерРасширеннаяПодсказка</name>
         <id>104</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -58,7 +58,7 @@
       <value>Quick filters</value>
     </title>
     <extendedTooltip>
-      <name>БыстрыеОтборыExtendedTooltip</name>
+      <name>БыстрыеОтборыРасширеннаяПодсказка</name>
       <id>103</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -145,7 +145,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияНомерExtendedTooltip</name>
+        <name>СписокДокументыПоступленияНомерРасширеннаяПодсказка</name>
         <id>115</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -192,7 +192,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияДатаExtendedTooltip</name>
+        <name>СписокДокументыПоступленияДатаРасширеннаяПодсказка</name>
         <id>160</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -237,7 +237,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияСуммаДокументаExtendedTooltip</name>
+        <name>СписокДокументыПоступленияСуммаДокументаРасширеннаяПодсказка</name>
         <id>117</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -282,7 +282,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияВалютаExtendedTooltip</name>
+        <name>СписокДокументыПоступленияВалютаРасширеннаяПодсказка</name>
         <id>118</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -320,7 +320,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыХозяйственнаяОперацияExtendedTooltip</name>
+        <name>СписокДокументыХозяйственнаяОперацияРасширеннаяПодсказка</name>
         <id>119</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -362,7 +362,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияПартнерExtendedTooltip</name>
+        <name>СписокДокументыПоступленияПартнерРасширеннаяПодсказка</name>
         <id>120</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -407,7 +407,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияКонтрагентExtendedTooltip</name>
+        <name>СписокДокументыПоступленияКонтрагентРасширеннаяПодсказка</name>
         <id>121</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -452,7 +452,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияОрганизацияExtendedTooltip</name>
+        <name>СписокДокументыПоступленияОрганизацияРасширеннаяПодсказка</name>
         <id>122</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -497,7 +497,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияСкладExtendedTooltip</name>
+        <name>СписокДокументыПоступленияСкладРасширеннаяПодсказка</name>
         <id>123</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -532,7 +532,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияСоглашениеExtendedTooltip</name>
+        <name>СписокДокументыПоступленияСоглашениеРасширеннаяПодсказка</name>
         <id>124</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -564,7 +564,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияДоговорExtendedTooltip</name>
+        <name>СписокДокументыПоступленияДоговорРасширеннаяПодсказка</name>
         <id>125</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -596,7 +596,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияМенеджерExtendedTooltip</name>
+        <name>СписокДокументыПоступленияМенеджерРасширеннаяПодсказка</name>
         <id>126</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -630,7 +630,7 @@
       </title>
       <title>
         <key>en</key>
-        <value>EDI status</value>
+        <value>EDI state</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -638,7 +638,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокПоле1РасширеннаяПодсказка</name>
+        <name>ПредставлениеСостоянияРасширеннаяПодсказка</name>
         <id>174</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -669,7 +669,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияКомментарийExtendedTooltip</name>
+        <name>СписокДокументыПоступленияКомментарийРасширеннаяПодсказка</name>
         <id>127</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -734,7 +734,7 @@
       <enabled>true</enabled>
       <userVisible/>
       <extendedTooltip>
-        <name>СписокДокументыПоступленияСсылкаExtendedTooltip</name>
+        <name>СписокДокументыПоступленияСсылкаРасширеннаяПодсказка</name>
         <id>128</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1111,7 +1111,7 @@
           <value>Form commands group</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаГлобальныеКомандыExtendedTooltip</name>
+          <name>ГруппаГлобальныеКомандыРасширеннаяПодсказка</name>
           <id>111</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1141,7 +1141,7 @@
           <value>Form commands</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКомандыФормыExtendedTooltip</name>
+          <name>ГруппаКомандыФормыРасширеннаяПодсказка</name>
           <id>112</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1163,7 +1163,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокДокументыПоступленияСправкаExtendedTooltip</name>
+          <name>СписокДокументыПоступленияСправкаРасширеннаяПодсказка</name>
           <id>113</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1343,7 +1343,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокДокументыПоступленияExtendedTooltip</name>
+      <name>СписокДокументыПоступленияРасширеннаяПодсказка</name>
       <id>114</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1375,9 +1375,6 @@
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>10000000</segments>
-    </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -1396,12 +1393,29 @@
   </autoCommandBar>
   <excludedCommands>Abort</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
+  <excludedCommands>CancelSearch</excludedCommands>
+  <excludedCommands>Change</excludedCommands>
+  <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>Create</excludedCommands>
+  <excludedCommands>Delete</excludedCommands>
+  <excludedCommands>DynamicListStandardSettings</excludedCommands>
+  <excludedCommands>Find</excludedCommands>
+  <excludedCommands>FindByCurrentValue</excludedCommands>
   <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>ListSettings</excludedCommands>
+  <excludedCommands>LoadDynamicListSettings</excludedCommands>
   <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
+  <excludedCommands>OutputList</excludedCommands>
+  <excludedCommands>Post</excludedCommands>
+  <excludedCommands>Refresh</excludedCommands>
   <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>SaveDynamicListSettings</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>SetDateInterval</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
+  <excludedCommands>UndoPosting</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>

@@ -55,6 +55,7 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ПоискШКQr</segments>
         </dataPath>
+        <titleLocation>Top</titleLocation>
         <extendedTooltip>
           <name>ПоискШКQrРасширеннаяПодсказка</name>
           <id>8</id>
@@ -540,7 +541,6 @@
           <items xsi:type="form:Decoration">
             <name>Декорация14</name>
             <id>106</id>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -582,6 +582,7 @@
             <dataPath xsi:type="form:DataPath">
               <segments>СканОткуда</segments>
             </dataPath>
+            <titleLocation>Top</titleLocation>
             <extendedTooltip>
               <name>СканОткудаРасширеннаяПодсказка</name>
               <id>13</id>
@@ -622,7 +623,6 @@
           <items xsi:type="form:Decoration">
             <name>Декорация15</name>
             <id>109</id>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -812,7 +812,6 @@
           <items xsi:type="form:Decoration">
             <name>Декорация7</name>
             <id>85</id>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>

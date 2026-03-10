@@ -203,7 +203,11 @@
         </contextMenu>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.ПапкаОблачногоСервиса</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:Decoration">
         <name>ДекорацияПояснение</name>
@@ -285,7 +289,11 @@
         </contextMenu>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Предупреждение</picture>
+          </picture>
+        </extInfo>
       </items>
       <items xsi:type="form:Decoration">
         <name>ДекорацияДатаСинхронизации</name>
@@ -422,6 +430,24 @@
         <common>true</common>
       </userVisible>
       <titleLocation>None</titleLocation>
+      <excludedCommands>CancelSearch</excludedCommands>
+      <excludedCommands>Change</excludedCommands>
+      <excludedCommands>Choose</excludedCommands>
+      <excludedCommands>Copy</excludedCommands>
+      <excludedCommands>CopyToClipboard</excludedCommands>
+      <excludedCommands>Create</excludedCommands>
+      <excludedCommands>Delete</excludedCommands>
+      <excludedCommands>DynamicListStandardSettings</excludedCommands>
+      <excludedCommands>Find</excludedCommands>
+      <excludedCommands>FindByCurrentValue</excludedCommands>
+      <excludedCommands>ListSettings</excludedCommands>
+      <excludedCommands>LoadDynamicListSettings</excludedCommands>
+      <excludedCommands>MoveItem</excludedCommands>
+      <excludedCommands>OutputList</excludedCommands>
+      <excludedCommands>Refresh</excludedCommands>
+      <excludedCommands>SaveDynamicListSettings</excludedCommands>
+      <excludedCommands>SearchHistory</excludedCommands>
+      <excludedCommands>ShowMultipleSelection</excludedCommands>
       <items xsi:type="form:FormField">
         <name>СписокНомерКартинкиПодписанЗашифрован</name>
         <id>206</id>
@@ -4272,6 +4298,7 @@
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <excludedCommands>Refresh</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

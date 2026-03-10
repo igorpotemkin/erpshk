@@ -23,11 +23,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>1/-2</segments>
-              </dataPath>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>454</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -61,16 +58,17 @@
                 <key>ru</key>
                 <value>от</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>dated</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>1/-3</segments>
-              </dataPath>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>455</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -106,8 +104,12 @@
               <key>ru</key>
               <value>Номер и дата</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Number and date</value>
+            </title>
             <extendedTooltip>
-              <name>НомерДатаExtendedTooltip</name>
+              <name>НомерДатаРасширеннаяПодсказка</name>
               <id>453</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -136,7 +138,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПартнерExtendedTooltip</name>
+                <name>ПартнерРасширеннаяПодсказка</name>
                 <id>456</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -210,6 +212,10 @@
                   <key>ru</key>
                   <value>Страница нет проблемы партнер</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>No issues partner page</value>
+                </title>
                 <extendedTooltip>
                   <name>СтраницаНетПроблемыПартнерРасширеннаяПодсказка</name>
                   <id>628</id>
@@ -235,6 +241,10 @@
                   <title>
                     <key>ru</key>
                     <value>Декорация проблема проверка контрагента</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Decoration counterparty check issue</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -273,6 +283,10 @@
                   <key>ru</key>
                   <value>Страница есть проблема партнер</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>Issue exists partner page</value>
+                </title>
                 <extendedTooltip>
                   <name>СтраницаЕстьПроблемаПартнерРасширеннаяПодсказка</name>
                   <id>633</id>
@@ -298,6 +312,10 @@
                 <key>ru</key>
                 <value>Страницы проблема проверка контрагента партнер</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Counterparty check issue partner pages</value>
+              </title>
               <extendedTooltip>
                 <name>СтраницыПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка</name>
                 <id>626</id>
@@ -322,9 +340,17 @@
               <key>ru</key>
               <value>Группа контрагента</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Counterparty group</value>
+            </title>
             <toolTip>
               <key>ru</key>
               <value>Группа контрагент</value>
+            </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Counterparty group</value>
             </toolTip>
             <extendedTooltip>
               <name>ГруппаПартнерРасширеннаяПодсказка</name>
@@ -356,7 +382,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КонтрагентExtendedTooltip</name>
+                <name>КонтрагентРасширеннаяПодсказка</name>
                 <id>457</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -430,6 +456,10 @@
                   <key>ru</key>
                   <value>Страница нет проблемы контрагент</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>No issues counterparty page</value>
+                </title>
                 <extendedTooltip>
                   <name>СтраницаНетПроблемыКонтрагентРасширеннаяПодсказка</name>
                   <id>645</id>
@@ -455,6 +485,10 @@
                   <title>
                     <key>ru</key>
                     <value>Проблема проверка контрагента</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Counterparty check issue</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -493,6 +527,10 @@
                   <key>ru</key>
                   <value>Страница есть проблема контрагент</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>Issue exists counterparty page</value>
+                </title>
                 <extendedTooltip>
                   <name>СтраницаЕстьПроблемаКонтрагентРасширеннаяПодсказка</name>
                   <id>650</id>
@@ -518,6 +556,10 @@
                 <key>ru</key>
                 <value>Страницы проблема проверка контрагента контрагент</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Counterparty check issue counterparty pages</value>
+              </title>
               <extendedTooltip>
                 <name>СтраницыПроблемаПроверкаКонтрагентаКонтрагентРасширеннаяПодсказка</name>
                 <id>643</id>
@@ -541,6 +583,10 @@
             <title>
               <key>ru</key>
               <value>Группа контрагента</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Counterparty group</value>
             </title>
             <extendedTooltip>
               <name>ГруппаКонтрагентРасширеннаяПодсказка</name>
@@ -567,12 +613,16 @@
               <key>ru</key>
               <value>Соглашение</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Terms of purchase</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СоглашениеExtendedTooltip</name>
+              <name>СоглашениеРасширеннаяПодсказка</name>
               <id>458</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -613,8 +663,12 @@
             <key>ru</key>
             <value>Шапка лево</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Header left</value>
+          </title>
           <extendedTooltip>
-            <name>ШапкаЛевоExtendedTooltip</name>
+            <name>ШапкаЛевоРасширеннаяПодсказка</name>
             <id>452</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -644,7 +698,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрганизацияExtendedTooltip</name>
+              <name>ОрганизацияРасширеннаяПодсказка</name>
               <id>461</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -680,7 +734,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДоговорExtendedTooltip</name>
+              <name>ДоговорРасширеннаяПодсказка</name>
               <id>462</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -710,11 +764,19 @@
               <choiceParameterLinks>
                 <name>Отбор.ХозяйственнаяОперация</name>
                 <datapath xsi:type="form:DataPath">
-                  <segments>30</segments>
+                  <segments>ХозяйственнаяОперацияДоговора</segments>
                 </datapath>
               </choiceParameterLinks>
               <choiceParameters>
                 <name>ПоказыватьЗакупкуПоИмпорту</name>
+                <value xsi:type="form:FormChoiceListDesTimeValue">
+                  <value xsi:type="core:BooleanValue">
+                    <value>true</value>
+                  </value>
+                </value>
+              </choiceParameters>
+              <choiceParameters>
+                <name>ПоказыватьПередачуНаКомиссию</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
                   <value xsi:type="core:BooleanValue">
                     <value>true</value>
@@ -732,8 +794,12 @@
             <key>ru</key>
             <value>Шапка право</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Header right</value>
+          </title>
           <extendedTooltip>
-            <name>ШапкаПравоExtendedTooltip</name>
+            <name>ШапкаПравоРасширеннаяПодсказка</name>
             <id>459</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -760,8 +826,12 @@
           <key>ru</key>
           <value>Шапка</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Header</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаШапкаExtendedTooltip</name>
+          <name>ГруппаШапкаРасширеннаяПодсказка</name>
           <id>451</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -790,9 +860,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>27</segments>
-        </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
           <name>НадписьВалютыРасширеннаяПодсказка</name>
@@ -830,6 +897,10 @@
             <key>ru</key>
             <value>Оплата:       &lt;fontsize 6>  &lt;/></value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Payment:       &lt;fontsize 6>  &lt;/></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -866,9 +937,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>17</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>РасчетыРасширеннаяПодсказка</name>
@@ -904,9 +972,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/-5</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ЗачетОплатыРасширеннаяПодсказка</name>
             <id>721</id>
@@ -918,7 +983,6 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -933,6 +997,10 @@
         <title>
           <key>ru</key>
           <value>Оплаты</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Payments</value>
         </title>
         <extendedTooltip>
           <name>ГруппаОплатыРасширеннаяПодсказка</name>
@@ -962,7 +1030,7 @@
         </userVisible>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>509</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -999,6 +1067,10 @@
         <key>ru</key>
         <value>Основное</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Main</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаОсновноеРасширеннаяПодсказка</name>
         <id>714</id>
@@ -1025,6 +1097,10 @@
           <key>ru</key>
           <value>Расходы</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Expenses</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1041,7 +1117,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыНомерСтрокиExtendedTooltip</name>
+            <name>РасходыНомерСтрокиРасширеннаяПодсказка</name>
             <id>471</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1076,7 +1152,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыСодержаниеExtendedTooltip</name>
+            <name>РасходыСодержаниеРасширеннаяПодсказка</name>
             <id>472</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1113,13 +1189,17 @@
             <key>ru</key>
             <value>Количество</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Quantity</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыКоличествоExtendedTooltip</name>
+            <name>РасходыКоличествоРасширеннаяПодсказка</name>
             <id>473</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1158,7 +1238,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыЦенаExtendedTooltip</name>
+            <name>РасходыЦенаРасширеннаяПодсказка</name>
             <id>474</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1198,7 +1278,7 @@
           </userVisible>
           <skipOnInput>true</skipOnInput>
           <extendedTooltip>
-            <name>РасходыСуммаExtendedTooltip</name>
+            <name>РасходыСуммаРасширеннаяПодсказка</name>
             <id>475</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1237,7 +1317,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыСтавкаНДСExtendedTooltip</name>
+            <name>РасходыСтавкаНДСРасширеннаяПодсказка</name>
             <id>476</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1262,6 +1342,7 @@
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>false</horizontalStretch>
             <wrap>true</wrap>
+            <openButton>false</openButton>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
           </extInfo>
@@ -1276,7 +1357,7 @@
           </userVisible>
           <skipOnInput>true</skipOnInput>
           <extendedTooltip>
-            <name>РасходыСуммаНДСExtendedTooltip</name>
+            <name>РасходыСуммаНДСРасширеннаяПодсказка</name>
             <id>477</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1315,7 +1396,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыСуммаСНДСExtendedTooltip</name>
+            <name>РасходыСуммаСНДСРасширеннаяПодсказка</name>
             <id>478</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1356,7 +1437,7 @@
           </userVisible>
           <skipOnInput>true</skipOnInput>
           <extendedTooltip>
-            <name>РасходыСуммаВзаиморасчетовExtendedTooltip</name>
+            <name>РасходыСуммаВзаиморасчетовРасширеннаяПодсказка</name>
             <id>479</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1469,7 +1550,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РасходыСтатьяРасходовExtendedTooltip</name>
+            <name>РасходыСтатьяРасходовРасширеннаяПодсказка</name>
             <id>480</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1487,6 +1568,10 @@
           <warningOnEdit>
             <key>ru</key>
             <value>Указание статьи расходов не требуется</value>
+          </warningOnEdit>
+          <warningOnEdit>
+            <key>en</key>
+            <value>Expense item is not required</value>
           </warningOnEdit>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
@@ -1528,7 +1613,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РасходыАналитикаРасходовExtendedTooltip</name>
+              <name>РасходыАналитикаРасходовРасширеннаяПодсказка</name>
               <id>481</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1546,6 +1631,10 @@
             <warningOnEdit>
               <key>ru</key>
               <value>Указание аналитики расходов не требуется</value>
+            </warningOnEdit>
+            <warningOnEdit>
+              <key>en</key>
+              <value>Expense dimension is not required</value>
             </warningOnEdit>
             <editMode>Enter</editMode>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1608,6 +1697,10 @@
           <title>
             <key>ru</key>
             <value>Аналитика</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Dimension</value>
           </title>
           <extendedTooltip>
             <name>РасходыГруппаАналитикаРасширеннаяПодсказка</name>
@@ -1819,7 +1912,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РасходыРазбитьСтрокуExtendedTooltip</name>
+              <name>РасходыРазбитьСтрокуРасширеннаяПодсказка</name>
               <id>467</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1828,7 +1921,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1847,7 +1939,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РасходыУстановитьСтатьюРасходовExtendedTooltip</name>
+                <name>РасходыУстановитьСтатьюРасходовРасширеннаяПодсказка</name>
                 <id>468</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1856,7 +1948,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1881,7 +1972,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1896,6 +1986,10 @@
             <title>
               <key>ru</key>
               <value>Заполнить</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Fill</value>
             </title>
             <extendedTooltip>
               <name>РасходыЗаполнитьРасширеннаяПодсказка</name>
@@ -1930,7 +2024,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1985,6 +2078,7 @@
           <source>Расходы</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
+            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -2012,7 +2106,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>РасходыExtendedTooltip</name>
+          <name>РасходыРасширеннаяПодсказка</name>
           <id>470</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2033,7 +2127,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РасходыКонтекстноеМенюРазбитьСтрокуExtendedTooltip</name>
+              <name>РасходыКонтекстноеМенюРазбитьСтрокуРасширеннаяПодсказка</name>
               <id>466</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2042,7 +2136,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2084,8 +2177,12 @@
         <key>ru</key>
         <value>Расходы и прочие активы</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Services and assets</value>
+      </title>
       <extendedTooltip>
-        <name>ГруппаРасходыExtendedTooltip</name>
+        <name>ГруппаРасходыРасширеннаяПодсказка</name>
         <id>465</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -2098,6 +2195,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Расходы.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2118,7 +2218,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>МенеджерExtendedTooltip</name>
+              <name>МенеджерРасширеннаяПодсказка</name>
               <id>489</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2155,7 +2255,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПодразделениеExtendedTooltip</name>
+              <name>ПодразделениеРасширеннаяПодсказка</name>
               <id>491</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2368,9 +2468,11 @@
             <id>391</id>
             <title>
               <key>ru</key>
-              <value>Группа фин.
-
-учета расчетов</value>
+              <value>Группа фин. учета расчетов</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>AR/AP accounting group</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2379,7 +2481,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ГруппаФинансовогоУчетаExtendedTooltip</name>
+              <name>ГруппаФинансовогоУчетаРасширеннаяПодсказка</name>
               <id>490</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2412,9 +2514,11 @@
             <id>733</id>
             <title>
               <key>ru</key>
-              <value>Направление
-
-деятельности</value>
+              <value>Направление деятельности</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Line of business</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2499,8 +2603,12 @@
             <key>ru</key>
             <value>Параметры лево</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Parameters left</value>
+          </title>
           <extendedTooltip>
-            <name>ГруппаПараметрыЛевоExtendedTooltip</name>
+            <name>ГруппаПараметрыЛевоРасширеннаяПодсказка</name>
             <id>488</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2534,7 +2642,7 @@
               </userVisible>
               <titleLocation>Right</titleLocation>
               <extendedTooltip>
-                <name>ЦенаВключаетНДСExtendedTooltip</name>
+                <name>ЦенаВключаетНДСРасширеннаяПодсказка</name>
                 <id>501</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2565,8 +2673,12 @@
               <key>ru</key>
               <value>Валюта</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Currency</value>
+            </title>
             <extendedTooltip>
-              <name>ГруппаВалютаExtendedTooltip</name>
+              <name>ГруппаВалютаРасширеннаяПодсказка</name>
               <id>498</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2592,7 +2704,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НалогообложениеНДСExtendedTooltip</name>
+              <name>НалогообложениеНДСРасширеннаяПодсказка</name>
               <id>500</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2755,6 +2867,10 @@
               <key>ru</key>
               <value>Закупка под деятельность</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Purchase for activity</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2838,7 +2954,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РуководительExtendedTooltip</name>
+              <name>РуководительРасширеннаяПодсказка</name>
               <id>765</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2875,7 +2991,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ГлавныйБухгалтерExtendedTooltip</name>
+              <name>ГлавныйБухгалтерРасширеннаяПодсказка</name>
               <id>768</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2912,8 +3028,12 @@
             <key>ru</key>
             <value>Параметры право</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Parameters right</value>
+          </title>
           <extendedTooltip>
-            <name>ГруппаПараметрыПравоExtendedTooltip</name>
+            <name>ГруппаПараметрыПравоРасширеннаяПодсказка</name>
             <id>497</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2940,8 +3060,12 @@
           <key>ru</key>
           <value>Параметры</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Parameters</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаПараметрыExtendedTooltip</name>
+          <name>ГруппаПараметрыРасширеннаяПодсказка</name>
           <id>487</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2967,8 +3091,12 @@
           <title>
             <key>ru</key>
             <value>Номер входящего
-
 документа</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Reference
+number</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2977,7 +3105,7 @@
           </userVisible>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
-            <name>НомерВходящегоДокументаExtendedTooltip</name>
+            <name>НомерВходящегоДокументаРасширеннаяПодсказка</name>
             <id>505</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3014,13 +3142,17 @@
             <key>ru</key>
             <value>от</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>dated</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДатаВходящегоДокументаExtendedTooltip</name>
+            <name>ДатаВходящегоДокументаРасширеннаяПодсказка</name>
             <id>506</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3058,8 +3190,12 @@
           <key>ru</key>
           <value>Входящий документ</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Incoming document</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаВходящийДокументExtendedTooltip</name>
+          <name>ГруппаВходящийДокументРасширеннаяПодсказка</name>
           <id>504</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3070,6 +3206,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -3085,6 +3222,10 @@
           <title>
             <key>ru</key>
             <value>Реквизиты печати авансового отчета</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Attributes for expense report printing</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3122,8 +3263,12 @@
           <key>ru</key>
           <value>Печать</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Print</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаПечатьExtendedTooltip</name>
+          <name>ГруппаПечатьРасширеннаяПодсказка</name>
           <id>706</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3152,8 +3297,12 @@
           <key>ru</key>
           <value>Дополнительные реквизиты</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Additional attributes</value>
+        </title>
         <extendedTooltip>
-          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+          <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
           <id>507</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3214,8 +3363,12 @@
         <key>ru</key>
         <value>Дополнительно</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>More</value>
+      </title>
       <extendedTooltip>
-        <name>ГруппаДополнительноExtendedTooltip</name>
+        <name>ГруппаДополнительноРасширеннаяПодсказка</name>
         <id>486</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3243,8 +3396,12 @@
         <key>ru</key>
         <value>Комментарий</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Comment</value>
+      </title>
       <extendedTooltip>
-        <name>ГруппаКомментарийExtendedTooltip</name>
+        <name>ГруппаКомментарийРасширеннаяПодсказка</name>
         <id>508</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3258,7 +3415,7 @@
         <group>Vertical</group>
         <showTitle>true</showTitle>
         <titleDataPath xsi:type="form:DataPath">
-          <segments>36</segments>
+          <segments>ИспользоватьКорректировкиПриобретений</segments>
         </titleDataPath>
       </extInfo>
     </items>
@@ -3271,8 +3428,12 @@
       <key>ru</key>
       <value>Страницы</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Pages</value>
+    </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыExtendedTooltip</name>
+      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>464</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -3300,6 +3461,10 @@
           <key>ru</key>
           <value>Состояние ЭДО</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>EDI state</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3308,6 +3473,10 @@
         <toolTip>
           <key>ru</key>
           <value>Состояние ЭДО</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>EDI state</value>
         </toolTip>
         <extendedTooltip>
           <name>ДекорацияСостояниеЭДОРасширеннаяПодсказка</name>
@@ -3339,6 +3508,10 @@
       <title>
         <key>ru</key>
         <value>Состояние ЭДО</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>EDI state</value>
       </title>
       <extendedTooltip>
         <name>ГруппаСостояниеЭДОРасширеннаяПодсказка</name>
@@ -3378,13 +3551,17 @@
                 <key>ru</key>
                 <value>НДС</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>VAT</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаНДСExtendedTooltip</name>
+                <name>СуммаНДСРасширеннаяПодсказка</name>
                 <id>530</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3414,6 +3591,10 @@
                   <key>ru</key>
                   <value>ЧДЦ=2; ЧН=0,00</value>
                 </format>
+                <format>
+                  <key>en</key>
+                  <value>NFD=2; NZ=0,00</value>
+                </format>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -3428,8 +3609,12 @@
               <key>ru</key>
               <value>Страница СНДС</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Page VAT</value>
+            </title>
             <extendedTooltip>
-              <name>СтраницаСНДСExtendedTooltip</name>
+              <name>СтраницаСНДСРасширеннаяПодсказка</name>
               <id>529</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3454,16 +3639,17 @@
                 <key>ru</key>
                 <value>НДС</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>VAT</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>2</segments>
-              </dataPath>
               <extendedTooltip>
-                <name>ПолеБезНДСExtendedTooltip</name>
+                <name>ПолеБезНДСРасширеннаяПодсказка</name>
                 <id>533</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3477,21 +3663,37 @@
                 <id>388</id>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>LabelField</type>
+              <type>InputField</type>
               <readOnly>true</readOnly>
               <horizontalAlign>Right</horizontalAlign>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:LabelFieldExtInfo">
+              <extInfo xsi:type="form:InputFieldExtInfo">
                 <width>10</width>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
                 <format>
                   <key>ru</key>
                   <value>ЧН='Без НДС'</value>
                 </format>
+                <format>
+                  <key>en</key>
+                  <value>NZ='excluding VAT'</value>
+                </format>
+                <editFormat>
+                  <key>ru</key>
+                  <value>ЧН='Без НДС'</value>
+                </editFormat>
+                <editFormat>
+                  <key>en</key>
+                  <value>NZ='excluding VAT'</value>
+                </editFormat>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -3503,9 +3705,13 @@
               <key>ru</key>
               <value>Страница без НДС</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Page excluding VAT</value>
+            </title>
             <verticalStretch>true</verticalStretch>
             <extendedTooltip>
-              <name>СтраницаБезНДСExtendedTooltip</name>
+              <name>СтраницаБезНДСРасширеннаяПодсказка</name>
               <id>531</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3530,8 +3736,12 @@
             <key>ru</key>
             <value>Страницы НДС</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Pages VAT</value>
+          </title>
           <extendedTooltip>
-            <name>ГруппаСтраницыНДСExtendedTooltip</name>
+            <name>ГруппаСтраницыНДСРасширеннаяПодсказка</name>
             <id>528</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3558,13 +3768,17 @@
                 <key>ru</key>
                 <value>Всего с НДС</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Total including VAT</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаВсегоСНДСExtendedTooltip</name>
+                <name>СуммаВсегоСНДСРасширеннаяПодсказка</name>
                 <id>525</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3594,6 +3808,10 @@
                   <key>ru</key>
                   <value>ЧДЦ=2; ЧН=0,00</value>
                 </format>
+                <format>
+                  <key>en</key>
+                  <value>NFD=2; NZ=0,00</value>
+                </format>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -3608,8 +3826,12 @@
               <key>ru</key>
               <value>Страница с НДС</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Page including VAT</value>
+            </title>
             <extendedTooltip>
-              <name>СтраницаВсегоСНДСExtendedTooltip</name>
+              <name>СтраницаВсегоСНДСРасширеннаяПодсказка</name>
               <id>524</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3634,13 +3856,17 @@
                 <key>ru</key>
                 <value>Всего</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Total</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СуммаВсегоБезНДСExtendedTooltip</name>
+                <name>СуммаВсегоБезНДСРасширеннаяПодсказка</name>
                 <id>527</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3670,6 +3896,10 @@
                   <key>ru</key>
                   <value>ЧДЦ=2; ЧН=0,00</value>
                 </format>
+                <format>
+                  <key>en</key>
+                  <value>NFD=2; NZ=0,00</value>
+                </format>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -3684,8 +3914,12 @@
               <key>ru</key>
               <value>Страница без НДС</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Page excluding VAT</value>
+            </title>
             <extendedTooltip>
-              <name>СтраницаВсегоБезНДСExtendedTooltip</name>
+              <name>СтраницаВсегоБезНДСРасширеннаяПодсказка</name>
               <id>526</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3709,12 +3943,20 @@
             <key>ru</key>
             <value>Страницы всего</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Pages total</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Группа страницы НДС</value>
           </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>VAT page group</value>
+          </toolTip>
           <extendedTooltip>
-            <name>ГруппаСтраницыВсегоExtendedTooltip</name>
+            <name>ГруппаСтраницыВсегоРасширеннаяПодсказка</name>
             <id>523</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -3736,9 +3978,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>10</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ВалютаДокументаРасширеннаяПодсказка</name>
@@ -3777,12 +4016,20 @@
           <key>ru</key>
           <value>По документу</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>By document</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Итоги</value>
         </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Totals</value>
+        </toolTip>
         <extendedTooltip>
-          <name>ГруппаПоДокументуExtendedTooltip</name>
+          <name>ГруппаПоДокументуРасширеннаяПодсказка</name>
           <id>522</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3813,6 +4060,10 @@
         <key>ru</key>
         <value>Итого расчеты</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Total settlements</value>
+      </title>
       <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>ГруппаИтогоРасчетыРасширеннаяПодсказка</name>
@@ -3842,8 +4093,12 @@
       <key>ru</key>
       <value>Подвал</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Footer</value>
+    </title>
     <extendedTooltip>
-      <name>ГруппаПодвалExtendedTooltip</name>
+      <name>ГруппаПодвалРасширеннаяПодсказка</name>
       <id>521</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -3872,6 +4127,10 @@
         <title>
           <key>ru</key>
           <value>Проблема проверка контрагента</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Counterparty check issue</value>
         </title>
         <enabled>true</enabled>
         <userVisible>
@@ -3907,14 +4166,15 @@
           <key>ru</key>
           <value>Счет-фактура</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Tax invoice</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>11</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ТекстСчетаФактурыПолученныеРасширеннаяПодсказка</name>
@@ -3950,8 +4210,12 @@
         <key>ru</key>
         <value>Страница текст счет фактура</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Page text tax invoice</value>
+      </title>
       <extendedTooltip>
-        <name>ГруппаСтраницаТекстСчетФактураExtendedTooltip</name>
+        <name>ГруппаСтраницаТекстСчетФактураРасширеннаяПодсказка</name>
         <id>726</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3976,6 +4240,10 @@
     <title>
       <key>ru</key>
       <value>Счет фактура и состояние</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Tax invoice and state</value>
     </title>
     <extendedTooltip>
       <name>ГруппаСчетФактураИСостояниеРасширеннаяПодсказка</name>
@@ -4016,7 +4284,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиИЗакрыть</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4041,7 +4308,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаписатьДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4066,7 +4332,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПровестиДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4087,6 +4352,10 @@
         <title>
           <key>ru</key>
           <value>Создать на основании (Важное)</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Generate (Important)</value>
         </title>
         <extendedTooltip>
           <name>ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка</name>
@@ -4112,6 +4381,10 @@
           <key>ru</key>
           <value>Создать на основании (Обычное)</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Generate (Standard)</value>
+        </title>
         <extendedTooltip>
           <name>ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка</name>
           <id>760</id>
@@ -4136,6 +4409,10 @@
           <key>ru</key>
           <value>Создать на основании (См. также)</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Generate (See also)</value>
+        </title>
         <extendedTooltip>
           <name>ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка</name>
           <id>762</id>
@@ -4156,6 +4433,10 @@
       <title>
         <key>ru</key>
         <value>Создать на основании</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Generate</value>
       </title>
       <extendedTooltip>
         <name>ПодменюСоздатьНаОснованииРасширеннаяПодсказка</name>
@@ -4187,6 +4468,10 @@
         <key>ru</key>
         <value>Форма глобальные команды</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Global commands form</value>
+      </title>
       <extendedTooltip>
         <name>ФормаГлобальныеКомандыРасширеннаяПодсказка</name>
         <id>674</id>
@@ -4213,12 +4498,20 @@
         <key>ru</key>
         <value>Заполнение</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Filling</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Дополнительные команды заполнения</value>
       </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional filling commands</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>614</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -4247,9 +4540,17 @@
         <key>ru</key>
         <value>ЭДО</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>EDI</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Команды электронного документооборота</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Data interchange commands</value>
       </toolTip>
       <extendedTooltip>
         <name>ПодменюЭДОРасширеннаяПодсказка</name>
@@ -4278,9 +4579,17 @@
         <key>ru</key>
         <value>Печать</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Print</value>
+      </title>
       <toolTip>
         <key>ru</key>
         <value>Команды печати</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Print commands</value>
       </toolTip>
       <extendedTooltip>
         <name>ПодменюПечатьРасширеннаяПодсказка</name>
@@ -4315,6 +4624,10 @@
           <key>ru</key>
           <value>Подменю отчеты важное</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Important reports submenu</value>
+        </title>
         <extendedTooltip>
           <name>ПодменюОтчетыВажноеРасширеннаяПодсказка</name>
           <id>666</id>
@@ -4339,9 +4652,17 @@
           <key>ru</key>
           <value>Подменю отчеты обычное</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Standard reports submenu</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Подменю отчеты важное</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Important reports submenu</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыОбычноеРасширеннаяПодсказка</name>
@@ -4367,9 +4688,17 @@
           <key>ru</key>
           <value>Подменю отчеты см также</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>See also reports submenu</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Подменю отчеты важное</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Important reports submenu</value>
         </toolTip>
         <extendedTooltip>
           <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>
@@ -4391,6 +4720,10 @@
       <title>
         <key>ru</key>
         <value>Отчеты</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Reports</value>
       </title>
       <extendedTooltip>
         <name>ПодменюОтчетыРасширеннаяПодсказка</name>
@@ -4428,7 +4761,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
